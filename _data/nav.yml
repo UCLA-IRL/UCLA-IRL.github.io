@@ -2,9 +2,6 @@
   path: index.html
   section_id: home
 
-- name: Technical Reports
-  path: TR.html
-  section_id: services
 
 - name: People
   path: people.html
@@ -19,6 +16,9 @@
 - name: RFCs
   path: rfc.html
   section_id: rfc
+- name: Technical Reports
+  path: TR.html
+  section_id: services
 
 - name: Blog
   path: blog/
