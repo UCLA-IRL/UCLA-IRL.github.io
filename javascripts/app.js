@@ -797,5 +797,22 @@ jQuery(document).foundation();
     }
   })
 })(Tc.$);
+var BibTexHash = new Hash(); function changeBibtexType(c, a) {
+    var b = c.getParent("form"); b.getElements("input").each(function (f) {
+        if (f.get("type") == "text" || f.get("type") == "hidden") {
+            BibTexHash.set(f.get("name"), f.get("value"))
+        }
+    }); var d = "bibtex=" + c.options[c.selectedIndex].value + "&biblio_type=" + a + "&ajax=true"; if (BibTexHash.has("id")) {
+        d += "&id=" + BibTexHash.get("id")
+    } new Request.HTML({
+        url: PREFIX + "bibwiki/fields", method: "get", data: d, update: $("TB_ajaxContent"), onComplete: function () {
+            BibTexHash.each(function (f, e) {
+                if ($(e)) {
+                    $(e).set("value", f)
+                }
+            })
+        }
+    }).send()
+}
 
 
