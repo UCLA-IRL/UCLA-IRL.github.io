@@ -61,22 +61,10 @@
 <div class='links'>
   <h3>Recent Posts</h3>
   <ul>
-    <li>
-      <a href='#'>Great quality means a lot to us</a>
-    </li>
-    <li>
-      <a href='#'>Why you should learn CSS 3</a>
-    </li>
-    <li>
-      <a href='#'>5 steps to a more successful WordPress theme</a>
-    </li>
-    <li>
-      <a href='#'>HTML 5 in real world</a>
-    </li>
-    <li>
-      <a href='#'>Javascript debugging</a>
-    </li>
-  </ul>
+          {% for post in site.posts %}
+            <li><a href="{{post.url}}">{{post.title}}</a></li>
+          {% endfor %}
+        </ul>
 </div>
 <!-- <div class='links'>
   <h3>Tags</h3>

@@ -2897,7 +2897,7 @@ form input.error, form textarea.error {
 }
 .modGallery .gallery-nav {
   margin: 0 auto 30px;
-  text-align: center;
+  text-align: left;
 }
 .modGallery .gallery-nav li {
   float: none;
