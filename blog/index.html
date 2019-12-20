@@ -4,7 +4,6 @@ title: Blog
 section_id: blog
 ---
 
-<p>hi</p>
 {% for post in paginator.posts %}
   <div class='big mod modBlogPost'>
     <div class='images'>
@@ -18,10 +17,6 @@ section_id: blog
         /
         <span>
           by {{post.author}}
-        </span>
-        /
-        <span>
-          <a href="#">4 comments</a>
         </span>
       </p>
       <h3><a href="{{post.url}}">{{post.title}}</a></h3>
