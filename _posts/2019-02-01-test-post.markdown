@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Test Post"
+date:   2019-02-01 08:19:12
+categories: jekyll update
+---
+Test post to see if adding post functionality works. 
