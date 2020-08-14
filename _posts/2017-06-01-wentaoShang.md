@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Haitao Zhang's Graduation"
+title:  "Wentao Zhang's Graduation"
 date:   2017-06-01 08:19:12
 categories: jekyll update
 ---
