@@ -4,24 +4,33 @@ title: People
 section_id: portfolio
 categories:
   - internal: prof
-    external: Professors
+    category: Professors
+    desc: Professor
   - internal: phd-candidate
-    external: Ph.D. Candidate
+    category: Ph.D. Candidates
+    desc: Ph.D. Candidate
   - internal: phd-student
-    external: Ph.D. Students
+    category: Ph.D. Students
+    desc: Ph.D. Student
   - internal: masters
-    external: Master's Students
+    category: Master's Students
+    desc: Master's Student
   - internal: undergrad
-    external: Undergraduate Students
+    category: Undergraduate Students
+    desc: Undergraduate Student
   - internal: visitor
-    external: Visiting Researchers
+    category: Visiting Scholars
+    desc: Visiting Scholar
 alumni_categories:
   - internal: alPHD
-    external: Alumni (Ph.D. Students)
+    category: Alumni (Ph.D. Students)
+    desc: Alumni (Ph.D.)
   - internal: alMasters
-    external: Alumni (Master's Students)
+    category: Alumni (Master's Students)
+    desc: Alumni (Master's)
   - internal: alVisitors
-    external: Alumni (Visitors)
+    category: Alumni (Visitors)
+    desc: Alumni (Visitor)
 ---
 
 
@@ -51,7 +60,7 @@ alumni_categories:
           </li>
           {% for category in page.categories %}
             <li>
-              <a data-cat='{{ category.internal }}' href='#'>{{ category.external }}</a>
+              <a data-cat='{{ category.internal }}' href='#'>{{ category.category }}</a>
             </li>
           {% endfor %}
         </ul>
@@ -63,12 +72,20 @@ alumni_categories:
           {% for person in site.data.people %}
             {% if person.klass == category.internal %}
             <li class="{{ person.klass }}">
+            {% if person.link_to %}
               <a href='{{ person.link_to }}'>
-                <img alt="" src="{{ person.image }}" />
+            {% else %}
+              <a href="javascript:void(0)">
+            {% endif %}
+                <img alt="" src="/images/groupPics/{{ person.image }}" />
                 <div class='overlay'>
                   <div class='thumb-info'>
                     <h3>{{ person.name }}</h3>
-                    <p>{{ person.desc }}</p>
+                    {% if person.desc %}
+                      <p>{{ person.desc }}</p>
+                    {% else %}
+                      <p>{{ category.desc }}</p>
+                    {% endif %}
                   </div>
                 </div>
               </a>
@@ -98,7 +115,7 @@ alumni_categories:
           </li>
           {% for category in page.alumni_categories %}
             <li>
-              <a data-cat='{{ category.internal }}' href='#'>{{ category.external }}</a>
+              <a data-cat='{{ category.internal }}' href='#'>{{ category.category }}</a>
             </li>
           {% endfor %}
         </ul>
@@ -109,17 +126,29 @@ alumni_categories:
         {% for category in page.alumni_categories %}
           {% for person in site.data.people %}
             {% if person.klass == category.internal %}
-              <li class="{{ person.klass }}">
-                <a href='{{ person.link_to }}'>
-                  <img alt="" src="{{ person.image }}" />
-                  <div class='overlay'>
-                    <div class='thumb-info'>
-                      <h3>{{ person.name }}</h3>
+            <li class="{{ person.klass }}">
+            {% if person.link_to %}
+              <a href='{{ person.link_to }}'>
+            {% else %}
+              <a href="javascript:void(0)">
+            {% endif %}
+              {% if person.image %}
+                <img alt="" src="/images/alumniPics/{{ person.image }}" />
+              {% else %}
+                <img alt="" src="/images/@stock/work-7.jpg" />
+              {% endif %}
+                <div class='overlay'>
+                  <div class='thumb-info'>
+                    <h3>{{ person.name }}</h3>
+                    {% if person.desc %}
                       <p>{{ person.desc }}</p>
-                    </div>
+                    {% else %}
+                      <p>{{ category.desc }}</p>
+                    {% endif %}
                   </div>
-                </a>
-              </li>
+                </div>
+              </a>
+            </li>
             {% endif %}
           {% endfor %}
         {% endfor %}

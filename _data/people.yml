@@ -1,279 +1,259 @@
 # Current Members
 
-- image: images/groupPics/lixia_zhang.jpg
-  name: Lixia Zhang
-  link_to: https://www.irl.cs.ucla.edu
+- name: Lixia Zhang
+  image: lixia_zhang.png
+  link_to: http://web.cs.ucla.edu/~lixia/
   klass: prof
-  desc: Professor
-- image: images/groupPics/zhiyi_zhang.jpg
-  name: Zhiyi Zhang
+- name: Zhiyi Zhang
+  image: zhiyi_zhang.jpg
   link_to: https://zhiyi-zhang.com/
   klass: phd-candidate
-  desc: Ph.D Candidate
-- image: images/groupPics/tianxiang_li.jpg
-  name: Tianxiang Li
-  link_to: https://www.irl.cs.ucla.edu
+- name: Tianxiang Li
+  image: tianxiang_li.jpg
   klass: phd-student
-  desc: Ph.D Student
-- image: images/groupPics/xinyu_ma.jpeg
-  name: Xinyu Ma
-  link_to: https://www.irl.cs.ucla.edu
+- name: Xinyu Ma
+  image: xinyu_ma.jpg
   klass: phd-student
-  desc: Ph.D Student
-- image: images/groupPics/hunter_dellaverson.jpg
-  name: John Dellaverson
-  link_to: https://www.irl.cs.ucla.edu
+- name: John Dellaverson
+  image: hunter_dellaverson.jpg
   klass: phd-student
-  desc: Ph.D Student
-- image: images/groupPics/eric_newberry.jpg
-  name: Eric Newberry
+- name: Eric Newberry
+  image: eric_newberry.jpg
   link_to: https://ericnewberry.com/
   klass: phd-student
-  desc: Ph.D Student
-- image: images/groupPics/tianyuan_yu.jpg
-  name: Tianyuan Yu
-  link_to: https://www.irl.cs.ucla.edu
+- name: Tianyuan Yu
+  image: tianyuan_yu.jpg
   klass: phd-student
-  desc: Ph.D Student
-- image: images/groupPics/yufeng_zhang.jpg
-  name: Yufeng Zhang
-  link_to: https://www.irl.cs.ucla.edu
+- name: Yufeng Zhang
+  image: yufeng_zhang.jpg
   klass: undergrad
-  desc: Undergraduate
-- image: images/groupPics/siqi_liu.jpg
-  name: Siqi Liu
-  link_to: https://www.irl.cs.ucla.edu
+- name: Siqi Liu
+  image: siqi_liu.jpg
   klass: undergrad
-  desc: Undergraduate
+- name: Leobino Sampaio
+  image: leobino_sampaio.jpg
+  link_to: https://sites.google.com/view/leobino
+  klass: visitor
+  desc: Visiting Professor (UFBA)
 
 # Alumni (PhD)
 
-- image: images/alumniPics/spyridon_mastorakis.jpg
-  name: Spyridon Mastorakis
+- name: Spyridon Mastorakis
+  image: spyridon_mastorakis.jpg
   link_to: https://sites.google.com/site/spyridonmastorakis
   klass: alPHD
   desc: Graduated in 2019, Thesis -- Peer-to-Peer Data Sharing in Named-Data Networking.
-- image: images/alumniPics/haitao_zhang.jpg
-  name: Haitao Zhang
+- name: Haitao Zhang
+  image: haitao_zhang.jpg
   link_to: https://irl.cs.ucla.edu/~haitao
   klass: alPHD
   desc: "Graduated in 2018, Thesis -- NDNFit: An Open mHealth Application Built on Named Data Networking"
-- image: images/alumniPics/wentao_shang.jpeg
-  name: Wentao Shang
+- name: Wentao Shang
+  image: wentao_shang.jpg
   link_to: https://irl.cs.ucla.edu/~wentao
   klass: alPHD
   desc: Graduated in 2017, Thesis -- Distributed Dataset Synchronization in Named Data Networking
-- image: images/alumniPics/yingdi_yu2.jpg
-  name: Yingdi Yu
+- name: Yingdi Yu
+  image: yingdi_yu.jpg
   link_to: https://irl.cs.ucla.edu/~yingdi
   klass: alPHD
   desc: Graduated in 2016, Thesis -- Usable Security for Named Data Networking
-- image: images/alumniPics/ilya_moiseenko.jpg
-  name: Ilya Moiseenko
-  link_to: https://irl.cs.ucla.edu/
+- name: Ilya Moiseenko
+  image: ilya_moiseenko.jpg
   klass: alPHD
   desc: Graduated in 2015, Thesis -- Consumer / Producer Communication with Application Level Framing in Named Data Networking
-- image: images/alumniPics/alex_afanasyev.jpg
-  name: Alex Afanasyev
+- name: Alex Afanasyev
+  image: alex_afanasyev.jpg
   link_to: https://users.cs.fiu.edu/~afanasyev/
   klass: alPHD
   desc: Graduated in 2013, Thesis -- Addressing Operational Challenges in Named Data Networking Through NDNS Distributed Database
-- image: images/alumniPics/zhenkai_zhu.png
-  name: Zhenkai Zhu
+- name: Zhenkai Zhu
+  image: zhenkai_zhu.png
   link_to: https://www.linkedin.com/in/zhuzhenkai
   klass: alPHD
   desc: Graduated in 2013, Thesis -- Support Mobile and Distributed Applications with Named Data Networking
-- image: images/alumniPics/peichuan_cheng.jpg
-  name: Peichaun (Payne) Cheng
+- name: Peichaun (Payne) Cheng
+  image: peichuan_cheng.jpg
   link_to: http://irl.cs.ucla.edu/~payne/
   klass: alPHD
   desc: Graduated in 2012, Thesis -- Understanding the BGP Transport Delay
-- image: images/alumniPics/michael_meisel.jpg
-  name: Michael Meisel
+- name: Michael Meisel
+  image: michael_meisel.jpg
   link_to: http://irl.cs.ucla.edu/~mrm/
   klass: alPHD
   desc: "Graduated in 2011, Thesis -- BOND: Unifying Mobile Networks with Named Data"
-- image: images/alumniPics/jonathan_park.jpg
-  name: Jong Han (Jonathan) Park
+- name: Jong Han (Jonathan) Park
+  image: jonathan_park.jpg
   link_to: http://irl.cs.ucla.edu/~payne/
   klass: alPHD
   desc: Graduated in 2011, Thesis -- Understanding the Impact of Internal BGP Route Reflection
-- image: images/alumniPics/erik_osterweil.jpg
-  name: Eric Osterweil
+- name: Eric Osterweil
+  image: eric_osterweil.jpg
   link_to: https://cs.gmu.edu/~eoster/index.html
   klass: alPHD
   desc: "Graduated in 2010, Thesis -- Measurable Security: a New Substrate for DNSSEC"
-- image: images/alumniPics/ricardo_oliveira.png
-  name: Ricardo V. Oliveira
+- name: Ricardo V. Oliveira
+  image: ricardo_oliveira.png
   link_to: http://irl.cs.ucla.edu/~payne/
   klass: alPHD
   desc: Graduated in 2009, Thesis -- Understanding the Internet AS-level Structure
-- image: images/alumniPics/mohit_lad.jpg
-  name: Mohit Lad
+- name: Mohit Lad
+  image: mohit_lad.jpg
   link_to: http://irl.cs.ucla.edu/~mohit/
   klass: alPHD
   desc: Graduated in 2007, Thesis -- Understanding and Diagnosing Routing Dynamics in Global Internet
-- image: images/alumniPics/vasileios_pappas.jpg
-  name: Vasileios Pappas
-  link_to: http://irl.cs.ucla.edu/
+- name: Vasileios Pappas
+  image: vasileios_pappas.jpg
   klass: alPHD
   desc: Graduated in 2006, Thesis -- Towards a Resilient Domain Name System
-- image: images/alumniPics/dan_pei.jpg
-  name: Dan Pei
+- name: Dan Pei
+  image: dan_pei.jpg
   link_to: http://netman.cs.tsinghua.edu.cn/~peidan/
   klass: alPHD
   desc: Graduated in 2005, Thesis -- Building Resilient Internet Routing Protocols
-- image: images/alumniPics/lan_wang.jpg
-  name: Lan Wang
+- name: Lan Wang
+  image: lan_wang.jpg
   link_to: http://www.cs.memphis.edu/~lanwang/
   klass: alPHD
   desc: Graduated in 2004, Thesis -- Improving Internet Resilience through Lightweight Preventive Detection (LPD) and Persistent Detection and Recovery (PDR)
-- image: images/alumniPics/fan_ye.jpg
-  name: Fan Ye
+- name: Fan Ye
+  image: fan_ye.jpg
   link_to: http://www.ece.stonybrook.edu/~fanye/index2.html
   klass: alPHD
   desc: Graduated in 2004, Thesis -- Building Resilient Sensor Networks by Exploiting Scale and Redundancy
-- image: images/alumniPics/nelson_tang.jpg
-  name: Nelson Tang
-  link_to: http://irl.cs.ucla.edu/
+- name: Nelson Tang
+  image: nelson_tang.jpg
   klass: alPHD
   desc: "Graduated in 2003, Thesis -- The Information Discovery Graph: A Framework for a Distributed Search Engine"
-- image: images/alumniPics/beichuan_zhang.jpg
-  name: Beichuan Zhang
+- name: Beichuan Zhang
+  image: beichuan_zhang.jpg
   link_to: http://www.cs.arizona.edu/~bzhang/
   klass: alPHD
   desc: Graduated in 2003, Thesis -- Universal IP Multicast Delivery
-- image: images/alumniPics/yixin_jin.png
-  name: Yixin Jin
-  link_to: http://irl.cs.ucla.edu/
+- name: Yixin Jin
   klass: alPHD
   desc: Graduated in 2001, Thesis -- Distance Information Protocol (DIP) for Internet Distance Map Service (IDMaps)
-- image: images/alumniPics/dan_massey.jpg
-  name: Dan Massey
+- name: Dan Massey
+  image: dan_massey.jpg
   link_to: https://www.colorado.edu/cs/daniel-massey
   klass: alPHD
   desc: Graduated in 2000, Thesis -- Fault Detection and Security in Routing Protocols
-- image: images/alumniPics/andreas_terzis.jpg
-  name: Andreas Terzis
+- name: Andreas Terzis
+  image: andreas_terzis.jpg
   link_to: http://www.cs.jhu.edu/~terzis/
   klass: alPHD
   desc: Graduated in 2000, Thesis -- A Two-Tier Resource Allocation Framework for the Internet
-- image: images/alumniPics/jun_wei.jpg
-  name: Jun Wei
+- name: Jun Wei
+  image: jun_wei.jpg
   link_to: https://www.linkedin.com/in/jun-wei-b154293/
   klass: alPHD
   desc: Graduated in 2000, Thesis -- Diffusion Model for Multicast Delivery
 
 # Alumni (Master's)
 
-- image: images/alumniPics/zhaoning_kong.png
-  name: Zhaoning Kong
+- name: Zhaoning Kong
+  image: zhaoning_kong.png
   link_to: https://jonnykong.com
   klass: alMasters
   desc: Graduated in 2020
-- image: images/alumniPics/Weijia_yuan.jpg
-  name: Weijia Yuan
+- name: Weijia Yuan
+  image: weijia_yuan.jpg
   link_to: https://www.linkedin.com/in/weijia-yuan-85a69314a/
   klass: alMasters
   desc: Graduated in 2019
-- image: images/alumniPics/yukai_tu.jpg
-  name: Yukai Tu
+- name: Yukai Tu
+  image: yukai_tu.jpg
   link_to: https://irl.cs.ucla.edu/~yukai/
   klass: alMasters
   desc: Graduated in 2018
-- image: images/alumniPics/xin_xu.jpg
-  name: Xin Xu
+- name: Xin Xu
+  image: xin_xu.jpg
   link_to: http://xin-xu.com/
   klass: alMasters
   desc: Graduated in 2018
-- image: images/alumniPics/manika_mittal .jpg
-  name: Manika Mittal
+- name: Manika Mittal
+  image: manika_mittal.jpg
   klass: alMasters
   desc: Graduated in 2017
-- image: images/alumniPics/zhehao_wang.jpg
-  name: Weijia Yuan
+- name: Zhehao Wang
+  image: zhehao_wang.jpg
   klass: alMasters
   desc: Graduated in 2017
-- image: images/alumniPics/yumin_xia.jpg
-  name: Yumin Xia
+- name: Yumin Xia
+  image: yumin_xia.jpg
   link_to: https://irl.cs.ucla.edu/~yumin/
   klass: alMasters
   desc: Graduated in 2017
-- image: images/alumniPics/michael_sweatt.jpg
-  name: Michael Sweatt
+- name: Michael Sweatt
+  image: michael_sweatt.jpg
   link_to: https://www.linkedin.com/in/michaelsweatt
   klass: alMasters
   desc: Graduated in 2016
-- image: images/alumniPics/qiuhan_ding.jpg
-  name: Qiuhan Ding
+- name: Qiuhan Ding
+  image: qiuhan_ding.jpg
   link_to: http://irl.cs.ucla.edu/~qiuhanding
   klass: alMasters
   desc: Graduated in 2015
-- image: images/alumniPics/xingyu_ma.jpg
-  name: Xingyu Ma
+- name: Xingyu Ma
+  image: xingyu_ma.jpg
   klass: alMasters
   desc: Graduated in 2014
-- image: images/alumniPics/jiwen_cai.jpg
-  name: Jiwen Cai
+- name: Jiwen Cai
+  image: jiwen_cai.jpg
   link_to: http://irl.cs.ucla.edu/~jwcai/
   klass: alMasters
   desc: Graduated in 2012
-- image: images/alumniPics/lucas_wang.jpg
-  name: Lucas (Jiangzhe) Wang
+- name: Lucas (Jiangzhe) Wang
+  image: lucas_wang.jpg
   klass: alMasters
   desc: Graduated in 2012
 
 # Alumni (Visitors)
 
-- image: images/alumniPics/yuguan.jpg
-  name: Yu guan
+- name: Yu guan
+  image: yuguan.jpg
   link_to: https://www.researchgate.net/profile/Yu_Guan20
   klass: alVisitors
   desc: Visiting Graduate Researcher from Peking University
-- image: images/alumniPics/yanbiao_li.jpg
-  name: Yanbiao Li
+- name: Yanbiao Li
+  image: yanbiao_li.jpg
   klass: alVisitors
   desc: Postdoc, Left in 2019
-- image: images/alumniPics/zhongda_xia.jpg
-  name: Zhongda Xia
+- name: Zhongda Xia
+  image: zhongda_xia.jpg
   klass: alVisitors
   desc: 2017.09 - 2018.10
-- image: images/@stock/work-7.jpg
-  name: Prof. Wang Yang
+- name: Prof. Wang Yang
   klass: alVisitors
   desc: 2015.03 - 2016.02
-- image: images/@stock/work-7.jpg
-  name: Lijing Wang
+- name: Lijing Wang
   klass: alVisitors
   desc: 2014.10 - 2015.08
-- image: images/alumniPics/xiaoke_jiang.jpg
-  name: Xiaoke Jiang
+- name: Xiaoke Jiang
+  image: xiaoke_jiang.jpg
   klass: alVisitors
   link_to: http://netarchlab.tsinghua.edu.cn/~shock/
   desc: 2014.07 - 2015.07
-- image: images/alumniPics/shuo_chen.jpg
-  name: Shuo Chen
+- name: Shuo Chen
+  image: shuo_chen.jpg
   klass: alVisitors
   desc: 2014.01 - 2014.03
-- image: images/@stock/work-7.jpg
-  name: Xiaojiang Chen
+- name: Xiaojiang Chen
   klass: alVisitors
   desc: 2014.01 - 2014.03
-- image: images/alumniPics/yu_zhang.jpg
-  name: Prof. Yu Zhang
+- name: Prof. Yu Zhang
+  image: yu_zhang.jpg
   klass: alVisitors
   desc: 2013.04 - 2014.04
   link_to: https://www.linkedin.com/in/yu-zhang-63a6711a
-- image: images/@stock/work-7.jpg
-  name: Kun Yu
+- name: Kun Yu
   klass: alVisitors
   desc: 2013.01 - 2013.06
-- image: images/@stock/work-7.jpg
-  name: Chaoyi Bian
+- name: Chaoyi Bian
   klass: alVisitors
   desc: 2011.09 - 2012.06
-- image: images/alumniPics/xiaoming_fu.jpg
-  name: Prof. Xiaoming Fu
+- name: Prof. Xiaoming Fu
+  image: xiaoming_fu.jpg
   klass: alVisitors
   desc: 2009.09 - 2010.06
   link_to: http://user.informatik.uni-goettingen.de/~fu/

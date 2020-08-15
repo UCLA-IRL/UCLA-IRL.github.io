@@ -5,11 +5,11 @@
 
 - name: People
   path: people.html
-  section_id: portfolio
+  section_id: people
 
 - name: Publications
   path: publications.html
-  section_id: portfolio
+  section_id: publications
 - name: Theses
   path: theses.html
   section_id: theses
@@ -18,7 +18,7 @@
   section_id: rfc
 - name: Technical Reports
   path: TR.html
-  section_id: services
+  section_id: tr
 
 - name: Blog
   path: blog/
