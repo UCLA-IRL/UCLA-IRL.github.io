@@ -1,8 +1,10 @@
 <div class="mod modSectionHeader {{include.class}}">
-  <div class="special-title centered-text">
-    <h2 style="color: {{include.color}};">{{ include.title }}</h2>
+  <div style="text-align: center; padding-bottom: 15px; height: inherit;">
+    <span style="display: inline-block; background: white; font-size: 3em; padding-top: 10px; padding-bottom: 10px; text-transform: uppercase; color: {{ include.color }};">{{ include.title }}</span>
   </div>
   {% if include.tagline %}
-    <h3 class='centered-text' style='color: {{include.color}}'>{{include.tagline}}</h3>
+    <div style="text-align: center;">
+      <span style="display: inline-block; background: white; font-size: 1.5em; text-transform: uppercase; color: {{ include.color }};">{{include.tagline}}</span>
+    </div>
   {% endif %}
 </div>

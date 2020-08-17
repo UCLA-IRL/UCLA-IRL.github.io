@@ -96,13 +96,13 @@ works:
 <div class='full parallax' style='background-image: url(images/banner/banner.jpg); color: #fff;'>
   <div class='row'>
     <div class='large-12 columns'>
-      {% include section-header.html title="IRL" tagline="The homepage of the Internet Research Laboratory" color="#000000" class="big" %}
+      {% include section-header.html title="Internet Research Laboratory" tagline="University of California, Los Angeles (UCLA)" color="#000000" class="big" %}
     </div>
   </div>
   <div class='four spacing'></div>
 </div>
 <div class="spacing">
-  
+
 </div>
 
 <div class = 'row'>
@@ -111,18 +111,20 @@ works:
     Welcome
   </h2>
 
-<p  style="font-size:20px">
-    Welcome to the UCLA Computer Science Department&#39;s Internet Research Lab (IRL). IRL&#39;s research areas include Named Data Networking, fault tolerance in large scale distributed systems, Internet routing infrastructure, Inter-domain Routing (BGP), and protocol design principles for large-scale, self-organizing systems. You can find a list of our latest publications <a href="publications.html">here</a>.</p>
+<p style="font-size: 20px">
+  Welcome to the Internet Research Laboratory (IRL), part of the <a href="https://cs.ucla.edu" target="_blank">Computer Science</a> department at the <a href="https://ucla.edu" target="_blank">University of California, Los Angeles (UCLA)</a>. The IRL's research primarily focuses on <a href="https://named-data.net" target="_blank">Named Data Networking</a>. Previously, our research covered fault tolerance in large scale distributed systems, Internet routing infrastructure, inter-domain routing (namely, BGP), and protocol design principles for large-scale, self-organizing systems. Our group has produced numerous <a href="publications.html">publications</a> over the years.
+</p>
 
-<p  style="font-size:20px"> 
-    The Internet Research Laboratory&#39;s research projects are guided by <a href="http://www.cs.ucla.edu/~lixia/" target="_blank">Dr. Lixia Zhang</a>, Professor at UCLA.</p>
+<p style="font-size: 20px">
+  The Internet Research Laboratory is headed by <a href="http://www.cs.ucla.edu/~lixia/" target="_blank">Prof. Lixia Zhang</a>.
+</p>
 
 </div>
 
 
 <!--
 <div class="spacing">
-  
+
 </div>
 
 <div class="full" style="background: #f5f5f5;">
@@ -166,7 +168,7 @@ works:
       {% include section-header.html title="Our recent posts" %}
       <div class='spacing'></div>
       <p>
-        Here are the most recent blog posts from the members of the IRL team. 
+        Here are the most recent blog posts from the members of the IRL team.
       </p>
       <div class='two spacing'></div>
     </div>
