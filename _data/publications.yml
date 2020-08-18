@@ -1,0 +1,399 @@
+# To add a new publication, use one of the following templates, depending upon the type of publication.
+# NOTE: The month of publication is required and the capitalization for type and month *MUST* follow
+# the examples provided for the system to process the publication record properly!
+#
+# * Choose only one of 'pdf' or 'pdfext', depending upon whether the publication is hosted locally or externally.
+#
+# * Paths for 'pdf' are relative to data/files/papers.
+#
+# Conference publication:
+# - title: "Efficiently Computing Taxes in Ancient Civilizations"
+#   authors: "Alfred E. Neuman, Julius Caesar, Lixia Zhang"
+#   type: conference
+#   conference: "Conference on Current Issues in Historical Computing"
+#   month: July
+#   year: 2020
+#   pdf: neuman2020-taxes.pdf
+#
+# Journal publication:
+# - title: "Composing Music using Neural Network Techniques"
+#   authors: "Ludwig van Beethoven, Lixia Zhang"
+#   type: journal
+#   journal: ""
+#   volume: 9
+#   issue: 5
+#   pages: "1756-1791"
+#   month: August
+#   year: 2020
+#   pdf: beethoven2020-composing.pdf
+#
+# Preprint:
+# - title: "Echolocation using Named Data Networking"
+#   authors: "Joe Q. Public"
+#   type: preprint
+#   archive: "arXiv"
+#   number: "arXiv:1234.56789"
+#   month: December
+#   year: 2020
+#   pdfext: https://arxiv.org/pdf/1234.56789
+#
+# Tech report:
+# - title: "Producer-Assisted Pushback"
+#   authors: "Zhiyi Zhang, Vishrant Vasavada, Jonathan Lin, Siva Kesava Reddy K, Peter Reiher, Lixia Zhang"
+#   type: techreport
+#   institution: "NDN"
+#   number: "NDN-0065"
+#   month: August
+#   year: 2018
+#   pdf: https://named-data.net/wp-content/uploads/2018/08/ndn-0065-1-pap.pdf
+
+# 2020
+
+- title: "DAPES: Named Data for Off-the-Grid File Sharing with Peer-to-Peer Interactions"
+  authors: "Spyridon Mastorakis, Tianxiang Li, Lixia Zhang"
+  type: conference
+  conference: IEEE International Conference on Distributed Computing Systems (ICDCS)
+  month: December
+  year: 2020
+  pdfext: https://arxiv.org/pdf/2006.01651.pdf
+
+- title: "21 Years of Distributed Denial-of-Service: A Call to Action"
+  authors: "Eric Osterweil, Angelos Stavrou, Lixia Zhang"
+  type: journal
+  journal: "IEEE Computer"
+  volume: 53
+  issue: 8
+  pages: "94-99"
+  month: August
+  year: 2020
+  pdfext: https://doi.ieeecomputersociety.org/10.1109/MC.2020.2993330
+
+- title: "21 Years of Distributed Denial-of-Service: Current State of Affairs"
+  authors: "Eric Osterweil, Angelos Stavrou, Lixia Zhang"
+  type: journal
+  journal: "IEEE Computer"
+  volume: 53
+  issue: 7
+  pages: "88-92"
+  month: July
+  year: 2020
+  pdfext: https://doi.ieeecomputersociety.org/10.1109/MC.2020.2983711
+
+- title: "Supporting Delay Tolerant Networking: A Comparative Study of Epidemic Routing and NDN"
+  authors: "Tianxiang Li, Zhaoning Kong, Lixia Zhang"
+  type: conference
+  conference: "IEEE International Conference on Communications (ICC) Workshop on Information-Centric Networking Solutions for Real-World Applications (ICN-SRA)"
+  month: June
+  year: 2020
+  pdf: li2020supporting.pdf
+  # TODO: Add PDF
+
+# 2019
+
+- title: "RapidVFetch: Rapid Downloading of Named Data via Distributed V2V Communication"
+  authors: "Zhiyi Zhang, Tianxiang Li, John Dellaverson, Lixia Zhang"
+  type: conference
+  conference: "IEEE Vehicular Networking Conference (VNC)"
+  month: December
+  year: 2019
+  pdf: zhang2019rapidvfetch.pdf
+  # TODO: Add PDF
+
+- title: "Distributed Dataset Synchronization in Disruptive Networks"
+  authors: "Tianxiang Li, Zhaoning Kong, Spyridon Mastorakis, Lixia Zhang"
+  type: conference
+  conference: "IEEE Conference on Mobile Ad-Hoc and Smart Systems (IEEE MASS)"
+  month: November
+  year: 2019
+  pdf: li2019-distributed.pdf
+  # TODO: Find PDF
+
+- title: "Towards Peer-to-Peer Content Retrieval Markets: Enhancing IPFS with ICN"
+  authors: "Onur Ascigil, Sergi Reñé, Michał Król, George Pavlou, Lixia Zhang, Toru Hasegawa, Yuki Koizumi, Kentaro Kita"
+  type: conference
+  conference: "ACM Conference on Information-Centric Networking (ACM ICN)"
+  month: September
+  year: 2019
+  pdf: ascigil2019-ipfs.pdf
+  # TODO: Find PDF
+
+- title: "Evolving Intelligent Devices for the Future via Named Data Networking"
+  authors: "Zhiyi Zhang, Edward Lu, Yu Guan, Tianxiang Li, Xinyu Ma, Zhaoning Kong, Lixia Zhang"
+  type: journal
+  journal: "XRDS: Crossroads, The ACM Magazine for Students"
+  volume: 26
+  issue: 1
+  pages: "36-39"
+  pdfext: https://dl.acm.org/citation.cfm?id=3351482
+
+- title: "ActShare: Sensitive Data Sharing with Reliable Leaker Identification"
+  authors: "Zhiyi Zhang, Yu Guan, Xinyu Ma, Lixia Zhang"
+  type: preprint
+  archive: "arXiv"
+  number: "arXiv:1907.11833"
+  month: July
+  year: 2019
+  pdfext: https://arxiv.org/pdf/1907.11833
+
+- title: "A Secure Sign-on Protocol for Smart Homes over Named Data Networking"
+  authors: "Yanbiao Li, Zhiyi Zhang, Xin Wang, Edward Lu, Dafang Zhang, Lixia Zhang"
+  type: journal
+  journal: "IEEE Communications Magazine"
+  volume: 57
+  issue: 7
+  pages: "62-68"
+  month: July
+  year: 2019
+  pdf: 1907Secure-SignOn.pdf
+  # TODO: Add PDF
+
+- title: "Publish-Subscribe Communication in Building Management Systems over Named Data Networking"
+  authors: "Wentao Shang, Ashlesh Gawande, Minsheng Zhang, Alexander Afanasyev, Jeffrey Burke, Lan Wang, Lixia Zhang"
+  type: conference
+  conference: "IEEE International Conference on Computer Communications and Networks (ICCCN)"
+  month: July
+  year: 2019
+  pdfext: https://ieeexplore.ieee.org/abstract/document/8846951
+
+- title: "A Note on Routing Scalability in Named Data Networking"
+  authors: "Yu Zhang, Zhongda Xia, Alexander Afanasyev, Lixia Zhang"
+  type: conference
+  conference: IEEE International Conference on Communications RAFNET Workshop
+  month: May
+  year: 2019
+  pdf: zhang2019a-note.pdf
+
+- title: "Proof-of-Authentication for Private Distributed Ledger"
+  authors: "Zhiyi Zhang, Vishrant Vasavada, Randy King, Lixia Zhang"
+  type: conference
+  conference: NDSS Workshop on Decentralized IoT Systems and Security
+  month: March
+  year: 2019
+  pdf: diss-poa-19.pdf
+
+- title: "Expect More from the Networking: DDoS Mitigation by FITT in Named Data Networking"
+  authors: "Zhiyi Zhang, Vishrant Vasavada, Eric Osterweil, Lixia Zhang"
+  type: preprint
+  archive: arXiv
+  number: arXiv:1902.09033
+  month: February
+  year: 2019
+  pdfext: https://arxiv.org/pdf/1902.09033
+
+# 2018
+
+- title: "An Overview of Security Support in Named Data Networking"
+  authors: "Zhiyi Zhang, Yingdi Yu, Haitao Zhang, Eric Newberry, Spyridon Mastorakis, Yanbiao Li, Alexander Afanasyev, Lixia Zhang"
+  type: journal
+  journal: "IEEE Communications Magazine"
+  volume: 56
+  issue: 11
+  pages: "62-68"
+  month: November
+  year: 2018
+  pdf: commag-secoverview-18.pdf
+
+- title: "A Brief Introduction to Named Data Networking"
+  authors: "Alex Afanasyev, Jeff Burke, Tamer Refaei, Lan Wang, Beichuan Zhang, Lixia Zhang"
+  type: conference
+  conference: "IEEE Military Communications Conference (MILCOM)"
+  month: October
+  year: 2018
+  pdf: NDN18.pdf
+
+- title: "NDN Impact on Tactical Application Development"
+  authors: "Jeff Burke, Alex Afanasyev, Tamer Refaei, Lixia Zhang"
+  type: conference
+  conference: "IEEE Military Communications Conference (MILCOM)"
+  month: October
+  year: 2018
+  pdf: 18MILCOM-ndn-apps.pdf
+
+- title: "A Brief Introduction to NDN Dataset Sychronization"
+  authors: "Tianxiang Li, Wentao Shang, Alex Afanasyev, Lan Wang, Lixia Zhang"
+  type: conference
+  conference: "IEEE Military Communications Conference (MILCOM)"
+  month: October
+  year: 2018
+  pdf: li2018sync-intro.pdf
+
+- title: "NAC: Automating Access Control via Named Data"
+  authors: "Zhiyi Zhang, Yingdi Yu, Sanjeev Kaushik Ramani, Alex Afanasyev, Lixia Zhang"
+  type: conference
+  conference: "IEEE Military Communications Conference (MILCOM)"
+  month: October
+  year: 2018
+  pdf: milcom-nac-18.pdf
+
+- title: "Supporting Virtual Organizations Using Attribute-Based Encryption in Named Data Networking"
+  authors: "Craig Lee, Zhiyi Zhang, Yukai Tu, Alex Afanasyev, Lixia Zhang"
+  type: conference
+  conference: "IEEE International COnference on Collaboration and Internet Computing (CIC)"
+  month: October
+  year: 2018
+  pdf: cic-vo-18.pdf
+
+- title: "KITE: Producer Mobility Support in Named Data Networking"
+  authors: "Yu Zhang, Zhongda Xia, Spyridon Mastorakis, Lixia Zhang"
+  type: conference
+  conference: "ACM Conference on Information-Centric Networking (ACM ICN)"
+  month: September
+  year: 2018
+  pdf: icn18-final23.pdf
+
+- title: "NDNoT: A Framework for Named Data Network of Things"
+  authors: "Zhiyi Zhang, Edward Lu, Yanbiao Li, Tianyuan Yu, Davide Pesavento, Junxiao Shi, Lotfi Benmohamed, Lixia Zhang"
+  type: conference
+  conference: "ACM Conference on Information-Centric Networking (ACM ICN)"
+  month: September
+  year: 2018
+  note: "<strong>Best Poster Award</strong>"
+  pdfext: https://conferences.sigcomm.org/acm-icn/2018/proceedings/icn18posterdemo-final22.pdf
+
+- title: "Automated Tunneling Over IP Land: Run NDN Anywhere"
+  authors: "Arthi Padmanabhan, Lan Wang, Lixia Zhang"
+  type: conference
+  conference: "ACM Conference on Information-Centric Networking (ACM ICN)"
+  month: September
+  year: 2018
+  note: Poster
+  pdfext: https://conferences.sigcomm.org/acm-icn/2018/proceedings/icn18posterdemo-final27.pdf
+
+- title: "Data Synchronization in Ad Hoc Mobile Networks"
+  authors: "Tianxiang Li, Spyridon Mastorakis, Xin Xu, Haitao Zhang, Lixia Zhang"
+  type: conference
+  conference: "ACM Conference on Information-Centric Networking (ACM ICN)"
+  month: September
+  year: 2018
+  note: Poster
+  pdfext: https://conferences.sigcomm.org/acm-icn/2018/proceedings/icn18posterdemo-final28.pdf
+
+- title: "Supporting Augmented Reality: Looking Beyond Performance"
+  authors: "Lemuel Soh, Jeff Burke, Lixia Zhang"
+  type: conference
+  conference: "ACM SIGCOMM Workshop on VR/AR Network"
+  month: August
+  year: 2018
+  pdf: soh2018supporting-ar.pdf
+
+- title: "Producer-Assisted Pushback"
+  authors: "Zhiyi Zhang, Vishrant Vasavada, Jonathan Lin, Siva Kesava Reddy K, Peter Reiher, Lixia Zhang"
+  type: techreport
+  institution: "NDN"
+  number: "NDN-0065"
+  month: August
+  year: 2018
+  pdf: https://named-data.net/wp-content/uploads/2018/08/ndn-0065-1-pap.pdf
+
+- title: "Real-Time Data Retrieval in Named Data Networking"
+  authors: "Spyridon Mastorakis, Peter Gusev, Alexander Afanasyev, Lixia Zhang"
+  type: conference
+  conference: "IEEE HotICN"
+  month: August
+  year: 2018
+  pdf: hoticn18realtime-retrieval.pdf
+
+- title: "NDN Host Model"
+  authors: "Haitao Zhang, Yanbiao Li, Zhiyi Zhang, Alexander Afanasyev, Lixia Zhang"
+  type: journal
+  journal: "ACM SIGCOMM Computer Communication Review (CCR)"
+  volume: 48
+  issue: 3
+  pages: "35-41"
+  month: July
+  year: 2018
+  pdf: ccr-hostmodel-18.pdf
+
+- title: "Towards Edge Computing Over Named Data Networking"
+  authors: "Abderrahmen Mtibaa, Reza Tourani, Satyajayant Misra, Jeff Burke, Lixia Zhang"
+  type: conference
+  conference: "IEEE International Conference on Edge Computing (IEEE EDGE)"
+  month: July
+  year: 2018
+  pdf: EDGE18.pdf
+
+- title: "Mobile Data Repositories at the Edge"
+  authors: "Ioannis Psaras, Onur Ascigil, Sergi Rene, George Pavlou, Alexander Afanasyev, Lixia Zhang"
+  type: conference
+  conference: "USENIX ATC Workshop on Hot Topics in Edge Computing (HotEdge)"
+  month: July
+  year: 2018
+  pdf: psaras2018mobile-repo-edge.pdf
+
+- title: "Achieving Resilient Data Availability in Wireless Sensor Networks"
+  authors: "Xin Xu, Haitao Zhang, Tianxiang Li, and Lixia Zhang"
+  type: conference
+  conference: "IEEE International Conference on Communications (ICC) Workshop on Information-Centric Networking Solutions for Real-World Applications (ICN-SRA)"
+  month: May
+  year: 2018
+  pdf: ICN-SRA-18-achieving_resilient_data_availability.pdf
+
+- title: "VectorSync: Distributed Dataset Synchronization over Named Data Networking"
+  authors: "Wentao Shang, Alexander Afanasyev, Lixia Zhang"
+  type: techreport
+  institution: "NDN"
+  number: "NDN-0056"
+  month: March
+  year: 2018
+  pdfext: https://named-data.net/wp-content/uploads/2018/03/ndn-0056-1-vectorsync.pdf
+
+- title: "NDN Automatic Prefix Propagation"
+  authors: "Yanbiao Li, Alexander Afanasyev, Junxiao Shi, Haitao Zhang, Zhiyi Zhang, Tianxiang Li, Edward Lu, Beichuan Zhang, Lan Wang, Lixia Zhang"
+  type: techreport
+  institution: "NDN"
+  number: "NDN-0045"
+  month: March
+  year: 2018
+  pdfext: https://named-data.net/wp-content/uploads/2018/03/ndn-0045-1-auto-prefix-propagation.pdf
+
+- title: "A Secure Link State Routing Protocol for NDN"
+  authors: "Lan Wang, Vince Lehman, A. K. M. Mahmudul Hoque, Beichuan Zhang, Yingdi Yu, Lixia Zhang"
+  type: journal
+  journal: IEEE Access
+  volume: 6
+  pages: "10470-10482"
+  month: January
+  year: 2018
+  pdfext: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8246713
+
+# 2017
+
+# 2016
+
+# 2015
+
+# 2014
+
+# 2013
+
+# 2012
+
+# 2011
+
+# 2010
+
+# 2009
+
+# 2008
+
+# 2007
+
+# 2006
+
+# 2005
+
+# 2004
+
+# 2003
+
+# 2002
+
+# 2001
+
+# 2000
+
+# 1999
+
+# 1998
+
+# 1997
