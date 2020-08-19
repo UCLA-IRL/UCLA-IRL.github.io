@@ -140,10 +140,19 @@ alumni_categories:
                 <div class='overlay'>
                   <div class='thumb-info'>
                     <h3>{{ person.name }}</h3>
-                    {% if person.desc %}
-                      <p>{{ person.desc }}</p>
+                    {% if category.internal == "alPHD" %}
+                      <p>
+                        Graduated {{ person.year }}<br />
+                        Thesis: "{{ person.thesis }}"<br />
+                        <br />
+                        <strong>{{ person.employment }}</strong>
+                      </p>
                     {% else %}
-                      <p>{{ category.desc }}</p>
+                      {% if person.desc %}
+                        <p>{{ person.desc }}</p>
+                      {% else %}
+                        <p>{{ category.desc }}</p>
+                      {% endif %}
                     {% endif %}
                   </div>
                 </div>

@@ -45,112 +45,157 @@
   image: spyridon_mastorakis.jpg
   link_to: https://sites.google.com/site/spyridonmastorakis
   klass: alPHD
-  desc: Graduated in 2019, Thesis -- Peer-to-Peer Data Sharing in Named-Data Networking.
+  year: 2019
+  thesis: "Peer-to-Peer Data Sharing in Named-Data Networking"
+  employment: University of Nebraska, Omaha
 - name: Haitao Zhang
   image: haitao_zhang.jpg
   link_to: https://irl.cs.ucla.edu/~haitao
   klass: alPHD
-  desc: "Graduated in 2018, Thesis -- NDNFit: An Open mHealth Application Built on Named Data Networking"
+  year: 2018
+  thesis: "NDNFit: An Open mHealth Application Built on Named Data Networking"
+  employment: Uber
 - name: Wentao Shang
   image: wentao_shang.jpg
   link_to: https://irl.cs.ucla.edu/~wentao
   klass: alPHD
-  desc: Graduated in 2017, Thesis -- Distributed Dataset Synchronization in Named Data Networking
+  year: 2017
+  thesis: "Distributed Dataset Synchronization in Named Data Networking"
+  employment: Snapchat
 - name: Yingdi Yu
   image: yingdi_yu.jpg
   link_to: https://irl.cs.ucla.edu/~yingdi
   klass: alPHD
-  desc: Graduated in 2016, Thesis -- Usable Security for Named Data Networking
+  year: 2016
+  thesis: "Usable Security for Named Data Networking"
+  employment: Facebook
 - name: Ilya Moiseenko
   image: ilya_moiseenko.jpg
   klass: alPHD
-  desc: Graduated in 2015, Thesis -- Consumer / Producer Communication with Application Level Framing in Named Data Networking
+  year: 2015
+  thesis: "Consumer / Producer Communication with Application Level Framing in Named Data Networking"
+  employment: Apple
 - name: Alex Afanasyev
   image: alex_afanasyev.jpg
   link_to: https://users.cs.fiu.edu/~afanasyev/
   klass: alPHD
-  desc: Graduated in 2013, Thesis -- Addressing Operational Challenges in Named Data Networking Through NDNS Distributed Database
+  year: 2013
+  thesis: "Addressing Operational Challenges in Named Data Networking Through NDNS Distributed Database"
+  employment: Florida International University
 - name: Zhenkai Zhu
   image: zhenkai_zhu.png
   link_to: https://www.linkedin.com/in/zhuzhenkai
   klass: alPHD
-  desc: Graduated in 2013, Thesis -- Support Mobile and Distributed Applications with Named Data Networking
+  year: 2013
+  thesis: "Support Mobile and Distributed Applications with Named Data Networking"
+  employment: Facebook
 - name: Peichaun (Payne) Cheng
   image: peichuan_cheng.jpg
   link_to: http://irl.cs.ucla.edu/~payne/
   klass: alPHD
-  desc: Graduated in 2012, Thesis -- Understanding the BGP Transport Delay
+  year: 2012
+  thesis: "Understanding the BGP Transport Delay"
+  employment: Cisco
 - name: Michael Meisel
   image: michael_meisel.jpg
-  link_to: http://irl.cs.ucla.edu/~mrm/
+  link_to: https://irl.cs.ucla.edu/~mrm/
   klass: alPHD
-  desc: "Graduated in 2011, Thesis -- BOND: Unifying Mobile Networks with Named Data"
+  year: 2011
+  thesis: "BOND: Unifying Mobile Networks with Named Data"
+  employment: Swarm Technologies
 - name: Jong Han (Jonathan) Park
   image: jonathan_park.jpg
-  link_to: http://irl.cs.ucla.edu/~payne/
+  link_to: https://kr.linkedin.com/in/j13park
   klass: alPHD
-  desc: Graduated in 2011, Thesis -- Understanding the Impact of Internal BGP Route Reflection
+  year: 2011
+  thesis: "Understanding the Impact of Internal BGP Route Reflection"
+  employment: SK Telecom
 - name: Eric Osterweil
   image: eric_osterweil.jpg
   link_to: https://cs.gmu.edu/~eoster/index.html
   klass: alPHD
-  desc: "Graduated in 2010, Thesis -- Measurable Security: a New Substrate for DNSSEC"
+  year: 2010
+  thesis: "Measurable Security: a New Substrate for DNSSEC"
+  employment: George Mason University
 - name: Ricardo V. Oliveira
   image: ricardo_oliveira.png
-  link_to: http://irl.cs.ucla.edu/~payne/
+  link_to: https://irl.cs.ucla.edu/~rveloso/
   klass: alPHD
-  desc: Graduated in 2009, Thesis -- Understanding the Internet AS-level Structure
+  year: 2009
+  thesis: "Understanding the Internet AS-level Structure"
+  employment: "ThousandEyes"
 - name: Mohit Lad
   image: mohit_lad.jpg
-  link_to: http://irl.cs.ucla.edu/~mohit/
+  link_to: https://irl.cs.ucla.edu/~mohit/
   klass: alPHD
-  desc: Graduated in 2007, Thesis -- Understanding and Diagnosing Routing Dynamics in Global Internet
+  year: 2007
+  thesis: "Understanding and Diagnosing Routing Dynamics in Global Internet"
+  employment: ThousandEyes
 - name: Vasileios Pappas
   image: vasileios_pappas.jpg
   klass: alPHD
-  desc: Graduated in 2006, Thesis -- Towards a Resilient Domain Name System
+  year: 2006
+  thesis: "Towards a Resilient Domain Name System"
+  employment: Google
 - name: Dan Pei
   image: dan_pei.jpg
-  link_to: http://netman.cs.tsinghua.edu.cn/~peidan/
+  link_to: https://netman.aiops.org/~peidan/
   klass: alPHD
-  desc: Graduated in 2005, Thesis -- Building Resilient Internet Routing Protocols
+  year: 2005
+  thesis: "Building Resilient Internet Routing Protocols"
+  employment: Tsinghua University
 - name: Lan Wang
   image: lan_wang.jpg
   link_to: http://www.cs.memphis.edu/~lanwang/
   klass: alPHD
-  desc: Graduated in 2004, Thesis -- Improving Internet Resilience through Lightweight Preventive Detection (LPD) and Persistent Detection and Recovery (PDR)
+  year: 2004
+  thesis: "Improving Internet Resilience through Lightweight Preventive Detection (LPD) and Persistent Detection and Recovery (PDR)"
+  employment: University of Memphis
 - name: Fan Ye
   image: fan_ye.jpg
   link_to: http://www.ece.stonybrook.edu/~fanye/index2.html
   klass: alPHD
-  desc: Graduated in 2004, Thesis -- Building Resilient Sensor Networks by Exploiting Scale and Redundancy
+  year: 2004
+  thesis: "Building Resilient Sensor Networks by Exploiting Scale and Redundancy"
+  employment: Stony Brook University
 - name: Nelson Tang
   image: nelson_tang.jpg
   klass: alPHD
-  desc: "Graduated in 2003, Thesis -- The Information Discovery Graph: A Framework for a Distributed Search Engine"
+  year: 2003
+  thesis: "The Information Discovery Graph: A Framework for a Distributed Search Engine"
+  employment: Northrop Grumman Mission Systems
 - name: Beichuan Zhang
   image: beichuan_zhang.jpg
-  link_to: http://www.cs.arizona.edu/~bzhang/
+  link_to: https://www2.cs.arizona.edu/~bzhang/
   klass: alPHD
-  desc: Graduated in 2003, Thesis -- Universal IP Multicast Delivery
+  year: 2003
+  thesis: "Universal IP Multicast Delivery"
+  employment: University of Arizona
 - name: Yixin Jin
   klass: alPHD
-  desc: Graduated in 2001, Thesis -- Distance Information Protocol (DIP) for Internet Distance Map Service (IDMaps)
+  year: 2001
+  thesis: "Distance Information Protocol (DIP) for Internet Distance Map Service (IDMaps)"
+  employment: Akamai
 - name: Dan Massey
   image: dan_massey.jpg
-  link_to: https://www.colorado.edu/cs/daniel-massey
   klass: alPHD
-  desc: Graduated in 2000, Thesis -- Fault Detection and Security in Routing Protocols
+  year: 2000
+  thesis: "Fault Detection and Security in Routing Protocols"
+  employment: US Department of Defense
 - name: Andreas Terzis
   image: andreas_terzis.jpg
   link_to: http://www.cs.jhu.edu/~terzis/
   klass: alPHD
-  desc: Graduated in 2000, Thesis -- A Two-Tier Resource Allocation Framework for the Internet
+  year: 2000
+  thesis: "A Two-Tier Resource Allocation Framework for the Internet"
+  employment: Google
 - name: Jun Wei
   image: jun_wei.jpg
   link_to: https://www.linkedin.com/in/jun-wei-b154293/
   klass: alPHD
-  desc: Graduated in 2000, Thesis -- Diffusion Model for Multicast Delivery
+  year: 2000
+  thesis: "Diffusion Model for Multicast Delivery"
+  employment: Equinix
 
 # Alumni (Master's)
 
