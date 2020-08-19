@@ -24,6 +24,9 @@
 - name: Tianyuan Yu
   image: tianyuan_yu.jpg
   klass: phd-student
+- name: Su Yong Won
+  image: su_yong_won.jpg
+  klass: masters
 - name: Yufeng Zhang
   image: yufeng_zhang.jpg
   klass: undergrad
