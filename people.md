@@ -37,7 +37,7 @@ alumni_categories:
 <div class='full parallax' style='background-image: url(images/banner/banner.jpg); color: #fff;'>
   <div class='row'>
     <div class='large-12 columns'>
-      {% include section-header.html title="The team" tagline="The members of the IRL Group." color="#000000" class="big" %}
+      {% include section-header.html title="The team" tagline="Current members and alumni of the IRL" color="#000000" class="big" %}
     </div>
   </div>
   <div class='four spacing'></div>
@@ -152,6 +152,12 @@ alumni_categories:
                         Graduated {{ person.year }}<br />
                         <br />
                         <strong>{{ person.status }}</strong>
+                      </p>
+                    {% elsif category.internal == "alVisitors" %}
+                      <p>
+                        {{ person.desc }}<Br />
+                        <br />
+                        {{ person.time }}
                       </p>
                     {% else %}
                       {% if person.desc %}

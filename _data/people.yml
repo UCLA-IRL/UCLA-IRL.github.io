@@ -90,7 +90,7 @@
   thesis: "Support Mobile and Distributed Applications with Named Data Networking"
   employment: Facebook
 - name: Peichaun (Payne) Cheng
-  image: peichuan_cheng.jpg
+  image: payne_cheng.jpg
   link_to: http://irl.cs.ucla.edu/~payne/
   klass: alPHD
   year: 2012
@@ -270,50 +270,62 @@
 
 # Alumni (Visitors)
 
-- name: Yu guan
-  image: yuguan.jpg
+- name: Yu Guan
+  image: yu_guan.jpg
   link_to: https://www.researchgate.net/profile/Yu_Guan20
   klass: alVisitors
-  desc: Visiting Graduate Researcher from Peking University
+  desc: Visiting Graduate Researcher (Peking University)
+  time: Left December 2019
 - name: Yanbiao Li
   image: yanbiao_li.jpg
   klass: alVisitors
-  desc: Postdoc, Left in 2019
+  desc: Postdoc
+  time: Left 2019
 - name: Zhongda Xia
   image: zhongda_xia.jpg
   klass: alVisitors
-  desc: 2017.09 - 2018.10
+  desc: Visiting Graduate Researcher (Harbin Institute of Technology)
+  time: September 2017 - October 2018
 - name: Prof. Wang Yang
   klass: alVisitors
-  desc: 2015.03 - 2016.02
+  desc: Visiting Scholar (Central South University, China)
+  time: March 2015 - February 2016
 - name: Lijing Wang
   klass: alVisitors
-  desc: 2014.10 - 2015.08
+  desc: Visiting Graduate Researcher (Tsinghua University)
+  time: October 2014 - August 2015
 - name: Xiaoke Jiang
   image: xiaoke_jiang.jpg
   klass: alVisitors
   link_to: http://netarchlab.tsinghua.edu.cn/~shock/
-  desc: 2014.07 - 2015.07
+  desc: Visiting Graduate Researcher (Tsinghua University)
+  time: July 2014 - July 2015
 - name: Shuo Chen
   image: shuo_chen.jpg
   klass: alVisitors
-  desc: 2014.01 - 2014.03
+  desc: Visiting Graduate Researcher (Tsinghua University)
+  time: January 2014 - March 2014
 - name: Xiaojiang Chen
   klass: alVisitors
-  desc: 2014.01 - 2014.03
+  desc: Visiting Scholar (Northwest University, China)
+  time: January 2014 - March 2014
 - name: Prof. Yu Zhang
   image: yu_zhang.jpg
   klass: alVisitors
-  desc: 2013.04 - 2014.04
+  desc: Visiting Scholar (Harbin Institute of Technology)
+  time: April 2013 - April 2014
   link_to: https://www.linkedin.com/in/yu-zhang-63a6711a
 - name: Kun Yu
   klass: alVisitors
-  desc: 2013.01 - 2013.06
+  desc: Visiting Graduate Researcher (Tsinghua University)
+  time: January 2013 - June 2013
 - name: Chaoyi Bian
   klass: alVisitors
-  desc: 2011.09 - 2012.06
+  desc: Visiting Graduate Researcher (Peking University)
+  time: September 2011 - June 2012
 - name: Prof. Xiaoming Fu
   image: xiaoming_fu.jpg
   klass: alVisitors
-  desc: 2009.09 - 2010.06
+  desc: Visiting Scholar (University of Göttingen)
+  time: September 2009 - June 2010
   link_to: http://user.informatik.uni-goettingen.de/~fu/
