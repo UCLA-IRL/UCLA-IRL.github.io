@@ -147,6 +147,12 @@ alumni_categories:
                         <br />
                         <strong>{{ person.employment }}</strong>
                       </p>
+                    {% elsif category.internal == "alMasters" %}
+                      <p>
+                        Graduated {{ person.year }}<br />
+                        <br />
+                        <strong>{{ person.status }}</strong>
+                      </p>
                     {% else %}
                       {% if person.desc %}
                         <p>{{ person.desc }}</p>

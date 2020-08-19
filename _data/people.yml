@@ -203,58 +203,70 @@
   image: zhaoning_kong.png
   link_to: https://jonnykong.com
   klass: alMasters
-  desc: Graduated in 2020
+  year: 2020
+  status: Ph.D. Student at Purdue
 - name: Weijia Yuan
   image: weijia_yuan.jpg
   link_to: https://www.linkedin.com/in/weijia-yuan-85a69314a/
   klass: alMasters
-  desc: Graduated in 2019
+  year: 2019
+  status: Pensando Systems
 - name: Yukai Tu
   image: yukai_tu.jpg
   link_to: https://irl.cs.ucla.edu/~yukai/
   klass: alMasters
-  desc: Graduated in 2018
+  year: 2018
+  status: Lino Network
 - name: Xin Xu
   image: xin_xu.jpg
   link_to: http://xin-xu.com/
   klass: alMasters
-  desc: Graduated in 2018
+  year: 2018
+  status: Google
 - name: Manika Mittal
   image: manika_mittal.jpg
   klass: alMasters
-  desc: Graduated in 2017
+  year: 2017
+  status: Yahoo!
 - name: Zhehao Wang
   image: zhehao_wang.jpg
   klass: alMasters
-  desc: Graduated in 2017
+  year: 2017
+  status: Hudson River Trading
 - name: Yumin Xia
   image: yumin_xia.jpg
   link_to: https://irl.cs.ucla.edu/~yumin/
   klass: alMasters
-  desc: Graduated in 2017
+  year: 2017
+  status: Barefoot Networks
 - name: Michael Sweatt
   image: michael_sweatt.jpg
   link_to: https://www.linkedin.com/in/michaelsweatt
   klass: alMasters
-  desc: Graduated in 2016
+  year: 2016
+  status: Citadel Securities
 - name: Qiuhan Ding
   image: qiuhan_ding.jpg
-  link_to: http://irl.cs.ucla.edu/~qiuhanding
+  link_to: https://irl.cs.ucla.edu/~qiuhanding
   klass: alMasters
-  desc: Graduated in 2015
+  year: 2015
+  status: Google
 - name: Xingyu Ma
   image: xingyu_ma.jpg
   klass: alMasters
-  desc: Graduated in 2014
+  year: 2014
+  status: Facebook
 - name: Jiwen Cai
   image: jiwen_cai.jpg
-  link_to: http://irl.cs.ucla.edu/~jwcai/
+  link_to: https://irl.cs.ucla.edu/~jwcai/
   klass: alMasters
-  desc: Graduated in 2012
+  year: 2012
+  status: Google
 - name: Lucas (Jiangzhe) Wang
   image: lucas_wang.jpg
   klass: alMasters
-  desc: Graduated in 2012
+  year: 2012
+  status: LinkedIn
 
 # Alumni (Visitors)
 
