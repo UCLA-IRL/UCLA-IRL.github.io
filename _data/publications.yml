@@ -46,6 +46,13 @@
 #   month: August
 #   year: 2018
 #   pdf: https://named-data.net/wp-content/uploads/2018/08/ndn-0065-1-pap.pdf
+#
+# RFC:
+# - title: "Simple Virtual Aggregation (S-VA)"
+#   authors: "Robert Raszuk, J. Heitz, A. Lo, Lixia Zhang, Xiaohu Xu"
+#   number: 6769
+#   month: October
+#   year: 2012
 
 # 2020
 
@@ -358,19 +365,946 @@
 
 # 2017
 
+- title: "Fuzzy Interest Forwarding"
+  authors: "Kevin Chan, Bongjun Ko, Spyridon Mastorakis, Alexander Afanasyev, Lixia Zhang"
+  type: conference
+  conference: "Asian Internet Engineering Conference (AINTEC)"
+  month: November
+  year: 2017
+  note: Best Paper Award
+  pdf: chan2017fuzzy.pdf
+
+- title: "Similar Yet Different: Protocol Design Choices in IS-IS and OSPF"
+  authors: "Yu Zhang, Lan Wang, Alexander Afanasyev, Lixia Zhang"
+  type: conference
+  conference: "Asian Internet Engineering Conference (AINTEC)"
+  month: November
+  year: 2017
+  pdf: zhang2017isis-ospf.pdf
+  # TODO: Get PDF
+
+- title: "NDN DeLorean: An Authentication System for Data Archives in Named Data Networking"
+  authors: "Yingdi Yu, Alexander Afanasyev, Jan Seedorf, Zhiyi Zhang, Lixia Zhang"
+  type: conference
+  conference: "ACM Conference on Information-Centric Networking (ACM ICN)"
+  month: September
+  year: 2017
+  pdf: ndn-delorean-17.pdf
+
+- title: "Opportunities and Challenges for Named Data Networking to Increase the Agility of Military Coalitions"
+  authors: "Christopher Gibson, Pablo Bermell-Garcia, Kevin Chan, Bongjun Ko, Alex Afanasyev, Lixia Zhang"
+  type: conference
+  conference: "Workshop on Distributed Analytics InfraStructure and Algorithms for Multi-Organization Federations (DAIS)"
+  month: August
+  year: 2017
+  pdf: gibson2017coalitions.pdf
+  # TODO: Get PDF
+
+- title: "NDNS: DNS-like Name Service for NDN"
+  authors: "Alexander Afanasyev, Xiaoke Jiang, Yingdi Yu, Jiewen Tan, Yumin Xia, Allison Mankin, Lixia Zhang"
+  type: conference
+  conference: "International Conference on Computer Communications and Networks (ICCCN)"
+  month: July
+  year: 2017
+  pdf: afanasyev2017ndns.pdf
+  # TODO: Get PDF
+
+- title: "nTorrent: Peer-to-peer File Sharing in Named Data Networking"
+  authors: "Spyridon Mastorakis, Alexander Afanasyev, Yingdi Yu, Lixia Zhang"
+  type: conference
+  conference: "International Conference on Computer Communications and Networks (ICCCN)"
+  month: July
+  year: 2017
+  pdf: mastorakis2017ntorrent.pdf
+  # TODO: Get PDF
+
+- title: "On the Evolution of ndnSIM: An Open-Source Simulator for NDN Experimentation"
+  authors: "Spyridon Mastorakis, Alexander Afanasyev, Lixia Zhang"
+  type: journal
+  journal: "ACM SIGCOMM Computer Communication Review (CCR)"
+  volume: 47
+  issue: 3
+  pages: "19-33"
+  month: July
+  year: 2017
+  pdf: ccr17-ndnsim.pdf
+
+- title: "A Survey of Distributed Dataset Synchronization in Named Data Networking"
+  authors: "Wentao Shang, Yingdi Yu, Lijing Wang, Alexander Afanasyev, Lixia Zhang"
+  type: techreport
+  institution: NDN
+  number: NDN-0053
+  month: May
+  year: 2017
+  pdf: shang2017distributed.pdf
+  # TODO: Get PDF
+
+- title: "Breaking out of the Cloud: Local Trust Management and Rendezvous in Named Data Networking of Things"
+  authors: "Wentao Shang, Zhehao Wang, Alexander Afanasyev, Jeff Burke, Lixia Zhang"
+  type: conference
+  conference: "ACM/IEEE International Conference on Internet-of-Things Design and Implementation (IoTDI)"
+  month: April
+  year: 2017
+  pdf: shang2017breaking.pdf
+  # TODO: get PDF
+
+- title: "NDN Certificate Management Protocol (NDNCERT)"
+  authors: "Zhiyi Zhang, Yingdi Yu, Alex Afanasyev, Lixia Zhang"
+  type: techreport
+  institution: NDN
+  number: NDN-0050
+  month: April
+  year: 2017
+  pdf: zhang2017ndncert.pdf
+  # TODO: Get PDF
+
+- title: "The Design of RoundSync Protocol"
+  authors: "Pedro de-las-Heras-Quirós, Eva M. Castro, Wentao Shang, Yingdi Yu, Spyridon Mastorakis, Alexander Afanasyev, Lixia Zhang"
+  type: techreport
+  institution: NDN
+  number: NDN-0048
+  month: April
+  year: 2017
+  pdf: delaherasquiros2017roundsync.pdf
+  # TODO: Get PDF
+
+- title: "NDN Certificate Bundle (Version 0.1)"
+  authors: "Manika Mittal, Alex Afanasyev, Lixia Zhang"
+  institution: NDN
+  number: NDN-0054
+  month: March
+  year: 2017
+  pdf: mittal2017bundle.pdf
+  # TODO: Get PDF
+
 # 2016
+
+- title: "Anticipating Policy and Social Implications of Named Data Networking"
+  authors: "Katie Shilton, Jeffrey A. Burke, kc claffy, Lixia Zhang"
+  type: journal
+  journal: "Communications of the ACM (CACM)"
+  volume: 59
+  issue: 12
+  pages: "92-101"
+  month: December
+  year: 2016
+  pdf: shilton2016implications.pdf
+  # TODO: Get PDF
+
+- title: "The Design and Implementation of the NDN Protocol Stack for RIOT-OS"
+  authors: "Wentao Shang, Alexander Afanasyev, Lixia Zhang"
+  type: conference
+  conference: "GLOBECOM Workshop on Information Centric Networking Solutions for Real World Applications"
+  month: December
+  year: 2016
+  pdf: globecom-icnsra16-ndn-riot.pdf
+
+- title: "Content-Based Security for the Web"
+  authors: "Alexander Afanasyev, J. Alex Halderman, Scott Ruoti, Kent Seamons, Yingdi Yu, Daniel Zappala, Lixia Zhang"
+  type: conference
+  conference: "ACM New Security Paradigms Workshop (NSPW)"
+  month: September
+  year: 2016
+  pdf: nspw16-cbsec-web.pdf
+
+- title: "A Practical Congestion Control Scheme for Named Data Networking"
+  authors: "Klaus Schneider, Cheng Yi, Beichuan Zhang, Lixia Zhang"
+  type: conference
+  conference: "ACM Conference on Information-Cetric Networking (ACM ICN)"
+  month: September
+  year: 2016
+  pdf: schneider2016pcon.pdf
+  # TODO: Get PDF
+
+- title: "Sharing mHealth Data via Named Data Networking"
+  authors: "Haitao Zhang, Zhehao Wang, Christopher Scherb, Claudio Marxer, Jeff Burke, Lixia Zhang"
+  type: conference
+  conference: "ACM Conference on Information-Cetric Networking (ACM ICN)"
+  month: September
+  year: 2016
+  pdf: zhang2016mhealth.pdf
+
+- title: "Hop-By-Hop Best EFfort Link Layer Reliability in Named Data Networking"
+  authors: "Satyanarayana Vusirikala, Spyridon Mastorakis, Alexander Afanasyev, Lixia Zhang"
+  type: techreport
+  institution: "NDN"
+  number: "NDN-0041"
+  month: August
+  year: 2016
+  pdf: vusirikala2016reliability.pdf
+  # TODO: Get PDF
+
+- title: "An Experimental Investigation of Hyperbolic Routing with a Smart Forwarding Plane in NDN"
+  authors: "Vince Lehman, Ashlesh Gawande, Rodrigo Aldecoa, Dmitri Krioukov, Lan Wang, Beichuan Zhang, Lixia Zhang"
+  type: conference
+  conference: "IEEE IWQoS Symposium"
+  month: June
+  year: 2016
+  pdf: lehman2016hyperbolic.pdf
+  # TODO: Get PDF
+
+- title: "NDN DeLorean: An Authentication System for Data Archives in Named Data Networking"
+  authors: "Yingdi Yu, Alexander Afanasyev, Lixia Zhang"
+  type: techreport
+  institution: "NDN"
+  number: "NDN-0040"
+  month: May
+  year: 2016
+  pdf: yu2016delorean.pdf
+  # TODO: Get PDF
+
+- title: "Real-Time Streaming Data Delivery over Named Data Networking"
+  authors: "Peter Gusev, Zhehao Wang, Jeff Burke, Lixia Zhang, Takahiro Yoneda, Ryota Ohnishi, Eiichi Muramoto"
+  type: journal
+  conference: "IEICE Transactions on Communications"
+  volume: "E99-B"
+  issue: 5
+  pages: "974-991"
+  month: May
+  year: 2016
+  pdf: gusev2016realtime.pdf
+  # TODO: Get PDF
+
+- title: "A Survey of Mobility Support in Named Data Networking"
+  authors: "Yu Zhang, Alexander Afanasyev, Jeff Burke, Lixia Zhang"
+  type: conference
+  conference: "IEEE INFOCOM Named Oriented Mobility Workshop"
+  month: April
+  year: 2016
+  pdf: nom16-ndn-mobility-survey.pdf
+
+- title: "Named Data Networking of Things"
+  authors: "Wentao Shang, Adeola Bannis, Teng Liang, Zhehao Wang, Yingdi Yu, Alexander Afanasyev, Jeff Thompson, Jeff Burke, Beichuan Zhang, Lixia Zhang"
+  type: conference
+  conference: "IEEE International Conference on Internet-of-Things Design and Implementation (IoTDI)"
+  month: April
+  year: 2016
+  pdf: iotdi16-ndn-of-things.pdf
+
+- title: "Challenges in IoT Networking via TCP/IP Architecture"
+  authors: "Wentao Shang, Yingdi Yu, Ralph Droms, Lixia Zhang"
+  type: techreport
+  institution: "NDN"
+  number: "NDN-0038"
+  month: February
+  year: 2016
+  pdf: shang2016challenges.pdf
+  # TODO: Get PDF
+
+- title: "The Second Named Data Networking Community Meeting (NDNcomm 2015)"
+  authors: "Alexander Afanasyev, Yingdi Yu, Lixia Zhang, Jeff Burke, kc claffy, Joshua Polterock"
+  type: journal
+  journal: "ACM SIGCOMM Computer Communication Review (CCR)"
+  volume: 46
+  issue: 1
+  pages: "58-63"
+  month: January
+  year: 2016
+  pdf: ccr16-2nd-ndncomm.pdf
+
+- title: "A Secure Link State Routing Protocol for NDN"
+  authors: "Vince Lehman, A. K. M. Mahmudul Hoque, Yingdi Yu, Lan Wang, Beichuan Zhang, Lixia Zhang"
+  type: techreport
+  institution: "NDN"
+  number: "NDN-0037"
+  month: January
+  year: 2016
+  pdf: lehman2016secure.pdf
+  # TODO: Get PDF
 
 # 2015
 
+- title: "NDN-ACE: Access Control for Constrained Environments over Named Data Networking"
+  authors: "Wentao Shang, Yingdi Yu, Teng Liang, Beichuan Zhang, Lixia Zhang"
+  type: techreport
+  institution: "NDN"
+  number: "NDN-0036"
+  month: December
+  year: 2015
+  pdf: shang2015ndn-ace.pdf
+  # TODO: get PDF
+
+- title: "The Story of ChronoShare, or How NDN Brought Distributed Secure File Sharing Back"
+  authors: "Alexander Afanasyev, Zhenkai Zhu, Yingdi Yu, Lijing Wang, Lixia Zhang"
+  type: conference
+  conference: "IEEE MASS Workshop on Content Centric Networking"
+  month: October
+  year: 2015
+  pdf: mass15-chronoshare.pdf
+
+- title: "Named-Based Access Control"
+  authors: "Yingdi Yu, Alexander Afanasyev, Lixia Zhang"
+  type: techreport
+  institution: "NDN"
+  number: "NDN-0034"
+  month: October
+  year: 2015
+  pdf: yu2015nbac.pdf
+  # TODO: Get PDF
+
+- title: "Consumer/Producer Communication with Application Level Framing in Named Data Networking"
+  authors: "Ilya Moiseenko, Lijing Wang, Lixia Zhang"
+  type: conference
+  conference: "ACM Conference on Information-Centric Networking (ACM ICN)"
+  month: September
+  year: 2015
+  pdf: icn15-consumer-producer.pdf
+
+- title: "Schematizing Trust in Named Data Networking"
+  authors: "Yingdi Yu, Alexander Afanasyev, David Clark, kc claffy, Van Jacobson, Lixia Zhang"
+  type: conference
+  conference: "ACM Conference on Information-Centric Networking (ACM ICN)"
+  month: September
+  year: 2015
+  pdf: icn15-trust-schema.pdf
+
+- title: "Navigo: Interest Forwarding by Geolocations in Vehicular Named Data Networking"
+  authors: "Giulio Grassi, Davide Pesavento, Giovanni Pau, Lixia Zhang, Serge Fdida"
+  type: conference
+  conference: "IEEE World of Wireless Mobile and Multimedia Networks (WoWMoM)"
+  month: June
+  year: 2015
+  pdf: grassi2015navigo.pdf
+  # TODO: Get PDF
+
+- title: "Packet Fragmentation in NDN: Why NDN Uses Hop-By-Hop Fragmentation"
+  authors: "Alexander Afanasyev, Junxiao Shi, Lan Wang, Beichaun Zhang, Lixia Zhang"
+  type: techreport
+  institution: "NDN"
+  number: "NDN-0032"
+  month: May
+  year: 2015
+  pdf: afanasyev2015fragmentation.pdf
+  # TODO: Get PDF
+
+- title: "SNAMP: Secure Namespace Mapping to Scale NDN Forwarding"
+  authors: "Alexander Afanasyev, Cheng Yi, Lan Wang, Beichuan Zhang, Lixia Zhang"
+  type: conference
+  conference: "IEEE INFOCOM Global Internet Symposium (GI)"
+  month: April
+  year: 2015
+  pdf: gi15-snamp.pdf
+
+- title: "The First Named Data Networking Community Meeting (NDNcomm)"
+  authors: "kc claffy, Joshua Polterock, Alexander Afanasyev, Jeff Burke, Lixia Zhang"
+  type: journal
+  journal: "ACM SIGCOMM Computer Communication Review (CCR)"
+  volume: 45
+  number: 2
+  pages: "32-37"
+  month: April
+  year: 2015
+  pdf: claffy2015ndncomm.pdf
+  # TODO: Get PDF
+
+- title: "ndnSIM 2.0: A new version of the NDN simulator for NS-3"
+  authors: "Spyridon Mastorakis, Alexander Afanasyev, Ilya Moiseenko, Lixia Zhang"
+  type: techreport
+  institution: "NDN"
+  number: "NDN-0028"
+  month: January
+  year: 2015
+  pdf: mastorakis2015ndnsim2.pdf
+  # TODO: Get PDF
+
+  # TODO: What about IEEE Global Internet Symposium paper by Weiqi Shi and Alex?
+
 # 2014
+
+- title: "NDNFS: An NDN-friendly File System"
+  authors: "Wentao Shang, Zhe Wen, Qiuhan Ding, Alexander Afanasyev, Lixia Zhang"
+  type: techreport
+  institution: "NDN"
+  number: "NDN-0027"
+  month: October
+  year: 2014
+  pdf: shang2014ndnfs.pdf
+  # TODO: get PDF
+
+- title: "The Shape and Size of Threats: Defining a Networked System's Attack Surface"
+  authors: "Eric Osterweil, Danny McPherson, Lixia Zhang"
+  type: conference
+  conference: "Workshop on Secure Network Protocols"
+  month: October
+  year: 2014
+  note: <strong>Best Paper Award</strong>
+  pdf: osterweil2014shape.pdf
+  # TODO: Get PDF
+
+- title: "On the Role of Routing in Named Data Networking"
+  authors: "Cheng Yi, Jerald Abraham, Alexander Afanasyev, Lan Wang, Beichuan Zhang, Lixia Zhang"
+  type: conference
+  conference: "ACM Conference on Information-Centric Networking"
+  month: September
+  year: 2014
+  pdf: icn14-on-the-role-of-routing-ndn.pdf
+
+- title: "Kite: A Mobility Support Scheme for NDN"
+  authors: "Yu Zhang, Hongli Zhang, Lixia Zhang"
+  type: conference
+  conference: "ACM Conference on Information-Centric Networking"
+  month: September
+  year: 2014
+  note: Poster
+  pdf: zhang2014kite.pdf
+  # TODO: Get PDF
+
+- title: "Consumer-Producer API for Named Data Networking"
+  authors: "Ilya Moiseenko, Lixia Zhang"
+  type: conference
+  conference: "ACM Conference on Information-Centric Networking"
+  month: September
+  year: 2014
+  note: Poster
+  pdf: moiseenko2014api.pdf
+  # TODO: Get PDF
+
+- title: "An Endorsement-based Key Management System for Decentralized NDN Chat Application"
+  authors: "Yingdi Yu, Alexander Afanasyev, Zhenkai Zhu, Lixia Zhang"
+  type: techreport
+  institution: "NDN"
+  number: "NDN-0023"
+  month: July
+  year: 2014
+  pdf: yu2014endorsement.pdf
+  # TODO: Get PDF
+
+- title: "Named Data Networking"
+  authors: "Lixia Zhang, Alexander Afanasyev, Jeff Burke, kc claffy, Lan Wang, Van Jacobson, Patrick Crowley, Christos Papadopoulos, Beichuan Zhang"
+  type: journal
+  journal: "ACM SIGCOMM Computer Communication Review (CCR)"
+  volume: 44
+  issue: 3
+  pages: "66-73"
+  month: July
+  year: 2014
+  pdf: zhang2014ndn.pdf
+  # TODO: Get PDF
+
+- title: "Securing Building Management Systems Using Named Data Networking"
+  authors: "Wentao Shang, Qiuhan Ding, Alessandro Marianantoni, Jeff Burke, Lixia Zhang"
+  type: journal
+  journal: "IEEE Network"
+  volume: 28
+  issue: 3
+  pages: "50-56"
+  month: May
+  year: 2014
+  pdf: shang2014building.pdf
+  # TODO: Get PDF
+
+- title: "VANET via Named Data Networking"
+  authors: "Giulio Grassi, Davide Pesavento, Giovanni Pau, Rama Vuyyuru, Ryuji Wakikawa, Lixia Zhang"
+  type: conference
+  conference: "IEEE INFOCOM Workshop on Named Oriented Mobility (NOM)"
+  month: April
+  year: 2014
+  pdf: grassi2014vanet.pdf
+  # TODO: Get PDF
+
+- title: "Verifying Keys through Publicity and Communities of Trust: Quantifying Off-Axis Corroboration"
+  authors: "Eric Osterweil, Dan Massey, Danny McPherson, Lixia Zhang"
+  type: journal
+  journal: "IEEE Transactions on Parallel and Distributed Systems (TPDS)"
+  volume: 25
+  issue: 2
+  pages: "283-291"
+  month: February
+  year: 2014
+  pdf: osterweil2014offaxis.pdf
+  # TODO: Get PDF
 
 # 2013
 
+- title: "Security Evaluation of a Control System Using Named Data Networking"
+  authors: "Victor Perez, Mevlut Turker Garip, Silas Lam, Lixia Zhang"
+  type: conference
+  conference: "Workshop on Secure Network Protocols (NPSec)"
+  month: October
+  year: 2013
+  pdf: perez2013security.pdf
+  # TODO: Get PDF
+
+- title: "Let's ChronoSync: Decentralized Dataset State Synchronization in Named Data Networking"
+  authors: "Zhenkai Zhu, Alexander Afanasyev"
+  type: conference
+  conference: "IEEE International Conference on Network Protocols (ICNP)"
+  month: October
+  year: 2013
+  pdf: icnp2013-chronosync.pdf
+
+- title: "Video Streaming Over Named Data Networking"
+  authors: "Derek Kulinski, Jeff Burke, Lixia Zhang"
+  type: journal
+  journal: "IEEE COMSOC MMTC E-Letter"
+  volume: 8
+  isssue: 4
+  pages: "6-9"
+  month: July
+  year: 2013
+  pdf: kulinski2013video.pdf
+  # TODO: Get PDF
+
+- title: "DoS & DDoS in Named Data Networking"
+  authors: "Paolo Gasti, Gene Tsudik, Ersin Uzun, Lixia Zhang"
+  type: conference
+  conference: "International Conference on Computer Communications and Networks (ICCCN)"
+  month: July
+  year: 2013
+  pdf: gasti2013dos.pdf
+  # TODO: Get PDF
+
+- title: "Interest Flooding Attack and Countermeasures in Named Data Networking"
+  authors: "Alexander Afanasyev, Priya Mahadevan, Ilya Moiseenko, Ersin Uzun, Lixia Zhang"
+  type: conference
+  conference: "IFIP Networking"
+  month: May
+  year: 2013
+  pdf: ifip-networking13-interest-flooding-ndn.pdf
+
+- title: "A Case for Stateful Forwarding Plane"
+  authors: "Cheng Yi, Alexander Afanasyev, Ilya Moiseenko, Lan Wang, Beichuan Zhang, Lixia Zhang"
+  type: journal
+  journal: "Computer Communications"
+  volume: 36
+  issue: 7
+  pages: "779-791"
+  month: April
+  year: 2013
+  pdf: comcom-stateful-forwarding.pdf
+
+- title: "Check-Repeat: A New Method of Measuring DNSSEC Validating Resolvers"
+  authors: "Yingdi Yu, Duane Wessels, Matt Larson, Lixia Zhang"
+  type: conference
+  conference: "IEEE International Traffic Monitoring and Analysis Workshop (TMA)"
+  month: April
+  year: 2013
+  pdf: tma13-check-r-dnssec.pdf
+
+- title: "NDN.JS: A JavaScript Client Library for Named Data Networking"
+  authors: "Wentao Shang, Jeff Thompson, Meki Cherkaoui, Jeff Burke, Lixia Zhang"
+  type: conference
+  conference: "IEEE INFOCOM International Workshop on Emerging Design Choices in Name-Oriented Networking (NOMEN)"
+  month: April
+  year: 2013
+  pdf: nomen13-ndnjs.pdf
+
+- title: "Vehicular Inter-Networking via Named Data"
+  authors: "Giulio Grassi, Davide Pesavento, Lucas Wang, Giovanni Pau, Rama Vuyyuru, Ryuji Wakikawa, Lixia Zhang"
+  type: conference
+  conference: "ACM HotMobile"
+  month: February
+  year: 2013
+  note: Poster
+  pdf: grassi2013vehicular.pdf
+  # TODO: Get PDF
+
 # 2012
+
+- title: "Simple Virtual Aggregation (S-VA)"
+  authors: "Robert Raszuk, J. Heitz, A. Lo, Lixia Zhang, Xiaohu Xu"
+  number: 6769
+  month: October
+  year: 2012
+
+- title: "Chronos: Serverless Multi-User Chat Over NDN"
+  authors: "Zhenkai Zhu, Chaoyi Bian, Alexander Afanasyev, Van Jacobson, Lixia Zhang"
+  type: techreport
+  institution: "NDN"
+  number: "NDN-0008"
+  month: October
+  year: 2012
+  pdf: zhu2012chronos.pdf
+  # TODO: Get PDF
+
+- title: "Mobile Data Charging: New Attacks and Countermeasures"
+  authors: "Chunyi Peng, Chi-yu Li, Guan-hua Tu, Songwu Lu, Lixia Zhang"
+  type: conference
+  conference: "ACM Conference on Computer and Communications Security (CCS)"
+  month: October
+  year: 2012
+  pdf: peng2012charging.pdf
+  # TODO: Get PDF
+
+- title: "Supporting Military Communications with Named Data Networking: An Emulation Analysis"
+  authors: "Basil Etefia, Lixia Zhang, Mario Gerla"
+  type: conference
+  conference: "IEEE Military Communications Conference (MILCOM)"
+  month: October
+  year: 2012
+  pdf: etefia2012military.pdf
+  # TODO: Get PDF
+
+- title: "Adaptive Forawrding in Named Data Networking"
+  authors: "Cheng Yi, Alex Afanasyev, Lan Wang, Beichuan Zhang, Lixia Zhang"
+  type: journal
+  journal: "ACM SIGCOMM Computer Communication Review (CCR)"
+  volume: 42
+  issue: 3
+  pages: "62-67"
+  month: July
+  year: 2012
+  pdf: ccr-ndn-adaptive-forwarding.pdf
+
+- title: "ndnSIM: NDN simulator for NS-3"
+  authors: "Alexander Afanasyev, Ilya Moiseenko, Lixia Zhang"
+  type: techreport
+  institution: "NDN"
+  number: "NDN-0006"
+  month: July
+  year: 2016
+  pdf: afanasyev2012ndnsim.pdf
+  # TODO: Get PDF
+
+- title: "BGP Route Reflection Revisited"
+  authors: "Jong Han Park, Ricardo Oliveira, Shane Amante, Danny McPherson, Lixia Zhang"
+  type: journal
+  journal: "IEEE Communications Magazine"
+  volume: 50
+  issue: 7
+  pages: "70-75"
+  month: July
+  year: 2012
+  pdf: park2012reflection.pdf
+  # TODO: Get PDF
+
+- title: "Rapid Traffic Information Dissemination Using Named Data"
+  authors: "Lucas Wang, Alexander Afanasyev, Romain Kuntz, Rama Vuyyuru, Ryuji Wakikawa, Lixia Zhang"
+  type: conference
+  conference: "ACM MobiHoc Workshop on Emerging Name-Oriented Mobile Networking Design - Architecture, Algorithms, and Applications (NoM)"
+  month: June
+  year: 2012
+  pdf: nom12-rapid-traffic.pdf
+
+- title: "Explaining BGP Slow Table Transfers"
+  authors: "Pei-chun Cheng, Jong Han Park, Keyur Patel, Shane Amante, Lixia Zhang"
+  type: conference
+  conference: "International Conference on Distributed Computing Systems (ICDCS)"
+  month: June
+  year: 2012
+  pdf: bgplimit.pdf
+
+- title: "Authority Server Selection of DNS Caching Resolver"
+  authors: "Yingdi Yu, Duane Wessels, Matt Larson, Lixia Zhang"
+  type: journal
+  journal: "ACM SIGCOMM Computer Communication Review (CCR)"
+  volume: 42
+  issue: 2
+  pages: "80-86"
+  month: March
+  year: 2012
+  pdf: res_ns_selection.pdf
+
+- title: "Data Naming in Vehicle-to-Vehicle Communications"
+  authors: "Lucas Wang, Ryuji Wakikawa, Romain Kuntz, Rama Vuyyuru, Lixia Zhang"
+  type: conference
+  conference: "IEEE INFOCOM Workshop on Emerging Design Choices in Name-Oriented Networking"
+  month: March
+  year: 2012
+  pdf: data-naming-v2v.pdf
+
+- title: "A Comparative Study of Architectural Impact on BGP Next-hop Density"
+  authors: "Jong Han Park, Pei-chun Cheng, Shane Amante, Dorian Kim, Danny McPherson, Lixia Zhang"
+  type: conference
+  conference: "IEEE INFOCOM Global Internet Symposium (GI)"
+  month: March
+  year: 2012
+  pdf: gi12-bgp-next-hop-diversity.pdf
+
+- title: "Named Data Networking for Military Communication Systems"
+  authors: "Basil Etefia, Lixia Zhang"
+  type: conference
+  conference: "IEEE Aerospace Conference"
+  month: March
+  year: 2012
+  pdf: 2012Milcom.pdf
 
 # 2011
 
+- title: "A New Approach to Securing Audio Conference Tools"
+  authors: "Zhenkai Zhu, Paolo Gasti, Yanbin Lu, Jeffrey Burke, Van Jacobson, Lixia Zhang"
+  type: conference
+  conference: "Asian Internet Engineering Conference (AINTEC)"
+  month: November
+  year: 2011
+  pdf: awfit-audiosec.pdf
+  # TODO: Get PDF
+
+- title: "Measuring redundancy level on the Web"
+  authors: "Alexander Afanasyev, Jiangzhe Wang, Chunyi Peng, Lixia Zhang"
+  type: conference
+  conference: "Asian Internet Engineering Conference (AINTEC)"
+  month: November
+  year: 2011
+  pdf: afanasyev2011redundancy.pdf
+  # TODO: Get PDF
+
+- title: "Home As You Go: An Engineering Approach to Mobility-Capable Extended Home Networks"
+  authors: "Zhenkai Zhu, Ryuji Wakikawa, Stuart Cheshire, Lixia Zhang"
+  type: conference
+  conference: "Asian Internet Engineering Conference (AINTEC)"
+  month: November
+  year: 2011
+  pdf: zhu2011home.pdf
+  # TODO: Get PDF
+
+- title: "A Framework to Quantify the Pitfalls of Using Traceroute in AS-level Topology Management"
+  authors: "Yu Zhang, Ricardo Oliveira, Yangyang Wang, Shen Su, Baobao Zhang, Hongli Zhang, Lixia Zhang"
+  tyype: journal
+  journal: "IEEE Journal on Selected Areas in Communications (JSAC)"
+  volume: 29
+  issue: 9
+  pages: "1822-1836"
+  month: October
+  year: 2011
+  pdf: zhang2011traceroute.pdf
+  # TODO: Get PDF
+
+- title: "Teaching Network Architecture through Case Studies"
+  authors: "Dan Massey, Christos Papadopoulos, Lan Wang, Beichuan Zhang, Lixia Zhang"
+  type: conference
+  conference: "ACM SIGCOMM Education Workshop"
+  month: August
+  year: 2011
+  pdf: sigcomm11-teaching-network-arch.pdf
+
+- title: "ACT: Audio Conference Tool Over Named Data Networks"
+  authors: "Zhenkai Zhu, Sen Wang, Xu Yang, Van Jacobson, Lixia Zhang"
+  type: conference
+  conference: "ACM SIGCOMM Workshop on Information-Centric Networking"
+  month: August
+  year: 2011
+  pdf: icn10c-zhu.pdf
+
+- title: "A Survey of Mobility Support In the Internet"
+  authors: "Zhenkai Zhu, Ryuji Wakikawa, Lixia Zhang"
+  type: rfc
+  number: 6301
+  month: July
+  year: 2011
+
+- title: "Understanding Apple's Back to My Mac (BTMM) Service"
+  authors: "Stuart Cheshire, Zhenkai Zhu, Ryuji Wakikawa, Lixia Zhang"
+  type: rfc
+  number: 6281
+  month: June
+  year: 2011
+
+- title: "Operational Implications of the DNS Control Plane"
+  authors: "Eric Osterweil, Danny McPherson, Lixia Zhang"
+  type: journal
+  journal: "IEEE Reliability Society Newsletter"
+  volume: 57
+  issue: 2
+  pages: "1-6"
+  month: May
+  year: 2011
+  pdfext: http://www.ieeereliability.com/newsletter/2_2011/IEEE%20Reliability%20Society%20Newsletter.files/Operational%20Implications%20of%20the%20DNS%20Control%20Plane.pdf
+
+- title: "Supporting Mobility for Internet Cars"
+  authors: "Zhenkai Zhu, Ryuji Wakikawa, Lixia Zhang"
+  type: journal
+  journal: "IEEE Communication Magazine"
+  volume: 49
+  issue: 5
+  pages: "180-186"
+  month: May
+  year: 2011
+  pdf: zhu2011cars.pdf
+  # TODO: Get PDF
+
+- title: "Understanding BGP Next-hop Diversity"
+  authors: "Jaeyoung Choi, Jong Han Park, Pei-chun Cheng, Dorian Kim, Lixia Zhang"
+  type: conference
+  conference: "IEEE INFOCOM Global Internet Symposium (GI)"
+  month: April
+  year: 2011
+  pdf: choi2011diversity.pdf
+  # TODO: Get PDF
+
+- title: "SAIL: A Scalable Appraoch for Wide-Area IP Mobility"
+  authors: "Zhenkai Zhu, Ryuji Wakikawa, Lixia Zhang"
+  type: conference
+  conference: "IEEE INFOCOM Mobiworld Workshop"
+  month: April
+  year: 2011
+  pdf: zhu2011sail.pdf
+  # TODO: Get PDF
+
+- title: "Identifying BGP routing table transfers"
+  authors: "Pei-chun Cheng, Beichuan Zhang, Daniel Massey, Lixia Zhang"
+  type: journal
+  journal: "Computer Networks"
+  volume: 55
+  issue: 3
+  pages: "636-649"
+  month: February
+  year: 2011
+  pdf: cheng2011transfers.pdf
+  # TODO: Get PDF
+
 # 2010
+
+- title: "DMND: Collecting Data from Mobiles Using Named Data"
+  authors: "Jiangzhe Wang, Ryuji Wakikawa, Lixia Zhang"
+  type: conference
+  conference: "IEEE Vehicular Networking Conference (VNC)"
+  month: December
+  year: 2010
+  pdf: wang2010dmnd.pdf
+  # TODO: Get PDF
+
+- title: "Implementing Instant Messaging Using Named Data"
+  authors: "Jiangzhe Wang, Chunyi Peng, Chiyu Li, Ryuji Wakikawa, Lixia Zhang"
+  type: conference
+  conference: "Asian Internet Engineering Conference (AINTEC)"
+  month: November
+  year: 2010
+  pdf: wang2010instant.pdf
+  # TODO: Get PDF
+
+- title: "Route Flap Damping with Assured Reachability"
+  authors: "Pei-chun Cheng, Jong Han Park, Keyur Patel, Lixia Zhang"
+  type: conference
+  conference: "Asian Internet Engineering Conference (AINTEC)"
+  month: November
+  year: 2010
+  pdf: rfdrg_aintec.pdf
+
+- title: "Named Data Networking (NDN) Project"
+  authors: "Lixia Zhang, Deborah Estrin, Jeffrey Burke, Van Jacobson, James D. Thornton, Diana K. Smetters, Beichuan Zhang, Gene Tsudik, kc claffy, Dmitri Krioukov, Dan Massey, Christos Papadopoulos, Tarek Abdelzaher, Lan Wang, Patrick Crowley, Edmund Yeh"
+  type: techreport
+  institution: "NDN"
+  number: "NDN-0001"
+  month: October
+  year: 2010
+  pdf: zhang2010ndn.pdf
+  # TODO: Get PDF
+
+- title: "Scaling The Internet Routing System: An Interim Report"
+  authors: "Tim Griffin, Tony Li, Dan Massey, Christian Vogt, Jia Wang, Lixia Zhang"
+  type: journal
+  journal: "IEEE Journal on Selected Areas in Communications (JSAC)"
+  volume: 28
+  issue: 8
+  pages: "1233-1237"
+  month: October
+  year: 2010
+  notes: Guest Editorial
+  pdf: griffin2010scaling.pdf
+  # TODO: Get PDF
+
+- title: "Evolution Towards Global Routing Scalability"
+  authors: "Varun Khare, Dan Jen, Xin Zhao, Yaoqing Liu, Dan Massey, Lan Wang, Beichuan Zhang, Lixia Zhang"
+  type: journal
+  journal: "IEEE Journal on Selected Areas in Communications (JSAC)"
+  volume: 28
+  issue: 8
+  pages: "1233-1237"
+  month: October
+  year: 2010
+  pdf: khare2010evolution.pdf
+  # TODO: Get PDF
+
+- title: "Listen First, Broadcast Later: Topology-Agnostic Forwarding under High Dynamics"
+  authors: "Michael Meisel, Vasileios Pappas, Lixia Zhang"
+  type: conference
+  conference: "Annual Conference of International Technology Alliance in Network and Information Science"
+  month: September
+  year: 2010
+  pdf: meisel2010listen.pdf
+  # TODO: Get PDF
+
+- title: "Ad Hoc Networking via Named Data"
+  authors: "Michael Meisel, Vasileios Pappas, Lixia Zhang"
+  type: conference
+  conference: "ACM International Workshop on Mobility in the Evolving Internet Architecture"
+  month: September
+  year: 2010
+  pdf: meisel2010adhoc.pdf
+  # TODO: Get PDF
+
+- title: "Deploying Cryptography in Internet-Scale Systems: A Case Study on DNSSEC"
+  authors: "Hao Yang, Eric Osterweil, Dan Massey, Songwu Lu, Lixia Zhang"
+  type: journal
+  journal: "IEEE Transactions on Dependable and Secure Computing"
+  volume: 8
+  issue: 5
+  pages: "656-669"
+  month: September
+  year: 2010
+  pdf: yang2010dnssec.pdf
+  # TODO: Get PDF
+
+- title: "IAB Thoughts on IPv6 Network Address Translation"
+  authors: "Dave Thaler, Lixia Zhang, Greg Lebovitz"
+  type: rfc
+  number: 5902
+  month: July
+  year: 2010
+
+- title: "A Taxonomy of Biologically Inspired Research in Computer Networking"
+  authors: "Michael Meisel, Vasileios Pappas, Lixia Zhang"
+  type: journal
+  journal: "Computer Networks"
+  volume: 54
+  issue: 6
+  pages: "901-916"
+  month: April
+  year: 2010
+  pdf: meisel2010bio.pdf
+  # TODO: Get PDF
+
+- title: "Longitudinal Study of BGP Monitor Session Failures"
+  authors: "Pei-chun Cheng, Xin Zhao, Beichaun Zhang, Lixia Zhang"
+  type: journal
+  journal: "ACM SIGCOMM Computer Communication Review (CCR)"
+  volume: 40
+  issue: 2
+  pages: "34-42"
+  month: April
+  year: 2010
+  pdf: cheng2010bgp.pdf
+  # TODO: Get PDF
+
+- title: "Investigating Occurrence of Duplicate Updates in BGP Announcements"
+  authors: "Jong Han Park, Dan Jen, Mohit Lad, Shane Amante, Danny McPherson, Lixia Zhang"
+  type: conference
+  conference: "International Conference on Passive and Active Network Measurement (PAM)"
+  month: April
+  year: 2010
+  note: "<strong>Best Paper Award</strong>"
+  pdf: park2010duplicate.pdf
+  # TODO: Get PDF
+
+- title: "Quantifying the Pitfalls of Traceroute in AS Connectivity Inference"
+  authors: "Yu Zhang, Ricardo Oliveira, Hongli Zhang, Lixia Zhang"
+  type: conference
+  conference: "International Conference on Passive and Active Network Measurement (PAM)"
+  month: April
+  year: 2010
+  pdf: zhang2010traceroute.pdf
+  # TODO: Get PDF
+
+- title: "BGP Routing Table: Trends and Challenges"
+  authors: "Alexander Afanasyev, Neil Tilley, Brent Longstaff, Lixia Zhang"
+  type: conference
+  conference: "Youth Technological Conference *High Technologies and Intellectual Systems*"
+  month: April
+  year: 2010
+  pdf: afanasyev2010bgp.pdf
+  # TODO: Get PDF
+
+- title: "The (in)Completeness of the Observed Internet AS-level Structure"
+  authors: "Ricardo Oliveira, Dan Pei, Walter Willinger, Beichuan Zhang, Lixia Zhang"
+  type: journal
+  journal: "IEEE/ACM Transactions on Networking (ToN)"
+  volume: 18
+  issue: 1
+  pages: "109-122"
+  month: February
+  year: 2010
+  pdf: 0completeness.pdf
 
 # 2009
 
