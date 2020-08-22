@@ -883,6 +883,7 @@
 
 - title: "Simple Virtual Aggregation (S-VA)"
   authors: "Robert Raszuk, J. Heitz, A. Lo, Lixia Zhang, Xiaohu Xu"
+  type: rfc
   number: 6769
   month: October
   year: 2012

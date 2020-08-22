@@ -26,42 +26,53 @@ section_id: portfolio
 {% assign current_year = site.time | date: "%Y" %}
 {% assign months = "January,February,March,April,May,June,July,August,September,October,November,December" | split: "," %}
 {% for year in (2010..current_year) reversed %}
-  <h3>{{ year }}</h3>
-  <ul>
-  {% for month in months reversed %}
-    {% for pub in site.data.publications %}
-      {% assign pub_month_downcase = pub.month | downcase %}
-      {% assign month_downcase = month | downcase %}
-      {% if pub.year == year and pub_month_downcase == month_downcase %}
-        {% if pub.type == "conference" or pub.type == "journal" or pub.type == "preprint" %}
-          <li>
-          {% if pub.type == "conference" %}
-            {{ pub.authors }}<br />
-            <strong>"{{ pub.title }}"</strong><br />
-            <em>{{ pub.conference }}</em>, {{ month }} {{ year }}.<br />
-          {% elsif pub.type == "journal" %}
-            {{ pub.authors }}<br />
-            <strong>"{{ pub.title }}"</strong><br />
-            <em>{{ pub.journal }}</em>, vol. {{ pub.volume }}, {% if pub.issue %}no. {{ pub.issue }}, {% endif %}pp. {{ pub.pages }}, {{ month }} {{ year }}.<br />
-          {% elsif pub.type == "preprint" %}
-            {{ pub.authors }}<br />
-            <strong>"{{ pub.title }}"</strong><br />
-            <em>{{ pub.archive }}</em> preprint {{ pub.number }}, {{ month }} {{ year }}.<br />
-          {% endif %}
-          {% if pub.note %}
-          <em>{{ pub.note }}</em><br />
-          {% endif %}
-          {% if pub.pdf %}
-            <a href="data/files/papers/{{ pub.pdf }}" target="_blank"><img src="images/extensions/pdf.png" alt="PDF" /></a>
-          {% elsif pub.pdfext %}
-            <a href="{{ pub.pdfext }}" target="_blank"><img src="images/extensions/pdf.png" alt="PDF" /></a>
-          {% endif %}
-          </li>
-        {% endif %}
+  {% assign is_publication_for_year = false %}
+  {% for pub in site.data.publications %}
+    {% if pub.type == "conference" or pub.type == "journal" or pub.type == "preprint" %}
+      {% if pub.year == year %}
+        {% assign is_publication_for_year = true %}
       {% endif %}
-    {% endfor %}
+    {% endif %}
   {% endfor %}
-  </ul>
+
+  {% if is_publication_for_year %}
+    <h3>{{ year }}</h3>
+    <ul>
+    {% for month in months reversed %}
+      {% for pub in site.data.publications %}
+        {% assign pub_month_downcase = pub.month | downcase %}
+        {% assign month_downcase = month | downcase %}
+        {% if pub.year == year and pub_month_downcase == month_downcase %}
+          {% if pub.type == "conference" or pub.type == "journal" or pub.type == "preprint" %}
+            <li>
+            {% if pub.type == "conference" %}
+              {{ pub.authors }}<br />
+              <strong>"{{ pub.title }}"</strong><br />
+              <em>{{ pub.conference }}</em>, {{ month }} {{ year }}.<br />
+            {% elsif pub.type == "journal" %}
+              {{ pub.authors }}<br />
+              <strong>"{{ pub.title }}"</strong><br />
+              <em>{{ pub.journal }}</em>, vol. {{ pub.volume }}, {% if pub.issue %}no. {{ pub.issue }}, {% endif %}pp. {{ pub.pages }}, {{ month }} {{ year }}.<br />
+            {% elsif pub.type == "preprint" %}
+              {{ pub.authors }}<br />
+              <strong>"{{ pub.title }}"</strong><br />
+              <em>{{ pub.archive }}</em> preprint {{ pub.number }}, {{ month }} {{ year }}.<br />
+            {% endif %}
+            {% if pub.note %}
+            <em>{{ pub.note }}</em><br />
+            {% endif %}
+            {% if pub.pdf %}
+              <a href="data/files/papers/{{ pub.pdf }}" target="_blank"><img src="images/extensions/pdf.png" alt="PDF" /></a>
+            {% elsif pub.pdfext %}
+              <a href="{{ pub.pdfext }}" target="_blank"><img src="images/extensions/pdf.png" alt="PDF" /></a>
+            {% endif %}
+            </li>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+    </ul>
+  {% endif %}
 {% endfor %}
 
 <h3>2009</h3>
