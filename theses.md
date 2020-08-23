@@ -52,6 +52,11 @@ section_id: theses
             {% elsif pub.pdfext %}
               <a href="{{ pub.pdfext }}" target="_blank"><img src="images/extensions/pdf.png" alt="PDF" /></a>
             {% endif %}
+            {% if pub.pres_pdf %}
+              Presentation: <a href="data/files/theses/{{ pub.pres_pdf }}" target="_blank"><img src="images/extensions/pdf.png" alt="Presentation (PDF)" /></a>
+            {% elsif pub.pres_ppt %}
+              Presentation: <a href="data/files/theses/{{ pub.pres_ppt }}" target="_blank"><img src="images/extensions/pptx.png" alt="Presentation (PPT)" /></a>
+            {% endif %}
           </li>
         {% endif %}
       {% endfor %}

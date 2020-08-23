@@ -1,3 +1,13 @@
+# Enter the following information for each person:
+#
+# - title: "My Thesis Title"
+#   author: "Joe Q. Public"
+#   month: June                # If unknown, put "unknown"
+#   year: 2024
+#   pdf:                       # (if any) ocation of thesis relative to /data/files/theses
+#   pres_pdf:                  # (if any) location of presentation relative to /data/files/theses
+#   pres_ppt:                  # (if any) location of presentation relative to /data/files/theses
+
 # 2019
 
 - title: "Peer-to-Peer Data Sharing in Named-Data Networking"
@@ -30,6 +40,7 @@
   month: June
   year: 2016
   pdf: yingdi-yu-thesis.pdf
+  pres_pdf: yingdi-yu-defense-presentation.pdf
 
 # 2015
 
@@ -46,12 +57,14 @@
   month: December
   year: 2013
   pdf: alexander-afanasyev-thesis.pdf
+  pres_ppt: alexander-afanasyev-defense-presentation.pptx
 
 - title: "Support Mobile and Distributed Applications with Named Data Networking"
   author: "Zhenkai Zhu"
   month: June
   year: 2013
   pdf: zhenkai-zhu-thesis.pdf
+  pres_pdf: zhenkai-zhu-defense-presentation.pdf
 
 # 2012
 
@@ -68,6 +81,7 @@
   month: July
   year: 2011
   pdf: jong-han-park-thesis.pdf
+  pres_ppt: jong-han-park-defense-presentation.pptx
 
 - title: "BOND: Unifying Mobile Networks with Named Data"
   author: "Michael Meisel"
