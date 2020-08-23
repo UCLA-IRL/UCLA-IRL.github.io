@@ -1,13 +1,13 @@
 ---
 layout: default
 title: Publications
-section_id: portfolio
+section_id: publications
 ---
 
 <div class="full parallax" style="background-image: url(images/banner/banner.jpg); color: #fff;">
   <div class="row">
     <div class="large-12 columns">
-      {% include section-header.html title="Publications" tagline="Publications from the IRL Group" color="#000000" class="big" %}
+      {% include section-header.html title="Publications" tagline="" color="#000000" class="big" %}
     </div>
   </div>
   <div class="four spacing"></div>

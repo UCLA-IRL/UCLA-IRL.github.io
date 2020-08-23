@@ -17,7 +17,7 @@
   path: rfc.html
   section_id: rfc
 - name: Technical Reports
-  path: TR.html
+  path: techreports.html
   section_id: tr
 
 - name: Blog
