@@ -1,0 +1,178 @@
+# 2019
+
+- title: "Peer-to-Peer Data Sharing in Named-Data Networking"
+  author: "Spyridon Mastorakis"
+  month: June
+  year: 2019
+  # No PDF: embargoed
+
+# 2018
+
+- title: "NDNFit: An Open mHealth Application Built on Named Data Networking"
+  author: "Haitao Zhang"
+  month: June
+  year: 2018
+  # TODO: Get PDF
+
+# 2017
+
+- title: "Distributed Dataset Synchronization in Named Data Networking"
+  author: "Wentao Shang"
+  month: June
+  year: 2017
+  pdf: wentao-shang-thesis.pdf
+  # TODO: Get PDF
+
+# 2016
+
+- title: "Usable Security for Named Data Networking"
+  author: "Yingdi Yu"
+  month: June
+  year: 2016
+  pdf: yingdi-yu-thesis.pdf
+
+# 2015
+
+- title: "Consumer/Producer Communication with Application Level Framing in Named Data Networking"
+  author: "Ilya Moiseenko"
+  month: June
+  year: 2015
+  pdf: ilya-moiseenko-thesis.pdf
+
+# 2013
+
+- title: "Addressing Operational Challenges in Named Data Networking Through NDNS Distributed Database"
+  author: "Alexander Afanasyev"
+  month: December
+  year: 2013
+  pdf: alexander-afanasyev-thesis.pdf
+
+- title: "Support Mobile and Distributed Applications with Named Data Networking"
+  author: "Zhenkai Zhu"
+  month: June
+  year: 2013
+  pdf: zhenkai-zhu-thesis.pdf
+
+# 2012
+
+- title: "Understanding the BGP Transport Delay"
+  author: "Pei-chun Cheng"
+  month: March
+  year: 2012
+  pdf: pei-chun-cheng-thesis.pdf
+
+# 2011
+
+- title: "Understanding the Impact of Internal BGP Route Reflection"
+  author: "Jong Han (Jonathan) Park"
+  month: July
+  year: 2011
+  pdf: jong-han-park-thesis.pdf
+
+- title: "BOND: Unifying Mobile Networks with Named Data"
+  author: "Michael Meisel"
+  month: April
+  year: 2011
+  pdf: michael-meisel-thesis.pdf
+
+# 2010
+
+- title: "Measurable Security: a New Substrate for DNSSEC"
+  author: "Eric Osterweil"
+  month: August
+  year: 2010
+  pdf: eric-osterweil-thesis.pdf
+  # TODO: Get PDF
+
+# 2009
+
+- title: "Understanding the Internet AS-level Structure"
+  author: "Ricardo Oliveira"
+  month: December
+  year: 2009
+  pdf: ricardo-oliveira-thesis.pdf
+  # TODO: Get PDF
+
+# 2007
+
+- title: "Understanding and Diagnosing Routing Dynamics in Global Internet"
+  author: "Mohit Lad"
+  month: January
+  year: 2007
+  pdf: mohit-lad-thesis.pdf
+  # TODO: Get PDF
+
+# 2006
+
+- title: "Towards a Resilient Domain Name System"
+  author: "Vasileios Pappas"
+  month: unknown
+  year: 2006
+  pdf: vasileios-pappas-thesis.pdf
+  # TODO: Get PDF
+
+# 2005
+
+- title: "Building Resilient Internet Routing Protocols"
+  author: "Dan Pei"
+  month: unknown
+  year: 2005
+  pdf: dan-pei-thesis.pdf
+  # TODO: Get PDF
+
+# 2004
+
+- title: "Improving Internet Resilience through Lightweight Preventive Detection (LPD) and Persistent Detection & Recovery (PDR)"
+  author: "Lan Wang"
+  month: January
+  year: 2004
+  pdf: lan-wang-thesis.pdf
+  # TODO: Get PDF
+
+- title: "Building Resilient Sensor Networks by Exploiting Scale and Redundancy"
+  author: "Fan Ye"
+  month: unknown
+  year: 2004
+  # TODO: Get PDF
+
+# 2003
+
+- title: "The Information Discovery Graph: A Framework for a Distributed Search Engine"
+  author: "Nelson Tang"
+  month: unknown
+  year: 2003
+  # TODO: Get PDF
+
+- title: "Universal IP Multicast Delivery"
+  author: "Beichuan Zhang"
+  month: unknown
+  year: 2003
+  # TODO: Get PDF
+
+# 2001
+
+- title: "Distance Information Protocol (DIP) for Internet Distance Map Service (IDMaps)"
+  author: "Yixin Jin"
+  month: unknown
+  year: 2001
+  # TODO: Get PDF
+
+# 2000
+
+- title: "Fault Detection and Security in Routing Protocols"
+  author: "Dan Massey"
+  month: unknown
+  year: 2000
+  # TODO: Get PDF
+
+- title: "A Two-Tier Resource Allocation Framework for the Internet"
+  author: "Andreas Terzis"
+  month: unknown
+  year: 2000
+  # TODO: Get PDF
+
+- title: "Diffusion Model for Multicast Delivery"
+  author: "Jun Wei"
+  month: unknown
+  year: 2000
+  # TODO: Get PDF
