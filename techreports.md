@@ -2,7 +2,6 @@
 layout: default
 title: Technical Reports
 section_id: techreports
-
 ---
 
 <div class="full parallax" style="background-image: url(images/banner/banner.jpg); color: #fff;">
@@ -14,22 +13,19 @@ section_id: techreports
   <div class="four spacing"></div>
 </div>
 
+<div class="row" style="margin-top: 20px;">
+  <h2>COPYRIGHT NOTICE</h2>
 
+  <p>The documents here are provided as a means to ensure timely dissemination of technical work on a noncommercial basis. Copyright and all rights therein are maintained by the authors or by other copyright holders. It is understood that anyone copying the papers from this page will adhere to the terms and constraints invoked by the copyright.</p>
 
-
-<div class="row">
-    <h2>COPYRIGHT NOTICE</h2>
-
-    <p>The documents here are provided as a means to ensure timely dissemination of technical work on a noncommercial basis. Copyright and all rights therein are maintained by the authors or by other copyright holders. It is understood that anyone copying the papers from this page will adhere to the terms and constraints invoked by the copyright.</p>
-
-    <hr/>
+  <hr/>
 </div>
 
 <div class="row">
 
 {% assign current_year = site.time | date: "%Y" %}
 {% assign months = "January,February,March,April,May,June,July,August,September,October,November,December" | split: "," %}
-{% for year in (2010..current_year) reversed %}
+{% for year in (2006..current_year) reversed %}
   {% assign is_publication_for_year = false %}
   {% for pub in site.data.publications %}
     {% if pub.type == "techreport" %}
@@ -76,20 +72,7 @@ section_id: techreports
   {% endif %}
 {% endfor %}
 
-<h3>2008</h3>
-<ul>
-
-
-<li style="margin-top:14px">
-    <a class="smoothbox_small" href="/bibwiki/bibtex?id=234" title="Ricardo Oliveira, Dan Pei, Walter Willinger, Beichuan Zhang, and Lixia Zhang, &lt;strong&gt;&amp;quot;Quantifying the Completeness of the Observed AS level Structure,&amp;quot;&lt;/strong&gt; UCLA, Technical Report TR 080026, 2008. "><img src="/images/extensions/bib.png" /></a>
-
-     Ricardo Oliveira, Dan Pei, Walter Willinger, Beichuan Zhang, and Lixia Zhang, <br/><strong>&quot;Quantifying the Completeness of the Observed AS level Structure,&quot;</strong><br/> UCLA, Technical Report TR 080026, 2008.
-
-        <a target="_blank" href="http://irl.cs.ucla.edu/papers/completeness_tr.pdf"><img src="/images/extensions/pdf.png"></a>
-
-    </li>
-
-</ul><h3>2003</h3>
+<h3>2003</h3>
 <ul>
 
 

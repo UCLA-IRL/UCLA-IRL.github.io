@@ -13,14 +13,19 @@ section_id: theses
   <div class="four spacing"></div>
 </div>
 
-<div id="frame_0" class="row"><h2>COPYRIGHT NOTICE</h2>
+<div class="row" style="margin-top: 20px;">
+  <h2>COPYRIGHT NOTICE</h2>
 
-<p>The documents here are provided as a means to ensure timely dissemination of technical work on a noncommercial basis. Copyright and all rights therein are maintained by the authors or by other copyright holders. It is understood that anyone copying the papers from this page will adhere to the terms and constraints invoked by the copyright.</p>
+  <p>The documents here are provided as a means to ensure timely dissemination of technical work on a noncommercial basis. Copyright and all rights therein are maintained by the authors or by other copyright holders. It is understood that anyone copying the papers from this page will adhere to the terms and constraints invoked by the copyright.</p>
 
-<hr/>
-
+  <hr />
+</div>
 
 <div class="row">
+
+Over the years, the IRL has produced many accomplished Ph.D. graduates.
+All dissertations from IRL Ph.D. graduates are listed herein, with dissertation defense slides also linked when available.<br />
+<br />
 
 {% assign current_year = site.time | date: "%Y" %}
 {% assign months = "January,February,March,April,May,June,July,August,September,October,November,December,unknown" | split: "," %}
@@ -53,9 +58,9 @@ section_id: theses
               <a href="{{ pub.pdfext }}" target="_blank"><img src="images/extensions/pdf.png" alt="PDF" /></a>
             {% endif %}
             {% if pub.pres_pdf %}
-              Presentation: <a href="data/files/theses/{{ pub.pres_pdf }}" target="_blank"><img src="images/extensions/pdf.png" alt="Presentation (PDF)" /></a>
+              Slides: <a href="data/files/theses/{{ pub.pres_pdf }}" target="_blank"><img src="images/extensions/pdf.png" alt="Presentation (PDF)" /></a>
             {% elsif pub.pres_ppt %}
-              Presentation: <a href="data/files/theses/{{ pub.pres_ppt }}" target="_blank"><img src="images/extensions/pptx.png" alt="Presentation (PPT)" /></a>
+              Slides: <a href="data/files/theses/{{ pub.pres_ppt }}" target="_blank"><img src="images/extensions/pptx.png" alt="Presentation (PPT)" /></a>
             {% endif %}
           </li>
         {% endif %}

@@ -1,5 +1,6 @@
 ---
 layout: default
+title: RFCs
 section_id: rfc
 ---
 
@@ -11,18 +12,18 @@ section_id: rfc
   </div>
   <div class="four spacing"></div>
 </div>
-<div id="frame_0" class="row"><h2>COPYRIGHT NOTICE</h2>
 
-<p>The documents here are provided as a means to ensure timely dissemination of technical work on a noncommercial basis. Copyright and all rights therein are maintained by the authors or by other copyright holders. It is understood that anyone copying the papers from this page will adhere to the terms and constraints invoked by the copyright.</p>
+<div class="row" style="margin-top: 20px;">
+  Over the years, members of the IRL have contributed to a number of IETF Request for Comments (RFCs).
+  We list all known RFC contributions here.
 
-<hr/>
-
+  <hr />
 </div>
 <div class="row">
 
 {% assign current_year = site.time | date: "%Y" %}
 {% assign months = "January,February,March,April,May,June,July,August,September,October,November,December" | split: "," %}
-{% for year in (2010..current_year) reversed %}
+{% for year in (2006..current_year) reversed %}
   {% assign is_publication_for_year = false %}
   {% for pub in site.data.publications %}
     {% if pub.type == "rfc" %}
@@ -58,31 +59,7 @@ section_id: rfc
   {% endif %}
 {% endfor %}
 
-<h3>2007</h3>
-<ul>
-
-
-<li style="margin-top:14px">
-    <a class="smoothbox_small" href="/bibwiki/bibtex?id=179" title="Dave Meyer, Lixia Zhang, and Kevin Fall (ed.), &lt;strong&gt;&amp;quot;Report from the IAB Workshop on Routing and Addressing&lt;/strong&gt;,&amp;quot; &lt;em&gt;RFC 4984&lt;/em&gt;, September  2007. "><img src="/images/extensions/bib.png" /></a>
-
-     Dave Meyer, Lixia Zhang, and Kevin Fall (ed.), <br/><strong>&quot;Report from the IAB Workshop on Routing and Addressing</strong>,&quot; <br/><em>RFC 4984</em>, September  2007.
-
-        <a target="_blank" href="http://www.rfc-editor.org/rfc/rfc4984.txt"><img src="/images/extensions/txt.png"></a>
-
-    </li>
-
-
-
-<li style="margin-top:14px">
-    <a class="smoothbox_small" href="/bibwiki/bibtex?id=180" title="Loa Andersson, Elwyn Davies, and Lixia Zhang, &lt;strong&gt;&amp;quot;Report from the IAB workshop on Unwanted Traffic&lt;/strong&gt;,&amp;quot; &lt;em&gt;RFC 4948&lt;/em&gt;, August  2007. "><img src="/images/extensions/bib.png" /></a>
-
-     Loa Andersson, Elwyn Davies, and Lixia Zhang, <br/><strong>&quot;Report from the IAB workshop on Unwanted Traffic</strong>,&quot; <br/><em>RFC 4948</em>, August  2007.
-
-        <a target="_blank" href="http://www.rfc-editor.org/rfc/rfc4948.txt"><img src="/images/extensions/txt.png"></a>
-
-    </li>
-
-</ul><h3>2001</h3>
+<h3>2001</h3>
 <ul>
 
 

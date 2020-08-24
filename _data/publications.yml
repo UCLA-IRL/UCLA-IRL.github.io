@@ -59,7 +59,7 @@
 # RFC:
 # - title: "Simple Virtual Aggregation (S-VA)"
 #   authors: "Robert Raszuk, J. Heitz, A. Lo, Lixia Zhang, Xiaohu Xu"
-#   type: techreport
+#   type: rfc
 #   number: 6769
 #   month: October
 #   year: 2012
@@ -1496,11 +1496,495 @@
 
 # 2009
 
+- title: "Deploying and Monitoring DNS Security (DNSSEC)"
+  authors: "Eric Osterweil, Dan Massey, Lixia Zhang"
+  type: conference
+  conference: "IEEE Annual Computer Security Applications Conference (ACSAC)"
+  month: December
+  year: 2009
+  pdf: osterweil2009dnssec.pdf
+  # TODO: Get PDF
+
+- title: "Inter-Administrative Challenges in Managing DNSKEYs"
+  authors: "Eric Osterweil, Lixia Zhang"
+  type: journal
+  journal: "IEEE Security and Privacy: Securing the Domain Name System"
+  volume: 7
+  issue: 5
+  pages: "44-51"
+  month: September
+  year: 2009
+  pdf: osterweil2009dnskeys.pdf
+  # TODO: Get PDF
+
+- title: "Support Mobility in the Global Intenret"
+  authors: "Lixia Zhang, Ryuji Wakikawa, Zhenkai Zhu"
+  type: conference
+  conference: "ACM MOBICOM Workshop on Mobile Intenret Through Cellular Networks (MICNET)"
+  month: September
+  year: 2009
+  pdf: zhang2009mobility.pdf
+  # TODO: Get PDF
+
+- title: "Emergent Mobile Services"
+  authors: "Michael Meisel, Vasileios Pappas, Petros Zerfos, Lixia Zhang"
+  type: conference
+  conference: "Annual Conference of the International Technology Alliance (ACITA)"
+  month: September
+  year: 2009
+  pdf: meisel2009services.pdf
+  # TODO: Get PDF
+
+- title: "A Scalable Micro Wireless Interconnect Structure for CMPs"
+  authors: "Suk-Bok Lee, Sai-Wang Tam, Ioannis Pefkianakis, Songwu Lu, M. Frank Chang, Chuanxiong Guo, Glenn Reinman, Chunyi Peng, Mishali Naik, Lixia Zhang, Jason Cong"
+  type: conference
+  conference: "ACM MOBICOM"
+  month: September
+  year: 2009
+  pdf: lee2009micro.pdf
+  # TODO: Get PDF
+
+- title: "Managing Trusted Keys in Internet-Scale Systems"
+  authors: "Eric Osteweril, Dan Massey, Lixia Zhang"
+  type: conference
+  conference: "IEEE Workshop on Trust and Security in the Future Internet (FIST)"
+  month: July
+  year: 2009
+  pdf: osterweil2009trusted.pdf
+  # TODO: Get PDF
+
+- title: "Understanding the Challenges in Securing Internet Routing"
+  authors: "Ricardo Oliveira, Mohit Lad, Lixia Zhang"
+  type: conference
+  conference: "IEEE Workshop on Trust and Security in the Future Internet (FIST)"
+  month: July
+  year: 2009
+  pdf: oliveira2009challenges.pdf
+  # TODO: Get PDF
+
+- title: "Quantifying Path Exploration in the Internet"
+  authors: "Ricardo Oliveira, Beichuan Zhang, Dan Pei, Lixia Zhang"
+  type: journal
+  journal: "IEEE/ACM Transactions on Networking (ToN)"
+  volume: 17
+  issue: 2
+  pages: "445-458"
+  month: April
+  year: 2009
+  pdf: oliveira2009path.pdf
+  # TODO: Get PDF
+
+- title: "Impact of Configuration Errors on DNS Robustness"
+  authors: "Vasileios Pappas, Duane Wessels, Daniel Massey, Songwu Lu, Andreas Terzis, Lixia Zhang"
+  type: journal
+  journal: "IEEE Journal on Selected Areas in Communications (JSAC)"
+  volume: 27
+  issue: 3
+  pages: "275-290"
+  month: April
+  year: 2009
+  pdf: pappas2009configuration.pdf
+  # TODO: Get PDF
+
+- title: "BGPmon: A real-time, scalable, extensible monitoring system"
+  authors: "He Yan, Ricardo Oliveira, Kevin Burnett, Dave Matthews, Lixia Zhang, Dan Massey"
+  type: conference
+  conference: "Cybersecurity Applications and Technologies Conference for Homeland Security (CATCH)"
+  month: March
+  year: 2009
+  pdf: yan2009bgpmon.pdf
+  # TODO: Get PDF
+
 # 2008
+
+- title: "Quantifying the Operational Status of the DNSSEC Deployment"
+  authors: "Eric Osterweil, Michael Ryan, Dan Massey, Lixia Zhang"
+  type: conference
+  conference: "ACM Internet Measurement Conference (IMC)"
+  month: October
+  year: 2008
+  pdf: osterweil2008quantifying.pdf
+  # TODO: Get PDF
+
+- title: "Towards A Future Internet Architecture: Arguments for Separating Edges from Transit Core"
+  authors: "Dan Jen, Michael Meisel, He Yan, Dan Massey, Lan Wang, Beichuan Zhang, Lixia Zhang"
+  type: conference
+  conference: "ACM Workshop on Hot Topics in Networks (HotNets)"
+  month: October
+  year: 2008
+  pdf: jen2008separating.pdf
+  # TODO: Get PDF
+
+- title: "Cyclops: An AS-level Connectivity Observatory"
+  authors: "Ying-Ju Chi, Ricardo Oliveira, Lixia Zhang"
+  type: journal
+  journal: "ACM SIGCOMM Computer Communication Review (CCR)"
+  volume: 38
+  issue: 5
+  pages: "5-16"
+  month: September
+  year: 2008
+  pdf: chi2008cyclops.pdf
+  # TODO: Get PDF
+
+- title: "A Retrospective View of Network Address Translation"
+  authors: "Lixia Zhang"
+  type: journal
+  journal: "IEEE Network"
+  volume: 22
+  issue: 5
+  pages: "8-12"
+  month: September
+  year: 2008
+  pdf: zhang2008nat.pdf
+  # TODO: Get PDF
+
+- title: "Quantifying the Completeness of the Observed Internet AS-level Structure"
+  authors: "Ricardo Oliveira, Dan Pei, Wlater Willinger, Beichuan Zhang, Lixia Zhang"
+  type: techreport
+  institution: "UCLA CS Department"
+  number: "080026"
+  month: September
+  year: 2008
+  pdf: ucla-cs-tr080026.pdf
+  # TODO: Get PDF
+
+- title: "In Search of the Elusive Ground Truth: The Internet's AS-level Connectivity Structure"
+  authors: "Richardo Oliveira, Dan Pei, Walter Willinger, Beichuan Zhang, Lixia Zhang"
+  type: conference
+  conference: "ACM SIGMETRICS"
+  month: June
+  year: 2008
+  pdf: oliveira2008structure.pdf
+  # TODO: Get PDF
+
+- title: "Learning the Valid Incoming Direction of IP Packets"
+  authors: "Jun Li, Jelena Mirkovic, Toby Ehrenkranz, Mengqiu Wang, Peter Reiher, Lixia Zhang"
+  type: journal
+  journal: "Computer Networks"
+  volume: 52
+  issue: 2
+  pages: "399-417"
+  month: February
+  year: 2008
+  pdf: li2008direction.pdf
+  # TODO: Get PDF
+
+- title: "Exploring the robustness of BitTorrent peer-to-peer content distribution systems"
+  authors: "Nikitas Liogkas, Robert Nelson, Eddie Kohler, Lixia Zhang"
+  type: journal
+  journal: "Concurrency and Computation: Practice and Experience"
+  volume: 20
+  issue: 2
+  pages: "179-189"
+  month: February
+  year:  2008
+  pdf: liogkas2008bittorrent.pdf
+  # TODO: Get PDF
 
 # 2007
 
+- title: "A Retrospective of NAT"
+  authors: "Lixia Zhang"
+  type: journal
+  journal: "IETF Journal"
+  volume: 3
+  issue: 2
+  pages: "14-20"
+  month: October
+  year: 2007
+  pdf: zhang2007nat.pdf
+  # TODO: Get PDF
+
+- title: "Geographically Informed Inter-Domain Routing"
+  authors: "Ricardo Oliveira, Mohit Lad, Beichuan Zhang, Lixia Zhang"
+  type: conference
+  conference: "IEEE International Conference on Network Protocols (ICNP)"
+  month: October
+  year: 2007
+  pdf: oliveira2007geo.pdf
+  # TODO: Get PDF
+
+- title: "Inferring the Origin of Routing Changes using Link Weights"
+  authors: "Mohit Lad, Ricardo Oliveira, Dan Massey, Lixia Zhang"
+  type: conference
+  conference: "IEEE International Conference on Network Protocols (ICNP)"
+  month: October
+  year: 2007
+  pdf: lad2007weights.pdf
+  # TODO: Get PDF
+
+- title: "Observations from the DNSSEC Deployment"
+  authors: "Eric Osterweil, Dan Massey, Lixia Zhang"
+  type: conference
+  conference: "IEEE ICNP Workshop on Secure Network Protocols (NPSec)"
+  month: October
+  year: 2007
+  pdf: osterweil2007dnssec.pdf
+  # TODO: Get PDF
+
+- title: "Report from the IAB Workshop on Routing and Addressing"
+  authors: "Dave Meyer, Lixia Zhang, Kevin Fall (ed.)"
+  type: rfc
+  number: 4984
+  month: September
+  year: 2007
+
+- title: "Report from the IAB workshop on Unwanted Traffic"
+  authors: "Loa Andersson, Elwyn Davies, Lixia Zhang"
+  type: rfc
+  number: 4948
+  month: August
+  year: 2007
+
+- title: "Observing the Evolution of Internet AS Topology"
+  authors: "Ricardo Oliveira, Beichuan Zhang, Lixia Zhang"
+  type: conference
+  conference: "ACM SIGCOMM"
+  month: August
+  year: 2007
+  pdf: oliveira2007evolution.pdf
+  # TODO: Get PDF
+
+- title: "Zone State Revocation for DNSSEC"
+  authors: "Eric Osterweil, Vasileios Pappas, Dan Massey, Lixia Zhang"
+  type: conference
+  conference: "ACM SIGCOMM Workshop on Large-Scale Attack Defense (LSAD)"
+  month: August
+  year: 2007
+  pdf: osterweil2007revocation.pdf
+  # TODO: Get PDF
+
+- title: "A Scalable Routing System Design for Future Internet"
+  authors: "Daniel Massey, Lan Wang, Beichaun Zhang, Lixia Zhang"
+  type: conference
+  conference: "ACM SIGCOMM Workshop on IPv6"
+  month: August
+  year: 2007
+  pdf: massey2007scalable.pdf
+  # TODO: Get PDF
+
+- title: "Visualizing Internet Topology Dynamics with Cyclops"
+  authors: "Ricardo Oliveira, Ying-Ju Chi, Yannis Pefkianakis, Mohit Lad, Lixia Zhang"
+  type: conference
+  conference: "ACM SIGCOMM"
+  month: August
+  year: 2007
+  note: Poster
+  pdf: oliveira2007cyclops.pdf
+  # TODO: Get PDF
+
+- title: "Geographically Informed Inter-Domain Routing"
+  authors: "Ricardo Oliveira, Mohit Lad, Beichuan Zhang, Lixia Zhang"
+  type: conference
+  conference: "ACM SIGCOMM"
+  month: August
+  year: 2007
+  note: Poster
+  pdf: oliveira2007geo-poster.pdf
+  # TODO: Get PDF
+
+- title: "Clustering and Sharing Incentives in BitTorrent Systems"
+  authors: "Arnaud Legout, Nikitas Liogkas, Eddie Kohler, Lixia Zhang"
+  type: conference
+  conference: "ACM SIGMETRICS"
+  month: June
+  year: 2007
+  pdf: legout2007bittorrent.pdf
+  # TODO: Get PDF
+
+- title: "Enhancing DNS Resilience against Denial of Service Attacks"
+  authors: "Vasileios Pappas, Dan Massey, Lixia Zhang"
+  type: conference
+  conference: "IEEE/IFIP International Conference on Dependable Systems and Networks"
+  month: June
+  year: 2007
+  pdf: pappas2007dos.pdf
+  # TODO: Get PDF
+
+- title: "Understanding the Resiliency of Internet Topology against Prefix Hijack Attacks"
+  authors: "Mohit Lad, Ricardo Oliveira, Beichuan Zhang, Lixia Zhang"
+  type: conference
+  conference: "IEEE/IFIP International Conference on Dependable Systems and Networks"
+  month: June
+  year: 2007
+  pdf: lad2007prefixhijack.pdf
+  # TODO: Get PDF
+
+- title: "Persistent Detection and Recovery of State Inconsistencies"
+  authors: "Lan Wang, Daniel Massey, Lixia Zhang"
+  type: journal
+  journal: "Computer Networks"
+  volume: 51
+  issue: 6
+  pages: "1444-1458"
+  month: April
+  year: 2007
+  pdf: wang2007presistent.pdf
+  # TODO: Get PDF
+
 # 2006
+
+- title: "Clustering and Sharing Incentives in BitTorrent Systems"
+  authors: "Arnaud Legout, Nikitas Liogkas, Eddie Kohler, Lixia Zhang"
+  type: techreport
+  institution: INRIA
+  number: 00112066
+  month: November
+  year: 2006
+  pdfext: https://hal.inria.fr/inria-00112066/document
+
+- title: "Quantifying Path Exploration in the Internet"
+  authors: "Ricardo Oliveira, Beichuan Zhang, Dan Pei, Rafit Izhak-Ratzin, Lixia Zhang"
+  type: conference
+  conference: "ACM Internet Measurement Conference (IMC)"
+  month: November
+  year: 2006
+  pdf: oliveira2006path.pdf
+  # TODO: Get PDF
+
+- title: "Visualizing Internet Routing Changes"
+  authors: "Mohit Lad, Dan Massey, Lixia Zhang"
+  type: journal
+  journal: "IEEE Transactions on Visualization and Computer Graphics"
+  volume: 12
+  issue: 6
+  pages: "1450-1460"
+  month: November
+  year: 2006
+  pdf: lad2006visualizing.pdf
+
+- title: "Visualization for Security: End of the road or a new beginning?"
+  authors: "Josh Hyman, Mohit Lad, Lixia Zhang"
+  type: conference
+  conference: "Symposium on Visualization for Cyber Security (VizSec)"
+  month: November
+  year: 2006
+  pdf: hyman2006visualization.pdf
+  # TODO: Get PDF
+
+- title: "Secure Diffusion for Wireless Sensor Networks"
+  authors: "Hao Yang, Starsky Wong, Songwu Lu, Lixia Zhang"
+  type: conference
+  conference: "International Conference on Broadband Communications, Networks, and Systems"
+  month: October
+  year: 2006
+  pdf: yang2006wsn.pdf
+  # TODO: Get PDF
+
+- title: "An Overview of Multihoming and Open Issues in GSE"
+  authors: "Lixia Zhang"
+  type: journal
+  journal: "IETF Journal"
+  volume: 2
+  issue: 2
+  pages: "29-35"
+  month: September
+  year: 2006
+  pdf: zhang2006gse.pdf
+  # TODO: Get PDF
+
+- title: "Minimum failure explanations for path vector routing changes"
+  authors: "Mohit Lad, Dan Massey, Adam Meyereson, Akash Nanavati, Lixia Zhang"
+  type: journal
+  journal: Journal of Combinatorial Optimization
+  volume: 12
+  issue: 1-2
+  pages: "5-16"
+  month: September
+  year: 2006
+  pdf: lad2006minimum.pdf
+  # TODO: Get PDF
+
+- title: "PHAS: a Prefix Hijack Alert System"
+  authors: "Mohit Lad, Dan Massey, Dan Pei, Yiguo Wu, Beichuan Zhang, Lixia Zhang"
+  type: conference
+  conference: "USENIX Security Symposium"
+  month: August
+  year: 2006
+  pdf: lad2006phas.pdf
+  # TODO: Get PDF
+
+- title: "Security Through Publicity"
+  authors: "Eric Osterweil, Dan Massey, Batsukh Tsendjav, Beichuan Zhang, Lixia Zhang"
+  type: conference
+  conference: "USENIX Workshop on Hot Topics in Security (HotSec)"
+  month: July
+  year: 2006
+  pdf: osterweil2006publicity.pdf
+  # TODO: Get PDF
+
+- title: "Universal IP Multicast Delivery"
+  authors: "Beichaun Zhang, Wenjie Wang, Sugih Jamin, Dan Massey, Lixia Zhang"
+  type: journal
+  journal: "Computer Networks"
+  volume: 50
+  issue: 6
+  pages: "781-806"
+  month: April
+  year: 2006
+  pdf: zhang2006universal.pdf
+  # TODO: Get PDF
+
+- title: "A Randomized Energy-Conservation Protocol for Resilient Sensor Networks"
+  authors: "Fan Ye, Honghai Zhang, Songwu Lu, Lixia Zhang, Jennifer Hou"
+  type: journal
+  journal: "Wireless Networks Journal (WINET)"
+  volume: 12
+  pages: "637-652"
+  month: April
+  year: 2006
+  pdf: ye2006resilient.pdf
+  # TODO: Get PDF
+
+- title: "A Comparative Study of Current DNS with DHT-Based Alternatives"
+  authors: "Vasileios Pappas, Daniel Massey, Andreas Terzis, Lixia Zhang"
+  type: conference
+  conference: "IEEE INFOCOM"
+  month: April
+  year: 2006
+  pdf: pappas2006dht.pdf
+  # TODO: Get PDF
+
+- title: "Securing a Wireless World"
+  authors: "Hao Yang, Fabio Ricciato, Songwu Lu, Lixia Zhang"
+  type: journal
+  journal: "Proceedings of the IEEE"
+  volume: 94
+  issue: 2
+  pages: "442-454"
+  month: February
+  year: 2006
+  note: Invited Paper
+  pdf: yang2006securing.pdf
+  # TODO: Get PDF
+
+- title: "Exploiting BitTorrent For Fun (But Not Profit)"
+  authors: "Nikitas Liogkas, Robert Nelson, Eddie Kohler, Lixia Zhang"
+  type: conference
+  conference: "International Workshop on Peer-to-Peer Systems (IPTPS)"
+  month: February
+  year: 2006
+  pdf: liogkas2006bittorrent.pdf
+  # TODO: Get PDF
+
+- title: "An Analysis of Convergence Delay in Path Vector Routing Protocols"
+  authors: "Dan Pei, Beichuan Zhang, Dan Massey, Lixia Zhang"
+  type: journal
+  journal: "Computer Networks"
+  volume: 50
+  issue: 3
+  pages: "398-421"
+  month: February
+  year: 2006
+  pdf: pei2006convergence.pdf
+  # TODO: Get PDF
+
+#- title: "Internet Routing: Separating Customers from Providers"
+#  authors: "Beichuan Zhang, Vamsi Kambhampati, Daniel Massey, Ricardo Oliveira, Dan Pei, Lan Wang, Lixia Zhang"
+#  type: ???
+#  year: 2006
+#  ### Eric: I can't find anything about where this paper was published, so I've excluded it for now.
 
 # 2005
 

@@ -2,7 +2,6 @@
   path: index.html
   section_id: home
 
-
 - name: People
   path: people.html
   section_id: people
@@ -10,15 +9,18 @@
 - name: Publications
   path: publications.html
   section_id: publications
+
 - name: Theses
   path: theses.html
   section_id: theses
+
 - name: RFCs
   path: rfc.html
   section_id: rfc
+
 - name: Technical Reports
   path: techreports.html
-  section_id: tr
+  section_id: techreports
 
 - name: Blog
   path: blog/
