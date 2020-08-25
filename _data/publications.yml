@@ -115,6 +115,13 @@
   year: 2020
   pdf: li2020supporting.pdf
 
+- title: "Information-Centric Networking (ICN): Content-Centric Networking (CCNx) and Named Data Networking (NDN) Terminology"
+  authors: "Bastiaan Wissingh, Christopher A. Wood, Alex Afanasyev, Lixia Zhang, David Oran, Christian Tschudin"
+  type: rfc
+  number: 8793
+  month: June
+  year: 2020
+
 # 2019
 
 - title: "RapidVFetch: Rapid Downloading of Named Data via Distributed V2V Communication"
@@ -585,6 +592,13 @@
   note: Revision 2
   pdf: mastorakis2016ndnsim2.pdf
   # TODO: Get PDF
+
+- title: "Report from the Workshop and Prize on Root Causes and Mitigation of Name Collisions"
+  authors: "Matthew Thomas, Allison Mankin, Lixia Zhang"
+  type: rfc
+  number: 8023
+  month: November
+  year: 2016
 
 - title: "Content-Based Security for the Web"
   authors: "Alexander Afanasyev, J. Alex Halderman, Scott Ruoti, Kent Seamons, Yingdi Yu, Daniel Zappala, Lixia Zhang"
@@ -1505,6 +1519,24 @@
   year: 2010
   pdf: 0completeness.pdf
 
+- title: "Towards a systematic understanding of route reflection"
+  authors: "Jong Han Park, Ricardo Oliveira, Shane Amante, Danny McPherson, Lixia Zhang"
+  type: techreport
+  institution: "UCLA CS Department"
+  number: "100006"
+  month: February
+  year: 2010
+  pdf: ucla-cs-tr100006.pdf
+
+- title: "Listen First, Broadcast Later: Topology-Agnostic Forwarding under High Dynamics"
+  authors: "Michael Meisel, Vasileios Pappas, Lixia Zhang"
+  type: techreport
+  institution: "UCLA CS Department"
+  number: "100021"
+  month: unknown
+  year: 2010
+  pdf: ucla-cs-tr100021.pdf
+
 # 2009
 
 - title: "Deploying and Monitoring DNS Security (DNSSEC)"
@@ -1573,6 +1605,15 @@
   pdf: oliveira2009challenges.pdf
   # TODO: Get PDF
 
+- title: "Emergent Mobile Services"
+  authors: "Michael Meisel, Vasileios Pappas, Petros Zerfos, Lixia Zhang"
+  type: techreport
+  institution: "UCLA CS Department"
+  number: "090015"
+  month: July
+  year: 2009
+  pdf: ucla-cs-tr090015.pdf
+
 - title: "Quantifying Path Exploration in the Internet"
   authors: "Ricardo Oliveira, Beichuan Zhang, Dan Pei, Lixia Zhang"
   type: journal
@@ -1605,6 +1646,15 @@
   year: 2009
   pdf: yan2009bgpmon.pdf
   # TODO: Get PDF
+
+- title: "Vantages: Using \"Public Data\" for Key Verification"
+  authors: "Eric Osterweil, Dan Massey, Lixia Zhang"
+  type: techreport
+  institution: "UCLA CS Department"
+  number: "090023"
+  month: unknown
+  year: 2009
+  pdf: ucla-cs-tr090023.pdf
 
 # 2008
 
@@ -1669,6 +1719,16 @@
   pdf: oliveira2008structure.pdf
   # TODO: Get PDF
 
+- title: "APT: A Practical Tunneling Architecture for Routing Scalability"
+  authors: "Dan Jen, Michael Meisel, Daniel Massey, Lan Wang, Beichuan Zhang, Lixia Zhang"
+  type: techreport
+  institution: "UCLA CS Department"
+  number: "080004"
+  month: March
+  year: 2008
+  pdf: ucla-cs-tr080004.pdf
+  # TODO: Get PDF
+
 - title: "Learning the Valid Incoming Direction of IP Packets"
   authors: "Jun Li, Jelena Mirkovic, Toby Ehrenkranz, Mengqiu Wang, Peter Reiher, Lixia Zhang"
   type: journal
@@ -1691,6 +1751,26 @@
   month: February
   year:  2008
   pdf: liogkas2008bittorrent.pdf
+  # TODO: Get PDF
+
+- title: "Quantifying the Operational Status of the DNSSEC Deployment"
+  authors: "Eric Osterweil, Michael Ryan, Dan Massey, Lixia Zhang"
+  type: techreport
+  institution: "UCLA CS Department"
+  number: "080019"
+  month: unknown
+  year: 2008
+  pdf: ucla-cs-tr080019.pdf
+  # TODO: Get PDF
+
+- title: "A Study of Internet Routing Stability Using Link Weight"
+  authors: "Mohit Lad, Jong Han Park, Tiziana Refice, Lixia Zhang"
+  type: techreport
+  institution: "UCLA CS Department"
+  number: "080003"
+  month: unknown
+  year: 2008
+  pdf: ucla-cs-tr080003.pdf
   # TODO: Get PDF
 
 # 2007
@@ -2139,6 +2219,16 @@
   pdf: meng2005ipv4.pdf
   # TODO: Get PDF
 
+- title: "Visualizing Internet Routing Dynamics using Link-Rank"
+  authors: "Mohit Lad, Dan Massey, Lixia Zhang"
+  type: techreport
+  institution: "UCLA CS Department"
+  number: "050010"
+  month: unknown
+  year: 2005
+  pdf: ucla-cs-tr050010.pdf
+  # TODO: Get PDF
+
 # 2004
 
 - title: "URSA: Ubiquitous and Robust Access Control for Mobile Ad-Hoc Networks"
@@ -2170,6 +2260,46 @@
   month: November
   year: 2004
   pdf: zhang2004reachability.pdf
+  # TODO: Get PDF
+
+- title: "Finite State Machines for BGP"
+  authors: "Dan Pei, Dan Massey, Lixia Zhang"
+  type: techreport
+  institution: "UCLA CS Department"
+  number: "040047"
+  month: November
+  year: 2004
+  pdf: ucla-cs-tr040047.pdf
+  # TODO: Get PDF
+
+- title: "A Formal Specification for RIP Protocol"
+  authors: "Dan Pei, Dan Massey, Lixia Zhang"
+  type: techreport
+  institution: "UCLA CS Department"
+  number: "040046"
+  month: November
+  year: 2004
+  pdf: ucla-cs-tr040046.pdf
+  # TODO: Get PDF
+
+- title: "A Simplified Formal Specification for BGP"
+  authors: "Dan Pei, Dan Massey, Lixia Zhang"
+  type: techreport
+  institution: "UCLA CS Department"
+  number: "040044"
+  month: November
+  year: 2004
+  pdf: ucla-cs-tr040044.pdf
+  # TODO: Get PDF
+
+- title: "Route Diagnosis in Path Vector Protcols"
+  authors: "Dan Pei, Mohit Lad, Beichuan Zhang, Dan Massey, Lixia Zhang"
+  type: techreport
+  institution: "UCLA CS Department"
+  number: "040039"
+  month: October
+  year: 2004
+  pdf: ucla-cs-tr040039.pdf
   # TODO: Get PDF
 
 - title: "Impact of Configuration Errors on DNS Robustness"
@@ -2308,6 +2438,36 @@
   pdf: yang2004adhoc.pdf
   # TODO: Get PDF
 
+- title: "An Analysis of Path-Vector Routing Protocol Convergence Algorithms"
+  authors: "Dan Pei, Beichuan Zhang, Dan Massey, Lixia Zhang"
+  type: techreport
+  institution: "UCLA CS Department"
+  number: "040009"
+  month: March
+  year: 2004
+  pdf: ucla-cs-tr040009.pdf
+  # TODO: Get PDF
+
+- title: "FRTR: A Scalable Mechanism to Restore Routing Table Consistency"
+  authors: "Lan Wang, Daniel Massey, Keyur Patel, Lixia Zhang"
+  type: techreport
+  institution: "UCLA CS Department"
+  number: "030054"
+  month: January
+  year: 2004
+  pdf: ucla-cs-tr030054.pdf
+  # TODO: Get PDF
+
+- title: "On Resiliency to Compromised Nodes: A Case for Location Based Security in Sensor Networks"
+  authors: "Hao Yang, Fan Ye, Jerry Cheng, Haiyun Luo, Songwu Lu, Lixia Zhang"
+  type: techreport
+  institution: "UCLA CS Department"
+  number: "040025"
+  month: unknown
+  year: 2004
+  pdf: ucla-cs-tr040025.pdf
+  # TODO: Get PDF
+
 # 2003
 
 - title: "Detection of Invalid Routing Announcements in the RIP Protocol"
@@ -2336,6 +2496,26 @@
   year: 2003
   note: Poster
   pdf: ye2003filtering.pdf
+  # TODO: Get PDF
+
+- title: "A Framework for Resilient Internet Routing Protocols"
+  authors: "Dan Pei, Daniel Massey, Lixia Zhang"
+  type: techreport
+  institution: "UCLA CS Department"
+  number: "030052"
+  month: November
+  year: 2003
+  pdf: ucla-cs-tr030052.pdf
+  # TODO: Get PDF
+
+- title: "A Study of Packet Delivery Performance during Routing Convergence"
+  authors: "Dan Pei, Lan Wang, Daniel Massey, S. Felix Wu, Lixia Zhang"
+  type: techreport
+  institution: "UCLA CS Department"
+  number: "030051"
+  month: November
+  year: 2003
+  pdf: ucla-cs-tr030051.pdf
   # TODO: Get PDF
 
 - title: "Visual-based Anomaly Detection for BGP Origin AS Change (OASC) Events"
@@ -2458,6 +2638,26 @@
   month: February
   year: 2003
   pdf: zhao2003dod.pdf
+  # TODO: Get PDF
+
+- title: "An Analysis of BGP Routing Table Evolution"
+  authors: "Xiaoqiao Meng, Zhiguo Xu, Lixia Zhang, Songwu Lu"
+  type: techreport
+  institution: "UCLA CS Department"
+  number: "030047"
+  month: unknown
+  year: 2003
+  pdf: ucla-cs-tr030047.pdf
+  # TODO: Get PDF
+
+- title: "IPv4 Address Allocation and the Evolution of the BGP routing table"
+  authors: "Zhiguo Xu, Xiaoqiao Meng, Songwu Lu, Lixia Zhang"
+  type: techreport
+  institution: "UCLA CS Department"
+  number: "030009"
+  month: unknown
+  year: 2003
+  pdf: ucla-cs-tr030009.pdf
   # TODO: Get PDF
 
 # 2002
@@ -2649,6 +2849,16 @@
   year: 2001
   note: Internet Proposed Standard
 
+- title: "SAVE: Source Address Validity Enforcement Protocol"
+  authors: "Jun Li, Jelena Mirkovic, Mengqiu Wang, Peter Reiher, Lixia Zhang"
+  type: techreport
+  institution: "UCLA CS Department"
+  number: "010004"
+  month: unknown
+  year: 2001
+  pdf: ucla-cs-tr010004.pdf
+  # TODO: Get PDF
+
 # 2000
 
 - title: "A Framework for Integrated Services Operation over Diffserv Networks"
@@ -2658,13 +2868,33 @@
   month: November
   year: 2000
 
-- title: "Stram Control Transmission Protocol"
+- title: "Stream Control Transmission Protocol"
   authors: "Randall R. Stewart, Qiaobing Xie, Ken Morneault, Chip Sharp, Hanns Juergen Schwarzbauer, Tom Taylor, Ian Rytina, Malleswar Kalla, Lixia Zhang, Vern Paxson"
   type: rfc
   number: 2960
   month: October
   year: 2000
   note: Internet Proposed Standard
+
+- title: "A Helper Based Clustering Algorithm for Multicast Data Delivery"
+  authors: "Jun Wei, Lixia Zhang"
+  type: techreport
+  institution: "UCLA CS Department"
+  number: "200015"
+  month: April
+  year: 2000
+  pdf: ucla-cs-tr200015.pdf
+  # TODO: Get PDF
+
+- title: "On Receiver-Driven Layered Multicast Transmission"
+  authors: "Jun Wei, Lixia Zhang"
+  type: techreport
+  institution: "UCLA CS Department"
+  number: "200014"
+  month: April
+  year: 2000
+  pdf: ucla-cs-tr200014.pdf
+  # TODO: Get PDF
 
 - title: "On the Placement of Internet Instrumentation"
   authors: "Sugih Jamin, Cheng Jin, Yixin Jin, Danny Raz, Yuval Shavitt, Lixia Zhang"
@@ -2708,6 +2938,16 @@
   month: January
   year: 2000
   note: Internet Proposed Standard
+
+- title: "Supporting Nomadic Healers"
+  authors: "Rajive Bagrodia, Mario Gerla, Songwu Lu, Richard Meyer, Daniel J. Valentino, Lixia Zhang"
+  type: techreport
+  institution: "UCLA CS Department"
+  number: "200021"
+  month: unknown
+  year: 2000
+  pdf: ucla-cs-tr200021.pdf
+  # TODO: Get PDF
 
 # 1999
 

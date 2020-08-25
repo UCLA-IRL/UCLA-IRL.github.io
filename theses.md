@@ -28,7 +28,7 @@ All dissertations from IRL Ph.D. graduates are listed herein, with dissertation 
 <br />
 
 {% assign current_year = site.time | date: "%Y" %}
-{% assign months = "January,February,March,April,May,June,July,August,September,October,November,December,unknown" | split: "," %}
+{% assign months = "unknown,January,February,March,April,May,June,July,August,September,October,November,December" | split: "," %}
 {% for year in (1997..current_year) reversed %}
   {% assign is_publication_for_year = false %}
   {% for pub in site.data.theses %}
