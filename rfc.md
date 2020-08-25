@@ -23,7 +23,7 @@ section_id: rfc
 
 {% assign current_year = site.time | date: "%Y" %}
 {% assign months = "January,February,March,April,May,June,July,August,September,October,November,December" | split: "," %}
-{% for year in (2006..current_year) reversed %}
+{% for year in (2001..current_year) reversed %}
   {% assign is_publication_for_year = false %}
   {% for pub in site.data.publications %}
     {% if pub.type == "rfc" %}
@@ -59,20 +59,7 @@ section_id: rfc
   {% endif %}
 {% endfor %}
 
-<h3>2001</h3>
-<ul>
-
-
-<li style="margin-top:14px">
-    <a class="smoothbox_small" href="/bibwiki/bibtex?id=45" title="R. Braden and L. Zhang, &lt;strong&gt;&amp;quot;RSVP Cryptographic Authentication&lt;/strong&gt;,&amp;quot; &lt;em&gt;RFC 3097&lt;/em&gt;, April  2001. "><img src="/images/extensions/bib.png" /></a>
-
-     R. Braden and L. Zhang, <br/><strong>&quot;RSVP Cryptographic Authentication</strong>,&quot; <br/><em>RFC 3097</em>, April  2001.
-
-        <a target="_blank" href="ftp://ftp.isi.edu/in-notes/rfc3097.txt"><img src="/images/extensions/txt.png"></a>
-
-    </li>
-
-</ul><h3>2000</h3>
+<h3>2000</h3>
 <ul>
 
 

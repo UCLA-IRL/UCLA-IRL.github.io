@@ -63,13 +63,24 @@
 #   number: 6769
 #   month: October
 #   year: 2012
+#
+# Book chapter:
+# - title: "Ad-hoc Network Security"
+#   authors: "Hao Yang, Haiyun Luo, Jiejun Kong, Fan Ye, Petros Zerfos, Songwu Lu, Lixia Zhang"
+#   type: chapter
+#   chapter: 22
+#   book: "Mobile Computing Handbook"
+#   isbn: "0-471-41902-8"                 # if known
+#   publisher: "CRC Press"
+#   month: December
+#   year: 2004
 
 # 2020
 
 - title: "DAPES: Named Data for Off-the-Grid File Sharing with Peer-to-Peer Interactions"
   authors: "Spyridon Mastorakis, Tianxiang Li, Lixia Zhang"
   type: conference
-  conference: IEEE International Conference on Distributed Computing Systems (ICDCS)
+  conference: "IEEE International Conference on Distributed Computing Systems (ICDCS)"
   month: December
   year: 2020
   pdfext: https://arxiv.org/pdf/2006.01651.pdf
@@ -450,7 +461,7 @@
 - title: "NDNS: DNS-like Name Service for NDN"
   authors: "Alexander Afanasyev, Xiaoke Jiang, Yingdi Yu, Jiewen Tan, Yumin Xia, Allison Mankin, Lixia Zhang"
   type: conference
-  conference: "International Conference on Computer Communications and Networks (ICCCN)"
+  conference: "IEEE International Conference on Computer Communications and Networks (ICCCN)"
   month: July
   year: 2017
   pdf: 2017-icccn-ndns.pdf
@@ -458,7 +469,7 @@
 - title: "nTorrent: Peer-to-peer File Sharing in Named Data Networking"
   authors: "Spyridon Mastorakis, Alexander Afanasyev, Yingdi Yu, Lixia Zhang"
   type: conference
-  conference: "International Conference on Computer Communications and Networks (ICCCN)"
+  conference: "IEEE International Conference on Computer Communications and Networks (ICCCN)"
   month: July
   year: 2017
   pdf: 2017-icccn-ntorrent.pdf
@@ -1019,7 +1030,7 @@
 - title: "DoS & DDoS in Named Data Networking"
   authors: "Paolo Gasti, Gene Tsudik, Ersin Uzun, Lixia Zhang"
   type: conference
-  conference: "International Conference on Computer Communications and Networks (ICCCN)"
+  conference: "IEEE International Conference on Computer Communications and Networks (ICCCN)"
   month: July
   year: 2013
   pdf: gasti2013dos.pdf
@@ -1517,10 +1528,10 @@
   pdf: osterweil2009dnskeys.pdf
   # TODO: Get PDF
 
-- title: "Support Mobility in the Global Intenret"
+- title: "Support Mobility in the Global Internet"
   authors: "Lixia Zhang, Ryuji Wakikawa, Zhenkai Zhu"
   type: conference
-  conference: "ACM MOBICOM Workshop on Mobile Intenret Through Cellular Networks (MICNET)"
+  conference: "ACM MOBICOM Workshop on Mobile Internet Through Cellular Networks (MICNET)"
   month: September
   year: 2009
   pdf: zhang2009mobility.pdf
@@ -1988,13 +1999,655 @@
 
 # 2005
 
+- title: "Measurement of Highly Active Prefixes in BGP"
+  authors: "Ricardo V. Oliveira, Rafit Izhak-Ratzin, Beichuan Zhang, Lixia Zhang"
+  type: conference
+  conference: "IEEE GLOBECOM"
+  month: November
+  year: 2005
+  pdf: oliveira2005active.pdf
+  # TODO: Get PDF
+
+- title: "The Impact of Multi-homing on Network Reliability and Stability: A Case Study"
+  authors: "Hyo-Joeng Shin, Dan Pei, Mohit Lad, Yanghee Choi, Lixia Zhang"
+  type: conference
+  conference: "IEEE International Conference on Computer Communications and Networks ICCCN"
+  month: October
+  year: 2005
+  pdf: shin2005multihoming.pdf
+  # TODO: Get PDF
+
+- title: "Identifying BGP Routing Table Transfers"
+  authors: "Beichuan Zhang, Vamsi Kambhampati, Mohit Lad, Daniel Massey, Lixia Zhang"
+  type: conference
+  conference: "ACM SIGCOMM Mining the Network Data (MineNet) Workshop"
+  month: August
+  year: 2005
+  pdf: zhang2005transfers.pf
+  # TODO: Get PDF
+
+- title: "Making the world (of communications) a different place"
+  authors: "David D. Clark, Craig Partridge, Robert T. Braden, Bruce Davie, Sally Floyd, Van Jacobson, Dina Katabi, Greg Minshall, K. K. Ramakrishnan, Timothy Roscoe, Ion Stoica, John Wroclawski, Lixia Zhang"
+  type: journal
+  journal: "ACM SIGCOMM Computer Communication Review (CCR)"
+  volume: 35
+  issue: 3
+  pages: "91-96"
+  month: July
+  year: 2005
+  pdf: clark2005different.pdf
+  # TODO: Get PDF
+
+- title: "Timer Interaction in Route Flap Damping"
+  authors: "Beichuan Zhang, Dan Pei, Daniel Massey, Lixia Zhang"
+  type: conference
+  conference: "IEEE International Conference on Distributed Computing Systems (ICDCS)"
+  month: June
+  year: 2005
+  note: "<strong>Best Paper Award</strong>"
+  pdf: zhang2005timer.pdf
+  # TODO: Get PDF
+
+- title: "BGP-RCN: Improving BGP Convergence Through Root Cause Notification"
+  authors: "Dan Pei, Matt Azuma, Daniel Massey, Lixia Zhang"
+  type: journal
+  journal: "Computer Networks"
+  volume: 48
+  issue: 2
+  pages: "175-194"
+  month: June
+  year: 2005
+  pdf: pei2005rcn.pdf
+  # TODO: Get PDF
+
+- title: "Statistical En-Route Filtering of Injected False Data in Sensor Networks"
+  authors: "Fan Ye, Haiyun Luo, Songwu Lu, Lixia Zhang"
+  type: journal
+  journal: "IEEE Journal on Selected Areas in Communications (JSAC)"
+  volume: 23
+  issue: 4
+  pages: "839-850"
+  month: April
+  year: 2005
+  pdf: ye2005filtering.pdf
+  # TODO: Get PDF
+
+- title: "The Impact of Link Failure Location on Routing Dynamics: A Formal Analysis"
+  authors: "Xiaoliang Zhao, Beichuan Zhang, Andreas Terzis, Daniel Massey, Lixia Zhang"
+  type: conference
+  conference: "ACM SIGCOMM Asia Workshop"
+  month: April
+  year: 2005
+  pdf: zhao2005dynamics.pdf
+  # TODO: Get PDF
+
+- title: "The Impact of Multihop Wireless Channel on TCP Performance"
+  authors: "Zhenghua Fu, Haiyun Luo, Petros Zerfos, Songwu Lu, Lixia Zhang, Mario Gerla"
+  type: journal
+  journal: "IEEE Transactions on Mobile Computing"
+  volume: 4
+  issue: 2
+  pages: "209-221"
+  month: March
+  year: 2005
+  pdf: fu2005multihop.pdf
+  # TODO: Get PDF
+
+- title: "GRAdient Broadcast: A Robust Data Delivery Protocol for Large Scale Sensor Networks"
+  authors: "Fan Ye, Gary Zhong, Songwu Lu, Lixia Zhang"
+  type: journal
+  journal: "Wireless Networks Journal (WINET)"
+  volume: 11
+  pages: "285-298"
+  month: March
+  year: 2005
+  pdf: ye2005grab.pdf
+  # TODO: Get PDF
+
+- title: "TTDD: Two-Tier Data Dissemination in Large-scale Wireless Sensor Networks"
+  authors: "Haiyun Luo, Fan Ye, Jerry Cheng, Songwu Lu, Lixia Zhang"
+  type: journal
+  journal: "Wireless Networks Journal (WINET)"
+  volume: 11
+  pages: "161-175"
+  month: January
+  year: 2005
+  pdf: luo2005ttdd.pdf
+  # TODO: Get PDF
+
+- title: "Collecting the Internet AS-level Topology"
+  authors: "Beichuan Zhang, Raymond Liu, Daniel Massey, Lixia Zhang"
+  type: journal
+  journal: "ACM SIGCOMM Computer Communication Review (CCR)"
+  volume: 35
+  issue: 1
+  pages: "53-61"
+  month: January
+  year: 2005
+  pdf: zhang2005topology.pdf
+  # TODO: Get PDF
+
+- title: "IPv4 Address Allocation and BGP Routing Table Evolution"
+  authors: "Xiaoqiao Meng, Zhiguo Xu, Beichuan Zhang, Geoff Huston, Songwu Lu, Lixia Zhang"
+  type: journal
+  journal: "ACM SIGCOMM Computer Communication Review (CCR)"
+  volume: 35
+  issue: 1
+  pages: "71-80"
+  month: January
+  year: 2005
+  pdf: meng2005ipv4.pdf
+  # TODO: Get PDF
+
 # 2004
+
+- title: "URSA: Ubiquitous and Robust Access Control for Mobile Ad-Hoc Networks"
+  authors: "Haiyun Luo, Jiejun Kong, Petros Zerfos, Songwu Lu, Lixia Zhang"
+  type: journal
+  journal: "IEEE/ACM Transactions on Networking"
+  volume: 12
+  issue: 6
+  pages: "1049-1063"
+  month: December
+  year: 2004
+  pdf: luo2004ursa.pdf
+  # TODO: Get PDF
+
+- title: "Ad-hoc Network Security"
+  authors: "Hao Yang, Haiyun Luo, Jiejun Kong, Fan Ye, Petros Zerfos, Songwu Lu, Lixia Zhang"
+  type: chapter
+  chapter: 22
+  book: "Handbook of Wireless Networks and Mobile Computing"
+  isbn: "978-0-471-41902-0"
+  publisher: "CRC Press"
+  month: December
+  year: 2004
+
+- title: "Destination Reachability and BGP Convergence Time"
+  authors: "Beichuan Zhang, Daniel Massey, Lixia Zhang"
+  type: conference
+  conference: "IEEE GLOBECOM"
+  month: November
+  year: 2004
+  pdf: zhang2004reachability.pdf
+  # TODO: Get PDF
+
+- title: "Impact of Configuration Errors on DNS Robustness"
+  authors: "Vasileios Pappas, Zhiguo Xu, Songwu Lu, Daniel Massey, Andreas Terzis, Lixia Zhang"
+  type: conference
+  conference: "ACM SIGCOMM"
+  month: August
+  year: 2004
+  pdf: pappas2004errors.pdf
+  # TODO: Get PDF
+
+- title: "Distributed DNS Troubleshooting"
+  authors: "Vasileios Pappas, Patrik Fältström, Daniel Massey, Lixia Zhang"
+  type: conference
+  conference: "ACM SIGCOMM Workshop on Network Troubleshooting"
+  month: August
+  year: 2004
+  pdf: pappas2004troubleshooting.pdf
+  # TODO: Get PDF
+
+- title: "Dissemination Protocols for Large Sensor Networks"
+  authors: "Fan Ye, Haiyun Luo, Songwu Lu, Lixia Zhang"
+  type: chapter
+  chapter: 6
+  book: "Wireless Sensor Networks"
+  isbn: "978-1-4020-7884-2"
+  publisher: "Springer"
+  month: July
+  year: 2004
+
+- title: "Distributed Council Election"
+  authors: "Yuval Shavitt, Dan Raz, Lixia Zhang"
+  type: journal
+  journal: "IEEE/ACM Transactions on Networking"
+  volume: 12
+  issue: 3
+  pages: "483-492"
+  month: June
+  year: 2004
+  pdf: shavitt2004council.pdf
+  # TODO: Get PDF
+
+- title: "HOURS: Achieving DoS Resilience in an Open Service Hierarchy"
+  authors: "Hao Yang, Haiyun Luo, Yang Yi, Songwu Lu, Lixia Zhang"
+  type: conference
+  conference: "IEEE/IFIP Conference on Dependable Systems and Networks (DSN)"
+  month: June
+  year: 2004
+  pdf: yang2004hours.pdf
+  # TODO: Get PDF
+
+- title: "FRTR: A Scalable Mechanism to Restore Routing Table Consistency"
+  authors: "Lan Wang, Dan Massey, Keyur Patel, Lixia Zhang"
+  type: conference
+  conference: "IEEE/IFIP Conference on Dependable Systems and Networks (DSN)"
+  month: June
+  year: 2004
+  pdf: wang2004frtr.pdf
+  # TODO: Get PDF
+
+- title: "On Detection of Anomalous Routing Dynamics in BGP"
+  authors: "Ke Zhang, Amy Yen, Xiaoliang Zhao, Dan Massey, S. Felix Wu, Lixia Zhang"
+  type: conference
+  conference: "IFIP Networking"
+  month: May
+  year: 2004
+  pdf: zhang2004anomalous.pdf
+  # TODO: Get PDF
+
+- title: "Link-Rank: A Graphical Tool for Capturing Routing Dynamics"
+  authors: "Mohit Lad, Dan Massey, Lixia Zhang"
+  type: conference
+  conference: "IEEE/IFIP Network Operations and Management Symposium (NOMS)"
+  month: April
+  year: 2004
+  pdf: lad2004link-rank.pdf
+  # TODO: Get PDF
+
+- title: "Statistical En-route Filtering of Injected False Data in Sensor Networks"
+  authors: "Fan Ye, Haiyun Luo, Songwu Lu, Lixia Zhang"
+  type: conference
+  conference: "IEEE INFOCOM"
+  month: March
+  year: 2004
+  pdf: ye2004filtering.pdf
+  # TODO: Get PDF
+
+- title: "A Framework for Resilient Internet Routing Protocols"
+  authors: "Dan Pei, Lixia Zhang, Dan Massey"
+  type: journal
+  journal: "IEEE Network"
+  volume: 18
+  issue: 2
+  pages: "5-12"
+  month: March
+  year: 2004
+  pdf: pei2004resilient.pdf
+  # TODO: Get PDF
+
+- title: "Fault-Tolerant Data Delivery in Multicast Overlay Networks"
+  authors: "Vasileios Pappas, Beichuan Zhang, Andreas Terzis, Lixia Zhang"
+  type: conference
+  conference: "IEEE International Conference on Distributed Computing Systems (ICDCS)"
+  month: March
+  year: 2004
+  pdf: pappas2004overlay.pdf
+  # TODO: Get PDF
+
+- title: "A Study of BGP Path Vector Route Looping Behavior"
+  authors: "Dan Pei, Xiaoliang Zhao, Dan Massey, Lixia Zhang"
+  type: conference
+  conference: "IEEE International Conference on Distributed Computing Systems (ICDCS)"
+  month: March
+  year: 2004
+  pdf: pei2004looping.pdf
+  # TODO: Get PDF
+
+- title: "An Algorithmic Approach to Identifying Link Failures"
+  authors: "Mohit Lad, Akash Nanavati, Dan Massey, Lixia Zhang"
+  type: conference
+  conference: "Pacific Rim International Symposium on Dependable Computing (PRDC)"
+  month: March
+  year: 2004
+  pdf: lad2004failures.pdf
+  # TODO: Get PDF
+
+- title: "Security in Mobile Ad-Hoc Wireless Networks: Challenges and Solutions"
+  authors: "Hao Yang, Haiyun Luo, Fan Ye, Songwu Lu, Lixia Zhang"
+  type: journal
+  journal: "IEEE Wireless Communication"
+  volume: 11
+  issue: 1
+  pages: "38-47"
+  month: March
+  year: 2004
+  pdf: yang2004adhoc.pdf
+  # TODO: Get PDF
 
 # 2003
 
+- title: "Detection of Invalid Routing Announcements in the RIP Protocol"
+  authors: "Dan Pei, Dan Massey, Lixia Zhang"
+  type: conference
+  conference: "IEEE GLOBECOM"
+  month: December
+  year: 2003
+  pdf: pei2003rip.pdf
+  # TODO: Get PDF
+
+- title: "Analysis of BGP Update Surge during Slammer Worm Attack"
+  authors: "Mohit Lad, Xiaoliang Zhao, Beichuan Zhang, Dan Massey, Lixia Zhang"
+  type: conference
+  conference: "International Workshop on Distributed Computing (IWDC)"
+  month: December
+  year: 2003
+  pdf: lad2003slammer.pdf
+  # TODO: Get PDF
+
+- title: "Statistical En-route Filtering of Injected False Data In Sensor Networks"
+  authors: "Fan Ye, Haiyun Luo, Songwu Lu, Lixia Zhang"
+  type: conference
+  conference: "ACM SenSys"
+  month: November
+  year: 2003
+  note: Poster
+  pdf: ye2003filtering.pdf
+  # TODO: Get PDF
+
+- title: "Visual-based Anomaly Detection for BGP Origin AS Change (OASC) Events"
+  authors: "Soon-Tee Teoh, Kwan-Liu Ma, S. Felix Wu, Dan Massey, Xiao-Liang Zhao, Dan Pei, Lan Wang, Lixia Zhang, Randy Bush"
+  type: conference
+  conference: "International Workshop on Distributed Systems: Operations and Management"
+  month: October
+  year: 2003
+  pdf: teoh2003oasc.pdf
+  # TODO: Get PDF
+
+- title: "A Study on the Routing Convergence of Latin American Networks"
+  authors: "Xiaoliang Zhao, Dan Massey, Dan Pei, Lixia Zhang"
+  type: conference
+  conference: "IFIP/ACM Latin American Networking Conference (LANC)"
+  month: October
+  year: 2003
+  pdf: zhao2003lanc.pdf
+  # TODO: Get PDF
+
+- title: "BGP-RCN: Improving BGP Convergence Through Root Cause Notification"
+  authors: "Dan Pei, Matt Azuma, Nam Nguyen, Jiwei Chen, Dan Massey, Lixia Zhang"
+  type: techreport
+  institution: "UCLA CS Department"
+  number: "030047"
+  month: October
+  year: 2003
+  pdf: ucla-cs-tr030047.pdf
+  # TODO: Get PDF
+
+- title: "Protecting BGP Routes to Top-Level DNS Servers"
+  authors: "Lan Wang, Xiaoliang Zhao, Dan Pei, Randy Bush, Dan Massey, Lixia Zhang"
+  type: journal
+  journal: "IEEE Transactions on Parallel and Distributed Systems (TPDS)"
+  volume: 14
+  issue: 9
+  pages: "851-860"
+  month: September
+  year: 2003
+  pdf: wang2003protecting-tpds.pdf
+  # TODO: Get PDF
+
+- title: "A Study of Packet Delivery Performance during Routing Convergence"
+  authors: "Dan Pei, Lan Wang, Daniel Massey, S. Felix Wu, Lixia Zhang"
+  type: conference
+  conference: "IEEE/IFIP Conference on Dependable Systems and Networks"
+  month: June
+  year: 2003
+  pdf: pei2003convergence.pdf
+  # TODO: Get PDF
+
+- title: "DIP: Distance Information Protocol for IDMaps"
+  authors: "Yixin Jin, Beichuan Zhang, Vasileios Pappas, Sugih Jamin, Lixia Zhang"
+  type: conference
+  conference: "IEEE Symposium on Computers and Communications (ISCC)"
+  month: June
+  year: 2003
+  pdf: jin2003dip.pdf
+  # TODO: Get PDF
+
+- title: "PEAS: A Robust Energy Conserving Protocol for Long-lived Sensor Networks"
+  authors: "Fan Ye, Gary Zhong, Songwu Lu, Lixia Zhang"
+  type: conference
+  conference: "IEEE International Conference on Distributed Computing Systems (ICDCS)"
+  month: May
+  year: 2003
+  pdf: ye2003peas.pdf
+  # TODO: Get PDF
+
+- title: "Protecting BGP Routes to Top Level DNS Servers"
+  authors: "Lan Wang, Xiaoliang Zhao, Dan Pei, Randy Bush, Daniel Massey, Allison Mankin, Shyhtsun Felix Wu, Lixia Zhang"
+  type: conference
+  conference: "IEEE International Conference on Distributed Computing Systems (ICDCS)"
+  month: May
+  year: 2003
+  pdf: wang2003protecting-icdcs.pdf
+  # TODO: Get PDF
+
+- title: "A Robust Data Delivery Protocol for Large Scale Sensor Networks"
+  authors: "Fan Ye, Gary Zhong, Songwu Lu, Lixia Zhang"
+  type: conference
+  conference: "International Workshop on Information Processing in Sensor Networks (IPSN)"
+  month: April
+  year: 2003
+  pdf: ye2003robust.pdf
+  # TODO: Get PDF
+
+- title: "Impact of IPv4 Address Allocation Practice on BGP Routing Table Growth"
+  authors: "Zhiguo Xu, Xiaoqiao Meng, Songwu Lu, Lixia Zhang"
+  type: conference
+  conference: "IEEE Computer Communication Workshop"
+  month: March
+  year: 2003
+  pdf: xu2003ipv4.pdf
+  # TODO: Get PDF
+
+- title: "The Impact of Multihop Wireless Channel on TCP Throughput and Loss"
+  authors: "Zhenghua Fu, Petros Zerfos, Haiyun Luo, Songwu Lu, Lixia Zhang, Mario Gerla"
+  type: conference
+  conference: "IEEE INFOCOM"
+  month: March
+  year: 2003
+  pdf: fu2003multihop.pdf
+  # TODO: Get PDF
+
+#- title: "A Two-tier Data Dissemination Model for Large-scale Wireless Sensor Networks"
+#  authors: "Haiyun Luo, Fan Ye, Jerry Cheng, Songwu Lu, Lixia Zhang"
+#  type: conference
+#  conference: "ACM MONET"
+#  month: March
+#  year: 2003
+#  pdf: luo2003twotier.pdf
+#  # TODO: Get PDF
+# ### I couldn't find any evidence of this paper's existence. Maybe a mixed up entry? -Eric
+
+- title: "Understanding BGP behavior through a study of DoD prefixes"
+  authors: "Xiaoliang Zhao, Dan Massey, S. Felix Wu, Mohit Lad, Dan Pei, Lan Wang, Lixia Zhang"
+  type: conference
+  conference: "DARPA Information Survivability Conference and Exposition (DISCEX)"
+  month: February
+  year: 2003
+  pdf: zhao2003dod.pdf
+  # TODO: Get PDF
+
 # 2002
 
+- title: "Observation and Analysis of BGP Behavior under Stress"
+  authors: "Lan Wang, Xiaoliang Zhao, Dan Pei, Randy Bush, Dan Massey, Allison Mankin, S. Felix Wu, Lixia Zhang"
+  type: conference
+  conference: "ACM SIGCOMM Internet Measurement Workshop (IMW)"
+  month: November
+  year: 2002
+  pdf: wang2002stress.pdf
+  # TODO: Get PDF
+
+- title: "PEAS: A Robust Energy Conserving Protocol for Long-lived Sensor Networks"
+  authors: "Fan Ye, Gary Zhong, Songwu Lu, Lixia Zhang"
+  type: conference
+  conference: "IEEE International Conference on Network Protocols (ICNP)"
+  month: November
+  year: 2002
+  note: Poster
+  pdf: ye2002peas.pdf
+  # TODO: Get PDF
+
+- title: "Overlay Optimizations for End-host Multicast"
+  authors: "Wenjie Wang, Davide Helder, Sugih Jamin, Lixia Zhang"
+  type: conference
+  conference: "International Workshop on Networked Group Communication (NGC)"
+  month: October
+  year: 2002
+  pdf: wang2002overlay.pdf
+  # TODO: Get PDF
+
+- title: "Universal IP Multicast Delivery"
+  authors: "Beichuan Zhang, Sugih Jamin, Lixia Zhang"
+  type: conference
+  conference: "International Workshop on Networked Group Communication (NGC)"
+  month: October
+  year: 2002
+  pdf: zhang2002multicast.pdf
+  # TODO: Get PDF
+
+#- title: "ELISHA: A Visual-based Anomaly Detection System for the BGP Routing Protocol"
+#  authors: "S.T. Teoh, Kwan-Liu Ma, S. Felix Wu, Dan Pei, Lan Wang, Lixia Zhang, Allison Mankin, Dan Massey, X. Zhao, Randy Bush"
+#  type: conference
+#  conference: "International Symposium on Recent Advances in Intrusion Detection (RAID)"
+#  month: October
+#  year: 2002
+#  pdf: teoh2002elisha.pdf
+#  # TODO: Get PDF
+# ### I couldn't find any evidence of this paper's existence, so I've excluded it for now. -Eric
+
+- title: "A Two-Tier Data Dissemination Model for Large-scale Wireless Sensor Networks"
+  authors: "Fan Ye, Haiyun Luo, Jerry Cheng, Songwu Lu, Lixia Zhang"
+  type: conference
+  conference: "ACM MobiCom"
+  month: September
+  year: 2002
+  pdf: ye2002twotier.pdf
+  # TODO: Get PDF
+
+- title: "Self-securing Ad Hoc Wireless Networks"
+  authors: "Haiyun Luo, Jiejun Kong, Petros Zerfos, Songwu Lu, Lixia Zhang"
+  type: conference
+  conference: "IEEE Symposium on Computers and Communications (ISCC)"
+  month: July
+  year: 2002
+  pdf: luo2002self.pdf
+  # TODO: Get PDF
+
+- title: "Host Multicast: A Framework for Delivering Multicast to End Users"
+  authors: "Beichuan Zhang, Sugih Jamin, Lixia Zhang"
+  type: conference
+  conference: "IEEE INFOCOM"
+  month: June
+  year: 2002
+  pdf: zhang2002host.pdf
+  # TODO: Get PDF
+
+- title: "Improving BGP Convergence Through Consistency Assertions"
+  authors: "Dan Pei, Xiaoliang Zhao, Lan Wang, Daniel Massey, Allison Mankin, S. Felix Wu, Lixia Zhang"
+  type: conference
+  conference: "IEEE INFOCOM"
+  month: June
+  year: 2002
+  pdf: pei2002assertions.pdf
+  # TODO: Get PDF
+
+- title: "SAVE: Source Address Validity Enforcement Protocol"
+  authors: "Jun Li, Jelena Mirkovic, Mengqiu Wang, Peter Reiher, Lixia Zhang"
+  type: conference
+  conference: "IEEE INFOCOM"
+  month: June
+  year: 2002
+  pdf: li2002save.pdf
+  # TODO: Get PDF
+
+- title: "Detection of Invalid Routing Announcement in the Internet"
+  authors: "Xiaoliang Zhao, Dan Pei, Lan Wang, Dan Massey, Allison Mankin, S. Felix Wu, Lixia Zhang"
+  type: conference
+  conference: "IEEE/IFIP Conference on Dependable Systems and Networks (DSN)"
+  month: June
+  year: 2002
+  pdf: zhao2002detection.pdf
+  # TODO: Get PDF
+
+#- title: "A Self-Organizing Approach to Data Forwarding in Wireless Sensor Networks"
+#  authors: "Jelena Mirkovic, Songwu Lu, Lixia Zhang"
+#  type: conference
+#  conference: "IEEE International Conference on Communications (IEEE ICC)"
+#  month: June
+#  year: 2002
+#  pdf: mirkovic2002self.pdf
+#  # TODO: Get PDF
+# ### I can't find any evidence of this paper's existence on the conference website, so I've excluded it for now. -Eric
+
 # 2001
+
+- title: "An Analysis of BGP Multiple Origin AS(MOAS) Conflicts"
+  authors: "Xiaoliang Zhao, Dan Pei, Lan Wang, Dan Massey, Allison Mankin, S. Felix Wu, Lixia Zhang"
+  type: conference
+  conference: "ACM SIGCOMM Internet Measurement Workshop (IMW)"
+  month: November
+  year: 2001
+  pdf: zhao2001moas.pdf
+  # TODO: Get PDF
+
+- title: "Providing Robust and Ubiquitous Security Support for MANET"
+  authors: "Jiejun Kong, Petros Zerfos, Haiyun Luo, Songwu Lu, Lixia Zhang"
+  type: conference
+  conference: "IEEE International Conference on Network Protocols (ICNP)"
+  month: November
+  year: 2001
+  pdf: kong2001manet.pdf
+  # TODO: Get PDF
+
+- title: "Recursive Position Estimation in Sensor Networks"
+  authors: "Joe Albowicz, Alvin Chen, Lixia Zhang"
+  type: conference
+  conference: "IEEE International Conference on Network Protocols (ICNP)"
+  month: November
+  year: 2001
+  pdf: albowicz2001position.pdf
+  # TODO: Get PDf
+
+- title: "On Design and Evaluation of 'Intention-Driven' ICMP Traceback"
+  authors: "Allison Mankin, Dan Massey, Chie Lung Wu, S. Felix Wu, Lixia Zhang"
+  type: conference
+  conference: "IEEE International Conference on Computer Communications and Networks (ICCCN)"
+  month: October
+  year: 2001
+  pdf: mankin2001intention.pdf
+  # TODO: Get PDF
+
+- title: "A Scalable Solution to Minimum Cost Forwarding in Large Scale Sensor Networks"
+  authors: "Fan Ye, Alvin Chen, Songwu Lu, Lixia Zhang"
+  type: conference
+  conference: "IEEE International Conference on Computer Communications and Networks (ICCCN)"
+  month: October
+  year: 2001
+  pdf: ye2001minimum.pdf
+  # TODO: Get PDF
+
+- title: "IDMAPS: A Global Internet Host Distance Estimation Service"
+  authors: "Paul Francis, Sugih Jamin, Cheng Jin, Yixin Jin, Danny Raz, Yuval Shavitt, Lixia Zhang"
+  type: journal
+  journal: "IEEE/ACM Transactions on Networking"
+  volume: 9
+  issue: 5
+  pages: "525-540"
+  month: October
+  year: 2001
+  pdf: francis2001idmaps.pdf
+  # TODO: Get PDF
+
+- title: "A Self-Organizing Approach to Data Forwarding in Wireless Sensor Networks"
+  authors: "Jelena Mirkovic, Songwu Lu, Lixia Zhang"
+  type: conference
+  conference: "IEEE International Conference on Communications (ICC)"
+  month: June
+  year: 2001
+  pdf: mirkovic2001organizing.pdf
+  # TODO: Get PDF
+
+- title: "RSVP Cryptographic Authentication -- Updated Message Type Value"
+  authors: "Robert Braden, Lixia Zhang"
+  type: rfc
+  number: 3097
+  month: April
+  year: 2001
+  note: Internet Proposed Standard
 
 # 2000
 

@@ -25,7 +25,7 @@ section_id: techreports
 
 {% assign current_year = site.time | date: "%Y" %}
 {% assign months = "January,February,March,April,May,June,July,August,September,October,November,December" | split: "," %}
-{% for year in (2006..current_year) reversed %}
+{% for year in (2001..current_year) reversed %}
   {% assign is_publication_for_year = false %}
   {% for pub in site.data.publications %}
     {% if pub.type == "techreport" %}
@@ -71,19 +71,5 @@ section_id: techreports
     </ul>
   {% endif %}
 {% endfor %}
-
-<h3>2003</h3>
-<ul>
-
-
-<li style="margin-top:14px">
-    <a class="smoothbox_small" href="/bibwiki/bibtex?id=233" title="Dan Pei, Matt Azuma, Nam Nguyen, Jiwei Chen, Dan Massey, and Lixia Zhang, &lt;strong&gt;&amp;quot;BGP-RCN: Improving BGP Convergence through Root Cause Notification,&amp;quot;&lt;/strong&gt; UCLA CSD, Techinical Report TR-030047, 2003. "><img src="/images/extensions/bib.png" /></a>
-
-     Dan Pei, Matt Azuma, Nam Nguyen, Jiwei Chen, Dan Massey, and Lixia Zhang, <br/><strong>&quot;BGP-RCN: Improving BGP Convergence through Root Cause Notification,&quot;</strong><br/> UCLA CSD, Techinical Report TR-030047, 2003.
-
-        <a target="_blank" href="http://irl.cs.ucla.edu/papers/dan_bgp-rcn-tr.pdf"><img src="/images/extensions/pdf.png"></a>
-
-    </li>
-</ul>
 
 </div>
