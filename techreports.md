@@ -24,8 +24,8 @@ section_id: techreports
 <div class="row">
 
 {% assign current_year = site.time | date: "%Y" %}
-{% assign months = "January,February,March,April,May,June,July,August,September,October,November,December" | split: "," %}
-{% for year in (2001..current_year) reversed %}
+{% assign months = "January,February,March,April,May,June,July,August,September,October,November,December,unknown" | split: "," %}
+{% for year in (1997..current_year) reversed %}
   {% assign is_publication_for_year = false %}
   {% for pub in site.data.publications %}
     {% if pub.type == "techreport" %}
@@ -48,9 +48,9 @@ section_id: techreports
               {{ pub.authors }}<br />
               <strong>"{{ pub.title }}"</strong><br />
               {% if pub.type == "techreport" %}
-                <em>{{ pub.institution }}</em>, Technical Report {{ pub.number }}, {{ month }} {{ year }}.<br />
+                <em>{{ pub.institution }}</em>, Technical Report {{ pub.number }}, {% if month != "unknown" %} {{ month }} {% endif %}{{ year }}.<br />
               {% elsif pub.type == "internet-draft" %}
-                <em>{{ pub.group }}</em>, Internet-Draft, {{ month }} {{ year }}.<br />
+                <em>{{ pub.group }}</em>, Internet-Draft, {% if month != "unknown" %} {{ month }} {% endif %}{{ year }}.<br />
               {% endif %}
               {% if pub.note %}
                 <em>{{ pub.note }}</em><br />
