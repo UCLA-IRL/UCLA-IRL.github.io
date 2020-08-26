@@ -2,9 +2,10 @@
 # NOTE: The month of publication is required and the capitalization for type and month *MUST* follow
 # the examples provided for the system to process the publication record properly!
 #
-# * Choose only one of 'pdf' or 'pdfext', depending upon whether the publication is hosted locally or externally.
+# * Choose only one of 'pdf' or 'pdfext' (or 'txt' or 'txtext'), depending upon whether the
+#   publication is hosted locally or externally.
 #
-# * Paths for 'pdf' are relative to data/files/papers.
+# * Paths for 'pdf' and 'txt' are relative to data/files/papers.
 #
 # Conference publication:
 # - title: "Efficiently Computing Taxes in Ancient Civilizations"
@@ -1739,8 +1740,7 @@
   pages: "399-417"
   month: February
   year: 2008
-  pdf: li2008direction.pdf
-  # TODO: Get PDF
+  pdfext: https://www.sciencedirect.com/science/article/abs/pii/S1389128607002794
 
 - title: "Exploring the robustness of BitTorrent peer-to-peer content distribution systems"
   authors: "Nikitas Liogkas, Robert Nelson, Eddie Kohler, Lixia Zhang"
@@ -1751,8 +1751,7 @@
   pages: "179-189"
   month: February
   year:  2008
-  pdf: liogkas2008bittorrent.pdf
-  # TODO: Get PDF
+  pdfext: https://onlinelibrary.wiley.com/doi/epdf/10.1002/cpe.1187
 
 - title: "Quantifying the Operational Status of the DNSSEC Deployment"
   authors: "Eric Osterweil, Michael Ryan, Dan Massey, Lixia Zhang"
@@ -1783,8 +1782,7 @@
   pages: "14-20"
   month: October
   year: 2007
-  pdf: zhang2007nat.pdf
-  # TODO: Get PDF
+  html: https://www.ietfjournal.org/a-retrospective-view-of-nat/
 
 - title: "Geographically Informed Inter-Domain Routing"
   authors: "Ricardo Oliveira, Mohit Lad, Beichuan Zhang, Lixia Zhang"
@@ -1872,8 +1870,7 @@
   conference: "ACM SIGMETRICS"
   month: June
   year: 2007
-  pdf: legout2007bittorrent.pdf
-  # TODO: Get PDF
+  pdfext: https://dl.acm.org/doi/abs/10.1145/1269899.1254919
 
 - title: "Enhancing DNS Resilience against Denial of Service Attacks"
   authors: "Vasileios Pappas, Dan Massey, Lixia Zhang"
@@ -1938,8 +1935,7 @@
   conference: "Symposium on Visualization for Cyber Security (VizSec)"
   month: November
   year: 2006
-  pdf: hyman2006visualization.pdf
-  # TODO: Get PDF
+  pdfext: https://www.academia.edu/download/30742100/vizsec06.pdf
 
 - title: "Secure Diffusion for Wireless Sensor Networks"
   authors: "Hao Yang, Starsky Wong, Songwu Lu, Lixia Zhang"
@@ -2069,8 +2065,7 @@
   conference: "IEEE International Conference on Computer Communications and Networks (ICCCN)"
   month: October
   year: 2005
-  pdf: shin2005multihoming.pdf
-  # TODO: Get PDF
+  pdfext: https://ieeexplore.ieee.org/abstract/document/1523934
 
 - title: "Identifying BGP Routing Table Transfers"
   authors: "Beichuan Zhang, Vamsi Kambhampati, Mohit Lad, Daniel Massey, Lixia Zhang"
@@ -2089,8 +2084,7 @@
   pages: "91-96"
   month: July
   year: 2005
-  pdf: clark2005different.pdf
-  # TODO: Get PDF
+  pdfext: https://dl.acm.org/doi/abs/10.1145/1070873.1070887
 
 - title: "Timer Interaction in Route Flap Damping"
   authors: "Beichuan Zhang, Dan Pei, Daniel Massey, Lixia Zhang"
@@ -2266,17 +2260,15 @@
   conference: "ACM SIGCOMM"
   month: August
   year: 2004
-  pdf: pappas2004errors.pdf
-  # TODO: Get PDF
+  pdfext: https://dl.acm.org/doi/abs/10.1145/1015467.1015503
 
 - title: "Distributed DNS Troubleshooting"
   authors: "Vasileios Pappas, Patrik Fältström, Daniel Massey, Lixia Zhang"
   type: conference
-  conference: "ACM SIGCOMM Workshop on Network Troubleshooting"
+  conference: "ACM SIGCOMM Workshop on Network Troubleshooting (NetT)"
   month: August
   year: 2004
-  pdf: pappas2004troubleshooting.pdf
-  # TODO: Get PDF
+  pdfext: https://dl.acm.org/doi/abs/10.1145/1016687.1016694
 
 - title: "Dissemination Protocols for Large Sensor Networks"
   authors: "Fan Ye, Haiyun Luo, Songwu Lu, Lixia Zhang"
@@ -2297,22 +2289,20 @@
   pages: "483-492"
   month: June
   year: 2004
-  pdf: shavitt2004council.pdf
-  # TODO: Get PDF
+  pdfext: https://ieeexplore.ieee.org/abstract/document/1306495
 
 - title: "HOURS: Achieving DoS Resilience in an Open Service Hierarchy"
   authors: "Hao Yang, Haiyun Luo, Yang Yi, Songwu Lu, Lixia Zhang"
   type: conference
-  conference: "IEEE/IFIP Conference on Dependable Systems and Networks (DSN)"
+  conference: "IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)"
   month: June
   year: 2004
-  pdf: yang2004hours.pdf
-  # TODO: Get PDF
+  pdfext: https://ieeexplore.ieee.org/abstract/document/1311879
 
 - title: "FRTR: A Scalable Mechanism to Restore Routing Table Consistency"
   authors: "Lan Wang, Dan Massey, Keyur Patel, Lixia Zhang"
   type: conference
-  conference: "IEEE/IFIP Conference on Dependable Systems and Networks (DSN)"
+  conference: "IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)"
   month: June
   year: 2004
   pdf: wang2004frtr.pdf
@@ -2323,8 +2313,7 @@
   conference: "IFIP Networking"
   month: May
   year: 2004
-  pdf: zhang2004anomalous.pdf
-  # TODO: Get PDF
+  pdfext: https://link.springer.com/chapter/10.1007/978-3-540-24693-0_22
 
 - title: "Link-Rank: A Graphical Tool for Capturing Routing Dynamics"
   authors: "Mohit Lad, Dan Massey, Lixia Zhang"
@@ -2340,8 +2329,7 @@
   conference: "IEEE INFOCOM"
   month: March
   year: 2004
-  pdf: ye2004filtering.pdf
-  # TODO: Get PDF
+  pdfext: https://ieeexplore.ieee.org/abstract/document/1413476
 
 - title: "A Framework for Resilient Internet Routing Protocols"
   authors: "Dan Pei, Lixia Zhang, Dan Massey"
@@ -2387,8 +2375,7 @@
   pages: "38-47"
   month: March
   year: 2004
-  pdf: yang2004adhoc.pdf
-  # TODO: Get PDF
+  pdfext: https://ieeexplore.ieee.org/abstract/document/1269716
 
 - title: "An Analysis of Path-Vector Routing Protocol Convergence Algorithms"
   authors: "Dan Pei, Beichuan Zhang, Dan Massey, Lixia Zhang"
@@ -2419,14 +2406,13 @@
 
 # 2003
 
-- title: "Detection of Invalid Routing Announcements in the RIP Protocol"
+- title: "Detection of Invalid Routing Announcements in RIP Protocol"
   authors: "Dan Pei, Dan Massey, Lixia Zhang"
   type: conference
   conference: "IEEE Global Telecommunications Conference (GLOBECOM)"
   month: December
   year: 2003
-  pdf: pei2003rip.pdf
-  # TODO: Get PDF
+  pdfext: https://ieeexplore.ieee.org/abstract/document/1258478
 
 - title: "Analysis of BGP Update Surge during Slammer Worm Attack"
   authors: "Mohit Lad, Xiaoliang Zhao, Beichuan Zhang, Dan Massey, Lixia Zhang"
@@ -2477,8 +2463,7 @@
   conference: "IFIP/ACM Latin American Networking Conference (LANC)"
   month: October
   year: 2003
-  pdf: zhao2003lanc.pdf
-  # TODO: Get PDF
+  pdfext: https://dl.acm.org/doi/abs/10.1145/1035662.1035666
 
 - title: "BGP-RCN: Improving BGP Convergence Through Root Cause Notification"
   authors: "Dan Pei, Matt Azuma, Nam Nguyen, Jiwei Chen, Dan Massey, Lixia Zhang"
@@ -2554,8 +2539,7 @@
   conference: "IEEE INFOCOM"
   month: March
   year: 2003
-  pdf: fu2003multihop.pdf
-  # TODO: Get PDF
+  pdfext: https://ieeexplore.ieee.org/abstract/document/1209197
 
 #- title: "A Two-tier Data Dissemination Model for Large-scale Wireless Sensor Networks"
 #  authors: "Haiyun Luo, Fan Ye, Jerry Cheng, Songwu Lu, Lixia Zhang"
@@ -2608,8 +2592,7 @@
   month: November
   year: 2002
   note: Poster
-  pdf: ye2002peas.pdf
-  # TODO: Get PDF
+  pdfext: https://ieeexplore.ieee.org/abstract/document/1181406
 
 - title: "Overlay Optimizations for End-host Multicast"
   authors: "Wenjie Wang, Davide Helder, Sugih Jamin, Lixia Zhang"
@@ -2678,11 +2661,10 @@
 - title: "Detection of Invalid Routing Announcement in the Internet"
   authors: "Xiaoliang Zhao, Dan Pei, Lan Wang, Dan Massey, Allison Mankin, S. Felix Wu, Lixia Zhang"
   type: conference
-  conference: "IEEE/IFIP Conference on Dependable Systems and Networks (DSN)"
+  conference: "IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)"
   month: June
   year: 2002
-  pdf: zhao2002detection.pdf
-  # TODO: Get PDF
+  pdfext: https://ieeexplore.ieee.org/abstract/document/1028887
 
 #- title: "A Self-Organizing Approach to Data Forwarding in Wireless Sensor Networks"
 #  authors: "Jelena Mirkovic, Songwu Lu, Lixia Zhang"
@@ -2708,8 +2690,7 @@
   conference: "IEEE International Conference on Network Protocols (ICNP)"
   month: November
   year: 2001
-  pdf: kong2001manet.pdf
-  # TODO: Get PDF
+  pdfext: https://www.ieee-icnp.org/2001/papers/2001-27.pdf
 
 - title: "Recursive Position Estimation in Sensor Networks"
   authors: "Joe Albowicz, Alvin Chen, Lixia Zhang"
@@ -2871,8 +2852,7 @@
   conference: "International Conference in Computer Communications (ICCC)"
   month: October
   year: 1999
-  pdf: liu1999srm.pdf
-  # TODO: Get PDF
+  pdfext: http://www.academia.edu/download/30742110/10.1.1.45.5186.pdf
 
 - title: "A New Proposal for RSVP Refreshes"
   authors: "Lan Wang, Andreas Terzis, Lixia Zhang"
@@ -2891,8 +2871,7 @@
   pages: "193-207"
   month: September
   year: 1999
-  pdf: gerla1999strategies.pdf
-  # TODO: Get PDF
+  pdfext: https://link.springer.com/article/10.1023/A:1019150932356
 
 - title: "A Two-bit Differentiated Services Architecture for the Internet"
   authors: "Kathie Nichols, Van Jacobson, Lixia Zhang"
@@ -3026,16 +3005,6 @@
   month: April
   year: 1998
 
-- title: "Scalable Session Messages in SRM"
-  authors: "Puneet Sharma, Deborah Estrin, Sally Floyd, Lixia Zhang"
-  type: techreport
-  institution: "USC CS Department"
-  number: "98-670"
-  month: unknown
-  year: 1998
-  pdf: sharma1998srm.pdf
-  # TODO: Get PDF
-
 # 1997
 
 - title: "A Reliable Multicast Framework for Light-weight Sessions and Application Level Framing"
@@ -3079,6 +3048,15 @@
   year: 1997
   note: Internet Proposed Standard
 
+- title: "Scalable Session Messages in SRM"
+  authors: "Puneet Sharma, Deborah Estrin, Sally Floyd, Lixia Zhang"
+  type: techreport
+  institution: "USC CS Department"
+  number: "98-670"
+  month: August
+  year: 1997
+  pdfext: http://web.cs.ucla.edu/~lixia/papers/97SRM_Session.pdf
+
 - title: "MASH: The Multicasting Archie Server Hierarchy"
   authors: "Adam Rosenstein, Jun Li, Si Yuan Tong"
   type: journal
@@ -3088,8 +3066,7 @@
   pages: "5-13"
   month: July
   year: 1997
-  pdf: rosenstein1997mash.pdf
-  # TODO: Get PDF
+  pdfext: https://dl.acm.org/doi/abs/10.1145/263932.263936
 
 - title: "A Measurement-based Admission Control Algorithm for Integrated Services Packet Networks"
   authors: "Sugih Jamin, Peter B. Danzig, Scott J. Shenker, Lixia Zhang"
