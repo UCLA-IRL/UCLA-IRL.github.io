@@ -68,12 +68,20 @@ section_id: publications
               <em>{{ pub.book }}</em>, {% if pub.isbn %} ISBN {{ pub.isbn }}, {% endif %} {{ pub.publisher }}, {% if month != "unknown" %} {{ month }} {% endif %}{{ year }}.<br />
             {% endif %}
             {% if pub.note %}
-            <em>{{ pub.note }}</em><br />
+              <em>{{ pub.note }}</em><br />
             {% endif %}
             {% if pub.pdf %}
               <a href="data/files/papers/{{ pub.pdf }}" target="_blank"><img src="images/extensions/pdf.png" alt="PDF" /></a>
             {% elsif pub.pdfext %}
               <a href="{{ pub.pdfext }}" target="_blank"><img src="images/extensions/pdf.png" alt="PDF" /></a>
+            {% endif %}
+            {% if pub.html %}
+              <a href="{{ pub.html }}" target="_blank"><img src="images/extensions/html.png" alt="HTML" /></a>
+            {% endif %}
+            {% if pub.txt %}
+              <a href="data/files/papers/{{ pub.txt }}" target="_blank"><img src="images/extensions/txt.png" alt="TXT" /></a>
+            {% elsif pub.txtext %}
+              <a href="{{ pub.txtext }}" target="_blank"><img src="images/extensions/txt.png" alt="TXT" /></a>
             {% endif %}
             </li>
           {% endif %}

@@ -1,0 +1,138 @@
+A Scalable Resource Management Framework for Differentiated Services
+Internet
+
+Andreas Terzis, Lan Wang, Lixia Zhang
+terzis, lanw, lixia@cs.ucla.edu
+
+
+1. Introduction
+
+The ultimate goal of network QoS support is to provide users and
+applications with high quality data delivery services.  From a router's
+view point, however, QoS support is made of three basic steps:
+defining packet treatment classes, allocating adequate amount of resources
+for each class, and sorting all incoming packets to their corresponding
+classes.  The first step involves standardization, while both the second
+and third steps require protocol mechanisms that can scale well with the
+ever increasing network size and speed.
+
+Through joint effort of research community and industry the IETF
+Differentiated Services (diff-serv) Working Group is reaching agreement on
+an initial set of definitions for "per-hop behavior" (PHB), a set of
+differentiated packet treatments at each router based on the TOS field
+value (called "code-point") carried in the IP header.  This work addresses
+both the first and third issues above: it defines the traffic classes as
+well as provides a simple packet classification mechanism -- routers easily
+sort packets into their corresponding treatment classes by the TOS value,
+without having to know which flows or applications the packets belong to.
+
+As work on diff-serv progresses, there has been a continued discussion on
+the second issue, that is whether differentiated services would need a
+signaling protocol for dynamic resource management. A commonly perceived
+notion is that the deployment of diff-serv would most likely start with
+manually configured resource allocations at network boundaries, however it
+remains an open issue how applications can achieve high quality services
+end to end.
+
+We believe that end-to-end performance can be achieved through the
+concatenation of PHB's.  We also believe that, although configurations
+can give us a jump start on deploying differentiated services, automatic
+protocol mechanisms will be needed in near future as the volume and scope
+of QoS-requiring traffic increase, to effectively and efficiently meet the
+ultimate goal of end-to-end QoS delivery.
+
+
+2. A Picture of The Internet Today 
+
+The Internet today is made of the interconnection of multiple autonomous
+networks called autonomous systems, or administrative domains, because each
+is under a separate administrative control.  Each domain contracts its
+neighboring domains to deliver the traffic; the neighbor domains, in turn,
+may pass the traffic to their neighbors, so on and so forth until packets
+reach their destinations.  For example, a campus contracts an ISP to
+deliver its traffic and the ISP delivers the campus' traffic either over
+its own network if the destinations are connected to the same ISP, or
+otherwise pass the packets to other ISPs.
+
+Following the AS-based network topology, as described above, today's
+Internet routing architecture takes a two-level hierarchical design. Each
+of the administrative domains, or Autonomous Systems, is free to choose 
+whatever routing protocol that deems proper to run internally.  To assure 
+global connectivity, neighbor domains speak BGP (Border Gateway Protocol) 
+with each other to exchange network reachability information. Reachability
+information can be aggregated.  For example, if nearby networks share
+common prefixes, then reachability reports for them can be merged, so that
+a remote site will need to have one entry in its forwarding table showing
+the common prefix.
+
+The separation of the Internal Gateway Protocol (IGP) and the Border
+Gateway Protocol (BGP), coupled with the ability to aggregate routing
+advertisements, provides the routing architecture with proven scaling
+characteristics.
+
+
+3. A Framework for Scalable Resource Management
+
+We propose a hierarchical approach to resource allocation for the global
+Internet.  Following the development of the global routing architecture, we
+propose that individual administrative domains should be the basic control
+unit for resource management.  Bilateral service agreements are made
+between neighboring administrative domains regarding the aggregate
+border-crossing traffic, while each administrative domain individually makes
+its own decision on strategies and protocols to use for internal resource
+management to meet internal clients QoS need and to fulfill external
+commitments.
+
+We assume that a resource manager, named the Bandwidth Broker (BB) by Van
+Jacobson, exists in each administrative domain.  A BB will be in charge of
+both the internal affairs and external relations regarding resource
+management and traffic control.  Internally, a BB keeps track of QoS
+requests from users and applications, and allocates internal resources
+according to the domain specific resource usage policies which may specify
+which users can use how much resource or resource shares.  The internal
+resource allocation can be done in a number of possible ways.  For
+bandwidth-rich domains, perhaps little needs be done other than closely
+monitoring the network utilization level and re-provisioning accordingly.
+For bandwidth-poor domains or those with high variation in link capacities,
+the BB can make use of RSVP as the internal signaling protocol to reserve
+bandwidth for individual applications, as described in [RSVP].
+
+Externally, a BB will be responsible for setting up and maintaining bilateral
+agreements with the BBs of the neighbor domains regarding the QoS
+handling of its border-crossing traffic flows.  The BB for a transit domain
+(i.e. a provider network) must also keep those external service commitment
+to be within its internal resources capacity.  The BB is a logical entity;
+actual implementations may take either a centralized or a distributed
+approach.
+
+To scale with both the number of user data flows and the link speed, we
+propose that the bilateral agreements between BB's be in terms of
+differentiated traffic classes.  The BB's instruct border routers of their
+own domains how much traffic each border router can export and import for
+each PHB class, so that border routers only need to perform QoS control 
+for aggregate traffic classes.
+
+This two-tier hierarchical framework gives us both the scalability in 
+providing global scale QoS support, as well as the flexibility in managing 
+resources within each administrative domain.
+
+
+4. Summary
+
+Today's Internet is made of interconnected autonomous networks controlled
+by administrative domains.  Following the global routing architecture this
+position paper sketches out a two-tier hierarchical framework for global
+Internet resource management. More specifically, we propose to build a
+two-level hierarchy in resource management. To scale well, resource
+allocations between domains will be done for aggregate border-crossing
+traffic, while allocations within a domain can be done with a number of
+different possibilities depending on the user requirements and resource
+availability.
+
+
+5. References
+
+[RSVP] Y. Bernet, F. Baker, P. Ford, R. Yavatkar, L. Zhang, 
+"A Framework for End-to-End QoS Combining RSVP/Intserv and Differentiated
+Services", Internet-Draft <draft-bernet-intdiff-00.txt>
+

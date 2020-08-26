@@ -49,7 +49,7 @@
 #
 # Internet-Draft:
 # - title: "ICN Packet Format Design Requirements"
-#   authors: "Alexander AFanasyev, Ravi Ravindran, Guoqiang Wang, Lan Wang, Beichuan Zhang, Lixia Zhang"
+#   authors: "Alexander Afanasyev, Ravi Ravindran, Guoqiang Wang, Lan Wang, Beichuan Zhang, Lixia Zhang"
 #   type: internet-draft
 #   group: ICN Research Group
 #   month: March
@@ -194,8 +194,7 @@
   number: NDN-0068
   month: July
   year: 2019
-  pdf: ndn0068.pdf
-  # TODO: Get PDF
+  pdf: ndn0068-1.pdf
 
 - title: "A Note on Routing Scalability in Named Data Networking"
   authors: "Yu Zhang, Zhongda Xia, Alexander Afanasyev, Lixia Zhang"
@@ -205,7 +204,7 @@
   year: 2019
   pdf: zhang2019a-note.pdf
 
-- title: "Proof-of-Authentication for Private Distributed Ledger"
+- title: "Proof of Authentication for Private Distributed Ledger"
   authors: "Zhiyi Zhang, Vishrant Vasavada, Randy King, Lixia Zhang"
   type: conference
   conference: NDSS Workshop on Decentralized IoT Systems and Security
@@ -282,8 +281,7 @@
   number: NDN-0066
   month: October
   year: 2018
-  pdf: shang2066pubsub.pdf
-  # TODO: Get PDF
+  pdf: ndn0066-1.pdf
 
 - title: "KITE: Producer Mobility Support in Named Data Networking"
   authors: "Yu Zhang, Zhongda Xia, Spyridon Mastorakis, Lixia Zhang"
@@ -335,7 +333,7 @@
   number: "NDN-0065"
   month: August
   year: 2018
-  pdf: https://named-data.net/wp-content/uploads/2018/08/ndn-0065-1-pap.pdf
+  pdf: ndn0065-1.pdf
 
 - title: "Real-Time Data Retrieval in Named Data Networking"
   authors: "Spyridon Mastorakis, Peter Gusev, Alexander Afanasyev, Lixia Zhang"
@@ -380,8 +378,7 @@
   month: July
   year: 2018
   note: Revision 4
-  pdf: zhang2018security.pdf
-  # TODO: Get PDF
+  pdf: ndn0057-4.pdf
 
 - title: "NFD Developer's Guide"
   authors: "Alexander Afanasyev, Junxiao Shi, Beichuan Zhang, Lixia Zhang, Ilya Moiseenko, Yingdi Yu, Wentao Shang, Yanbiao Li, Spyridon Mastorakis, Yi Huang, Jerald Paul Abraham, Eric Newberry, Teng Liang, Klaus Schneider, Steve DiBenedetto, Chengyu Fan, Susmit Shannigrahi, Christos Papadopoulos, Davide Pesavento, Giulio Grassi, Giovanni Pau, Hang Zhang, Tian Song, Haowei Yuan, Hila Ben Abraham, Patrick Crowley, Syed Obaid Amin, Vince Lehman, Muktadir Chowdhury, Ashlesh Gawande, Lan Wang, Nicholas Gordon"
@@ -391,8 +388,7 @@
   month: July
   year: 2018
   note: Revision 10
-  pdf: ndn0021.pdf
-  # TODO: Get PDF
+  pdf: ndn0021-10.pdf
 
 - title: "Achieving Resilient Data Availability in Wireless Sensor Networks"
   authors: "Xin Xu, Haitao Zhang, Tianxiang Li, and Lixia Zhang"
@@ -409,7 +405,7 @@
   number: "NDN-0056"
   month: March
   year: 2018
-  pdfext: https://named-data.net/wp-content/uploads/2018/03/ndn-0056-1-vectorsync.pdf
+  pdf: ndn0056-1.pdf
 
 - title: "NDN Automatic Prefix Propagation"
   authors: "Yanbiao Li, Alexander Afanasyev, Junxiao Shi, Haitao Zhang, Zhiyi Zhang, Tianxiang Li, Edward Lu, Beichuan Zhang, Lan Wang, Lixia Zhang"
@@ -418,7 +414,7 @@
   number: "NDN-0045"
   month: March
   year: 2018
-  pdfext: https://named-data.net/wp-content/uploads/2018/03/ndn-0045-1-auto-prefix-propagation.pdf
+  pdf: ndn0045-1.pdf
 
 - title: "A Secure Link State Routing Protocol for NDN"
   authors: "Lan Wang, Vince Lehman, A. K. M. Mahmudul Hoque, Beichuan Zhang, Yingdi Yu, Lixia Zhang"
@@ -499,8 +495,7 @@
   number: NDN-0053
   month: May
   year: 2017
-  pdf: shang2017distributed.pdf
-  # TODO: Get PDF
+  pdf: ndn0053-1.pdf
 
 - title: "Breaking out of the Cloud: Local Trust Management and Rendezvous in Named Data Networking of Things"
   authors: "Wentao Shang, Zhehao Wang, Alexander Afanasyev, Jeff Burke, Lixia Zhang"
@@ -508,7 +503,7 @@
   conference: "ACM/IEEE International Conference on Internet-of-Things Design and Implementation (IoTDI)"
   month: April
   year: 2017
-  pdf: shang2017breaking.pdf
+  pdf: ndn-breaking-out-of-cloud-IOTDI-2017.pdf
 
 - title: "NDN Certificate Management Protocol (NDNCERT)"
   authors: "Zhiyi Zhang, Yingdi Yu, Alex Afanasyev, Lixia Zhang"
@@ -517,8 +512,7 @@
   number: NDN-0050
   month: April
   year: 2017
-  pdf: zhang2017ndncert.pdf
-  # TODO: Get PDF
+  pdf: ndn0050-1.pdf
 
 - title: "The Design of RoundSync Protocol"
   authors: "Pedro de-las-Heras-Quirós, Eva M. Castro, Wentao Shang, Yingdi Yu, Spyridon Mastorakis, Alexander Afanasyev, Lixia Zhang"
@@ -527,8 +521,7 @@
   number: NDN-0048
   month: April
   year: 2017
-  pdf: delaherasquiros2017roundsync.pdf
-  # TODO: Get PDF
+  pdf: ndn0048-1.pdf
 
 - title: "ChronoChat on Android"
   authors: "Tyler Vernon Smith, Alexander Afanasyev, Lixia Zhang"
@@ -537,8 +530,7 @@
   number: NDN-0059
   month: April
   year: 2017
-  pdf: smith2017chronochat.pdf
-  # TODO: Get PDF
+  pdf: ndn0059-1.pdf
 
 - title: "The Design and Imlementation of the NDN Protocol Stack for RIOT-OS"
   authors: "Wentao Shang, Yang Wen, Alex Afanasyev, Lixia Zhang"
@@ -548,8 +540,7 @@
   month: March
   year: 2017
   note: Revision 2
-  pdf: ndn0043.pdf
-  # TODO: Get PDF
+  pdf: ndn0043-2.pdf
 
 - title: "NDN Certificate Bundle (Version 0.1)"
   authors: "Manika Mittal, Alex Afanasyev, Lixia Zhang"
@@ -558,8 +549,7 @@
   number: NDN-0054
   month: March
   year: 2017
-  pdf: mittal2017bundle.pdf
-  # TODO: Get PDF
+  pdf: ndn0054-1.pdf
 
 # 2016
 
@@ -590,8 +580,7 @@
   month: November
   year: 2016
   note: Revision 2
-  pdf: mastorakis2016ndnsim2.pdf
-  # TODO: Get PDF
+  pdf: ndn0028-2.pdf
 
 - title: "Report from the Workshop and Prize on Root Causes and Mitigation of Name Collisions"
   authors: "Matthew Thomas, Allison Mankin, Lixia Zhang"
@@ -631,8 +620,7 @@
   number: "NDN-0041"
   month: August
   year: 2016
-  pdf: vusirikala2016reliability.pdf
-  # TODO: Get PDF
+  pdf: ndn0041-1.pdf
 
 - title: "An Experimental Investigation of Hyperbolic Routing with a Smart Forwarding Plane in NDN"
   authors: "Vince Lehman, Ashlesh Gawande, Rodrigo Aldecoa, Dmitri Krioukov, Beichuan Zhang, Lixia Zhang, Lan Wang"
@@ -641,8 +629,7 @@
   number: NDN-0042
   month: July
   year: 2016
-  pdf: ndn0042.pdf
-  # TODO: Get PDF
+  pdf: ndn0042-1.pdf
 
 - title: "An Experimental Investigation of Hyperbolic Routing with a Smart Forwarding Plane in NDN"
   authors: "Vince Lehman, Ashlesh Gawande, Rodrigo Aldecoa, Dmitri Krioukov, Lan Wang, Beichuan Zhang, Lixia Zhang"
@@ -659,8 +646,7 @@
   number: "NDN-0040"
   month: May
   year: 2016
-  pdf: yu2016delorean.pdf
-  # TODO: Get PDF
+  pdf: ndn0040-1.pdf
 
 - title: "Real-Time Streaming Data Delivery over Named Data Networking"
   authors: "Peter Gusev, Zhehao Wang, Jeff Burke, Lixia Zhang, Takahiro Yoneda, Ryota Ohnishi, Eiichi Muramoto"
@@ -697,8 +683,7 @@
   number: "NDN-0038"
   month: February
   year: 2016
-  pdf: shang2016challenges.pdf
-  # TODO: Get PDF
+  pdf: ndn0038-1.pdf
 
 - title: "The Second Named Data Networking Community Meeting (NDNcomm 2015)"
   authors: "Alexander Afanasyev, Yingdi Yu, Lixia Zhang, Jeff Burke, kc claffy, Joshua Polterock"
@@ -718,8 +703,7 @@
   number: "NDN-0037"
   month: January
   year: 2016
-  pdf: lehman2016secure.pdf
-  # TODO: Get PDF
+  pdf: ndn0037-1.pdf
 
 - title: "Named-Based Access Control"
   authors: "Yingdi Yu, Alexander Afanasyev, Lixia Zhang"
@@ -729,8 +713,7 @@
   month: January
   year: 2016
   note: Revision 2
-  pdf: ndn0034.pdf
-  # TODO: Get PDF
+  pdf: ndn0034-2.pdf
 
 # 2015
 
@@ -741,8 +724,7 @@
   number: "NDN-0036"
   month: December
   year: 2015
-  pdf: shang2015ndn-ace.pdf
-  # TODO: get PDF
+  pdf: ndn0036-1.pdf
 
 - title: "The Story of ChronoShare, or How NDN Brought Distributed Secure File Sharing Back"
   authors: "Alexander Afanasyev, Zhenkai Zhu, Yingdi Yu, Lijing Wang, Lixia Zhang"
@@ -784,8 +766,7 @@
   month: June
   year: 2015
   note: Revision 2
-  pdf: ndn0030.pdf
-  # TODO: Get PDF
+  pdf: ndn0030-2.pdf
 
 - title: "Packet Fragmentation in NDN: Why NDN Uses Hop-By-Hop Fragmentation"
   authors: "Alexander Afanasyev, Junxiao Shi, Lan Wang, Beichaun Zhang, Lixia Zhang"
@@ -794,8 +775,7 @@
   number: "NDN-0032"
   month: May
   year: 2015
-  pdf: afanasyev2015fragmentation.pdf
-  # TODO: Get PDF
+  pdf: ndn0032-1.pdf
 
 - title: "SNAMP: Secure Namespace Mapping to Scale NDN Forwarding"
   authors: "Alexander Afanasyev, Cheng Yi, Lan Wang, Beichuan Zhang, Lixia Zhang"
@@ -822,7 +802,7 @@
   pages: "32-37"
   month: April
   year: 2015
-  pdf: claffy2015ndncomm.pdf
+  pdf: ccr15-1st-ndncomm.pdf
 
 - title: "NDNlive and NDNtube: Live and Prerecorded Video Streaming over NDN"
   authors: "Lijing Wang, Ilya Moiseenko, Lixia Zhang"
@@ -831,8 +811,7 @@
   number: NDN-0031
   month: April
   year: 2015
-  pdf: ndn0031.pdf
-  # TODO: Get PDF
+  pdf: ndn0031-1.pdf
 
 - title: "ICN Packet Format Design Requirements"
   authors: "Alexander AFanasyev, Ravi Ravindran, Guoqiang Wang, Lan Wang, Beichuan Zhang, Lixia Zhang"
@@ -850,8 +829,7 @@
   month: February
   year: 2015
   note: Revision 3
-  pdf: ndn0004.pdf
-  # TODO: Get PDF
+  pdf: ndn0004-3.pdf
 
 # 2014
 
@@ -862,8 +840,7 @@
   number: "NDN-0027"
   month: October
   year: 2014
-  pdf: shang2014ndnfs.pdf
-  # TODO: Get PDF
+  pdf: ndn0027-1.pdf
 
 - title: "The Shape and Size of Threats: Defining a Networked System's Attack Surface"
   authors: "Eric Osterweil, Danny McPherson, Lixia Zhang"
@@ -908,8 +885,7 @@
   month: August
   year: 2014
   note: Revision 3
-  pdf: ndn0017.pdf
-  # TODO: Get PDF
+  pdf: ndn0017-3.pdf
 
 - title: "An Endorsement-based Key Management System for Decentralized NDN Chat Application"
   authors: "Yingdi Yu, Alexander Afanasyev, Zhenkai Zhu, Lixia Zhang"
@@ -918,8 +894,7 @@
   number: "NDN-0023"
   month: July
   year: 2014
-  pdf: yu2014endorsement.pdf
-  # TODO: Get PDF
+  pdf: ndn0023-1.pdf
 
 - title: "Named Data Networking"
   authors: "Lixia Zhang, Alexander Afanasyev, Jeff Burke, kc claffy, Lan Wang, Van Jacobson, Patrick Crowley, Christos Papadopoulos, Beichuan Zhang"
@@ -939,8 +914,7 @@
   number: NDN-0020
   month: June
   year: 2014
-  pdf: ndn0020.pdf
-  # TODO: Get PDF
+  pdf: ndn0020-1.pdf
 
 - title: "Securing Building Management Systems Using Named Data Networking"
   authors: "Wentao Shang, Qiuhan Ding, Alessandro Marianantoni, Jeff Burke, Lixia Zhang"
@@ -968,8 +942,7 @@
   number: NDN-0018
   month: April
   year: 2014
-  pdf: ndn0018.pdf
-  # TODO: Get PDF
+  pdf: ndn0018-1.pdf
 
 - title: "Named Data Networking"
   authors: "Lixia Zhang, Alexander Afanasyev, Jeffrey Burke, Van Jacobson, kc claffy, Patrick Crowley, Christos Papadopoulos, Lan Wang, Beichuan Zhang"
@@ -978,8 +951,7 @@
   number: NDN-0019
   month: April
   year: 2014
-  pdf: ndn0019.pdf
-  # TODO: Get PDF
+  pdf: ndn0019-1.pdf
 
 - title: "Verifying Keys through Publicity and Communities of Trust: Quantifying Off-Axis Corroboration"
   authors: "Eric Osterweil, Dan Massey, Danny McPherson, Lixia Zhang"
@@ -1001,8 +973,7 @@
   number: NDN-0016
   month: December
   year: 2013
-  pdf: ndn0016.pdf
-  # TODO: Get PDF
+  pdf: ndn0016-1.pdf
 
 - title: "Security Evaluation of a Control System Using Named Data Networking"
   authors: "Victor Perez, Mevlut Turker Garip, Silas Lam, Lixia Zhang"
@@ -1027,8 +998,7 @@
   number: NDN-0014
   month: August
   year: 2013
-  pdf: ndn0014.pdf
-  # TODO: Get PDF
+  pdf: ndn0014-1.pdf
 
 - title: "Video Streaming Over Named Data Networking"
   authors: "Derek Kulinski, Jeff Burke, Lixia Zhang"
@@ -1056,8 +1026,7 @@
   number: NDN-0013
   month: July
   year: 2013
-  pdf: ndn0013.pdf
-  # TODO: Get PDF
+  pdf: ndn0013-1.pdf
 
 - title: "Interest Flooding Attack and Countermeasures in Named Data Networking"
   authors: "Alexander Afanasyev, Priya Mahadevan, Ilya Moiseenko, Ersin Uzun, Lixia Zhang"
@@ -1101,8 +1070,7 @@
   number: NDN-0012
   month: March
   year: 2013
-  pdf: ndn0013.pdf
-  # TODO: Get PDF
+  pdf: ndn0012-1.pdf
 
 - title: "Vehicular Inter-Networking via Named Data"
   authors: "Giulio Grassi, Davide Pesavento, Lucas Wang, Giovanni Pau, Rama Vuyyuru, Ryuji Wakikawa, Lixia Zhang"
@@ -1121,8 +1089,7 @@
   month: February
   year: 2013
   note: Revision 2
-  pdf: ndn0009.pdf
-  # TODO: Get PDF
+  pdf: ndn0009-2.pdf
 
 # 2012
 
@@ -1140,8 +1107,7 @@
   number: "NDN-0008"
   month: October
   year: 2012
-  pdf: zhu2012chronos.pdf
-  # TODO: Get PDF
+  pdf: ndn0008-1.pdf
 
 - title: "Mobile Data Charging: New Attacks and Countermeasures"
   authors: "Chunyi Peng, Chi-yu Li, Guan-hua Tu, Songwu Lu, Lixia Zhang"
@@ -1157,7 +1123,17 @@
   conference: "IEEE Military Communications Conference (MILCOM)"
   month: October
   year: 2012
-  pdf: etefia2012military.pdf
+  pdf: 2012Milcom.pdf
+
+- title: "ndnSIM: NDN simulator for NS-3"
+  authors: "Alexander Afanasyev, Ilya Moiseenko, Lixia Zhang"
+  type: techreport
+  institution: "NDN"
+  number: "NDN-0005"
+  month: October
+  year: 2012
+  note: Revision 2
+  pdf: ndn0005-2.pdf
 
 - title: "Adaptive Forawrding in Named Data Networking"
   authors: "Cheng Yi, Alex Afanasyev, Lan Wang, Beichuan Zhang, Lixia Zhang"
@@ -1170,16 +1146,6 @@
   year: 2012
   pdf: ccr-ndn-adaptive-forwarding.pdf
 
-- title: "ndnSIM: NDN simulator for NS-3"
-  authors: "Alexander Afanasyev, Ilya Moiseenko, Lixia Zhang"
-  type: techreport
-  institution: "NDN"
-  number: "NDN-0005"
-  month: July
-  year: 2012
-  pdf: ndn0005.pdf
-  # TODO: Get PDF
-
 - title: "A Case for Stateful Forwarding Plane"
   authors: "Cheng Yi, Alexander Afanasyev, Ilya Moiseenko, Lan Wang, Beichuan Zhang, Lixia Zhang"
   type: techreport
@@ -1187,8 +1153,7 @@
   number: "NDN-0002"
   month: July
   year: 2012
-  pdf: ndn0002.pdf
-  # TODO: Get PDF
+  pdf: ndn0002-1.pdf
 
 - title: "BGP Route Reflection Revisited"
   authors: "Jong Han Park, Ricardo Oliveira, Shane Amante, Danny McPherson, Lixia Zhang"
@@ -1289,6 +1254,15 @@
   year: 2011
   pdfext: http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=6027864
 
+- title: "Explaining BGP Slow Table Transfers: Implementing a TCP Delay Analyzer"
+  authors: "Pei-chun Cheng, Jong Han Park, Keyur Patel, Shane Amante, Lixia Zhang"
+  type: techreport
+  institution: "UCLA CS Department"
+  number: "110020"
+  month: September
+  year: 2011
+  pdf: ucla-cs-tr110020.pdf
+
 - title: "Teaching Network Architecture through Case Studies"
   authors: "Dan Massey, Christos Papadopoulos, Lan Wang, Beichuan Zhang, Lixia Zhang"
   type: conference
@@ -1340,6 +1314,15 @@
   month: May
   year: 2011
   pdf: zhu2011cars.pdf
+
+- title: "Quantifying i-BGP Convergence inside Large ISPs"
+  authors: "Jong Han Park, Pei-chun Cheng, Shane Amante, Dorian Kim, Danny McPherson, Lixia Zhang"
+  type: techreport
+  institution: "UCLA CS Department"
+  number: "110009"
+  month: May
+  year: 2011
+  pdf: ucla-cs-tr110009.pdf
 
 - title: "Understanding BGP Next-hop Diversity"
   authors: "Jaeyoung Choi, Jong Han Park, Pei-chun Cheng, Dorian Kim, Lixia Zhang"
@@ -1401,8 +1384,7 @@
   number: "NDN-0001"
   month: October
   year: 2010
-  pdf: zhang2010ndn.pdf
-  # TODO: Get PDF
+  pdf: ndn0001-1.pdf
 
 - title: "Scaling The Internet Routing System: An Interim Report"
   authors: "Tim Griffin, Tony Li, Dan Massey, Christian Vogt, Jia Wang, Lixia Zhang"
@@ -1426,6 +1408,15 @@
   month: October
   year: 2010
   pdf: khare2010evolution.pdf
+
+- title: "BGP Next-hop Diversity: A Comparative Study"
+  authors: "Jong Han Park, Pei-chun Cheng, Shane Amante, Dorian Kim, Danny McPherson, Lixia Zhang"
+  type: techreport
+  institution: "UCLA CS Department"
+  number: "100031"
+  month: October
+  year: 2010
+  pdf: ucla-cs-tr100031.pdf
 
 - title: "Listen First, Broadcast Later: Topology-Agnostic Forwarding under High Dynamics"
   authors: "Michael Meisel, Vasileios Pappas, Lixia Zhang"
@@ -1453,6 +1444,24 @@
   month: September
   year: 2010
   pdf: yang2010dnssec.pdf
+
+- title: "Public Data: a New Substrate for Key Verification in DNSSEC"
+  authors: "Eric Osterweil, Dan Massey, Beichuan Zhang, Lixia Zhang"
+  type: techreport
+  institution: "UCLA CS Department"
+  number: "100020"
+  month: September
+  year: 2010
+  pdf: ucla-cs-tr100020.pdf
+
+- title: "Understanding BGP Next-hop Diversity"
+  authors: "Jaeyoung Choi, Jong Han Park, Pei-chun Cheng, Dorian Kim, Lixia Zhang"
+  type: techreport
+  institution: "UCLA CS Department"
+  number: "100026"
+  month: August
+  year: 2010
+  pdf: ucla-cs-tr100026.pdf
 
 - title: "IAB Thoughts on IPv6 Network Address Translation"
   authors: "Dave Thaler, Lixia Zhang, Greg Lebovitz"
@@ -1528,6 +1537,15 @@
   year: 2010
   pdf: ucla-cs-tr100006.pdf
 
+- title: "Route Flap Damping With Assured Reachability"
+  authors: "Pei-chun Cheng, Jong Han Park, Keyur Patel, Lixia Zhang"
+  type: techreport
+  institution: "UCLA CS Department"
+  number: "100024"
+  month: unknown
+  year: 2010
+  pdf: ucla-cs-tr100024.pdf
+
 - title: "Listen First, Broadcast Later: Topology-Agnostic Forwarding under High Dynamics"
   authors: "Michael Meisel, Vasileios Pappas, Lixia Zhang"
   type: techreport
@@ -1546,9 +1564,8 @@
   month: December
   year: 2009
   pdf: osterweil2009dnssec.pdf
-  # TODO: Get PDF
 
-- title: "Inter-Administrative Challenges in Managing DNSKEYs"
+- title: "Interadministrative Challenges in Managing DNSKEYs"
   authors: "Eric Osterweil, Lixia Zhang"
   type: journal
   journal: "IEEE Security and Privacy: Securing the Domain Name System"
@@ -1558,7 +1575,6 @@
   month: September
   year: 2009
   pdf: osterweil2009dnskeys.pdf
-  # TODO: Get PDF
 
 - title: "Support Mobility in the Global Internet"
   authors: "Lixia Zhang, Ryuji Wakikawa, Zhenkai Zhu"
@@ -1567,7 +1583,6 @@
   month: September
   year: 2009
   pdf: zhang2009mobility.pdf
-  # TODO: Get PDF
 
 - title: "Emergent Mobile Services"
   authors: "Michael Meisel, Vasileios Pappas, Petros Zerfos, Lixia Zhang"
@@ -1576,7 +1591,6 @@
   month: September
   year: 2009
   pdf: meisel2009services.pdf
-  # TODO: Get PDF
 
 - title: "A Scalable Micro Wireless Interconnect Structure for CMPs"
   authors: "Suk-Bok Lee, Sai-Wang Tam, Ioannis Pefkianakis, Songwu Lu, M. Frank Chang, Chuanxiong Guo, Glenn Reinman, Chunyi Peng, Mishali Naik, Lixia Zhang, Jason Cong"
@@ -1585,7 +1599,6 @@
   month: September
   year: 2009
   pdf: lee2009micro.pdf
-  # TODO: Get PDF
 
 - title: "Managing Trusted Keys in Internet-Scale Systems"
   authors: "Eric Osteweril, Dan Massey, Lixia Zhang"
@@ -1594,7 +1607,6 @@
   month: July
   year: 2009
   pdf: osterweil2009trusted.pdf
-  # TODO: Get PDF
 
 - title: "Understanding the Challenges in Securing Internet Routing"
   authors: "Ricardo Oliveira, Mohit Lad, Lixia Zhang"
@@ -1603,7 +1615,6 @@
   month: July
   year: 2009
   pdf: oliveira2009challenges.pdf
-  # TODO: Get PDF
 
 - title: "Emergent Mobile Services"
   authors: "Michael Meisel, Vasileios Pappas, Petros Zerfos, Lixia Zhang"
@@ -1624,7 +1635,6 @@
   month: April
   year: 2009
   pdf: oliveira2009path.pdf
-  # TODO: Get PDF
 
 - title: "Impact of Configuration Errors on DNS Robustness"
   authors: "Vasileios Pappas, Duane Wessels, Daniel Massey, Songwu Lu, Andreas Terzis, Lixia Zhang"
@@ -1636,7 +1646,6 @@
   month: April
   year: 2009
   pdf: pappas2009configuration.pdf
-  # TODO: Get PDF
 
 - title: "BGPmon: A real-time, scalable, extensible monitoring system"
   authors: "He Yan, Ricardo Oliveira, Kevin Burnett, Dave Matthews, Lixia Zhang, Dan Massey"
@@ -1645,7 +1654,6 @@
   month: March
   year: 2009
   pdf: yan2009bgpmon.pdf
-  # TODO: Get PDF
 
 - title: "Vantages: Using \"Public Data\" for Key Verification"
   authors: "Eric Osterweil, Dan Massey, Lixia Zhang"
@@ -1665,7 +1673,6 @@
   month: October
   year: 2008
   pdf: osterweil2008quantifying.pdf
-  # TODO: Get PDF
 
 - title: "Towards A Future Internet Architecture: Arguments for Separating Edges from Transit Core"
   authors: "Dan Jen, Michael Meisel, He Yan, Dan Massey, Lan Wang, Beichuan Zhang, Lixia Zhang"
@@ -1674,7 +1681,6 @@
   month: October
   year: 2008
   pdf: jen2008separating.pdf
-  # TODO: Get PDF
 
 - title: "Cyclops: An AS-level Connectivity Observatory"
   authors: "Ying-Ju Chi, Ricardo Oliveira, Lixia Zhang"
@@ -1686,7 +1692,6 @@
   month: September
   year: 2008
   pdf: chi2008cyclops.pdf
-  # TODO: Get PDF
 
 - title: "A Retrospective View of Network Address Translation"
   authors: "Lixia Zhang"
@@ -1698,7 +1703,6 @@
   month: September
   year: 2008
   pdf: zhang2008nat.pdf
-  # TODO: Get PDF
 
 - title: "Quantifying the Completeness of the Observed Internet AS-level Structure"
   authors: "Ricardo Oliveira, Dan Pei, Wlater Willinger, Beichuan Zhang, Lixia Zhang"
@@ -1708,7 +1712,6 @@
   month: September
   year: 2008
   pdf: ucla-cs-tr080026.pdf
-  # TODO: Get PDF
 
 - title: "In Search of the Elusive Ground Truth: The Internet's AS-level Connectivity Structure"
   authors: "Richardo Oliveira, Dan Pei, Walter Willinger, Beichuan Zhang, Lixia Zhang"
@@ -1717,7 +1720,6 @@
   month: June
   year: 2008
   pdf: oliveira2008structure.pdf
-  # TODO: Get PDF
 
 - title: "APT: A Practical Tunneling Architecture for Routing Scalability"
   authors: "Dan Jen, Michael Meisel, Daniel Massey, Lan Wang, Beichuan Zhang, Lixia Zhang"
@@ -1727,7 +1729,6 @@
   month: March
   year: 2008
   pdf: ucla-cs-tr080004.pdf
-  # TODO: Get PDF
 
 - title: "Learning the Valid Incoming Direction of IP Packets"
   authors: "Jun Li, Jelena Mirkovic, Toby Ehrenkranz, Mengqiu Wang, Peter Reiher, Lixia Zhang"
@@ -1761,7 +1762,6 @@
   month: unknown
   year: 2008
   pdf: ucla-cs-tr080019.pdf
-  # TODO: Get PDF
 
 - title: "A Study of Internet Routing Stability Using Link Weight"
   authors: "Mohit Lad, Jong Han Park, Tiziana Refice, Lixia Zhang"
@@ -1771,7 +1771,6 @@
   month: unknown
   year: 2008
   pdf: ucla-cs-tr080003.pdf
-  # TODO: Get PDF
 
 # 2007
 
@@ -1794,7 +1793,6 @@
   month: October
   year: 2007
   pdf: oliveira2007geo.pdf
-  # TODO: Get PDF
 
 - title: "Inferring the Origin of Routing Changes using Link Weights"
   authors: "Mohit Lad, Ricardo Oliveira, Dan Massey, Lixia Zhang"
@@ -1803,7 +1801,6 @@
   month: October
   year: 2007
   pdf: lad2007weights.pdf
-  # TODO: Get PDF
 
 - title: "Observations from the DNSSEC Deployment"
   authors: "Eric Osterweil, Dan Massey, Lixia Zhang"
@@ -1812,7 +1809,6 @@
   month: October
   year: 2007
   pdf: osterweil2007dnssec.pdf
-  # TODO: Get PDF
 
 - title: "Report from the IAB Workshop on Routing and Addressing"
   authors: "Dave Meyer, Lixia Zhang, Kevin Fall (ed.)"
@@ -1835,7 +1831,6 @@
   month: August
   year: 2007
   pdf: oliveira2007evolution.pdf
-  # TODO: Get PDF
 
 - title: "Zone State Revocation for DNSSEC"
   authors: "Eric Osterweil, Vasileios Pappas, Dan Massey, Lixia Zhang"
@@ -1844,7 +1839,6 @@
   month: August
   year: 2007
   pdf: osterweil2007revocation.pdf
-  # TODO: Get PDF
 
 - title: "A Scalable Routing System Design for Future Internet"
   authors: "Daniel Massey, Lan Wang, Beichaun Zhang, Lixia Zhang"
@@ -1853,7 +1847,6 @@
   month: August
   year: 2007
   pdf: massey2007scalable.pdf
-  # TODO: Get PDF
 
 - title: "Visualizing Internet Topology Dynamics with Cyclops"
   authors: "Ricardo Oliveira, Ying-Ju Chi, Yannis Pefkianakis, Mohit Lad, Lixia Zhang"
@@ -1863,7 +1856,6 @@
   year: 2007
   note: Poster
   pdf: oliveira2007cyclops.pdf
-  # TODO: Get PDF
 
 - title: "Geographically Informed Inter-Domain Routing"
   authors: "Ricardo Oliveira, Mohit Lad, Beichuan Zhang, Lixia Zhang"
@@ -1873,7 +1865,6 @@
   year: 2007
   note: Poster
   pdf: oliveira2007geo-poster.pdf
-  # TODO: Get PDF
 
 - title: "Clustering and Sharing Incentives in BitTorrent Systems"
   authors: "Arnaud Legout, Nikitas Liogkas, Eddie Kohler, Lixia Zhang"
@@ -1891,7 +1882,6 @@
   month: June
   year: 2007
   pdf: pappas2007dos.pdf
-  # TODO: Get PDF
 
 - title: "Understanding the Resiliency of Internet Topology against Prefix Hijack Attacks"
   authors: "Mohit Lad, Ricardo Oliveira, Beichuan Zhang, Lixia Zhang"
@@ -1900,7 +1890,6 @@
   month: June
   year: 2007
   pdf: lad2007prefixhijack.pdf
-  # TODO: Get PDF
 
 - title: "Persistent Detection and Recovery of State Inconsistencies"
   authors: "Lan Wang, Daniel Massey, Lixia Zhang"
@@ -1912,7 +1901,6 @@
   month: April
   year: 2007
   pdf: wang2007presistent.pdf
-  # TODO: Get PDF
 
 # 2006
 
@@ -1932,7 +1920,6 @@
   month: November
   year: 2006
   pdf: oliveira2006path.pdf
-  # TODO: Get PDF
 
 - title: "Visualizing Internet Routing Changes"
   authors: "Mohit Lad, Dan Massey, Lixia Zhang"
@@ -1961,7 +1948,6 @@
   month: October
   year: 2006
   pdf: yang2006wsn.pdf
-  # TODO: Get PDF
 
 - title: "An Overview of Multihoming and Open Issues in GSE"
   authors: "Lixia Zhang"
@@ -1972,8 +1958,7 @@
   pages: "29-35"
   month: September
   year: 2006
-  pdf: zhang2006gse.pdf
-  # TODO: Get PDF
+  html: https://www.ietfjournal.org/an-overview-of-multihoming-and-open-issues-in-gse2/
 
 - title: "Minimum failure explanations for path vector routing changes"
   authors: "Mohit Lad, Dan Massey, Adam Meyereson, Akash Nanavati, Lixia Zhang"
@@ -1985,7 +1970,6 @@
   month: September
   year: 2006
   pdf: lad2006minimum.pdf
-  # TODO: Get PDF
 
 - title: "PHAS: a Prefix Hijack Alert System"
   authors: "Mohit Lad, Dan Massey, Dan Pei, Yiguo Wu, Beichuan Zhang, Lixia Zhang"
@@ -1994,7 +1978,6 @@
   month: August
   year: 2006
   pdf: lad2006phas.pdf
-  # TODO: Get PDF
 
 - title: "Security Through Publicity"
   authors: "Eric Osterweil, Dan Massey, Batsukh Tsendjav, Beichuan Zhang, Lixia Zhang"
@@ -2003,7 +1986,6 @@
   month: July
   year: 2006
   pdf: osterweil2006publicity.pdf
-  # TODO: Get PDF
 
 - title: "Universal IP Multicast Delivery"
   authors: "Beichaun Zhang, Wenjie Wang, Sugih Jamin, Dan Massey, Lixia Zhang"
@@ -2015,7 +1997,6 @@
   month: April
   year: 2006
   pdf: zhang2006universal.pdf
-  # TODO: Get PDF
 
 - title: "A Randomized Energy-Conservation Protocol for Resilient Sensor Networks"
   authors: "Fan Ye, Honghai Zhang, Songwu Lu, Lixia Zhang, Jennifer Hou"
@@ -2025,8 +2006,7 @@
   pages: "637-652"
   month: April
   year: 2006
-  pdf: ye2006resilient.pdf
-  # TODO: Get PDF
+  pdf: ye2006randomized.pdf
 
 - title: "A Comparative Study of Current DNS with DHT-Based Alternatives"
   authors: "Vasileios Pappas, Daniel Massey, Andreas Terzis, Lixia Zhang"
@@ -2035,7 +2015,6 @@
   month: April
   year: 2006
   pdf: pappas2006dht.pdf
-  # TODO: Get PDF
 
 - title: "Securing a Wireless World"
   authors: "Hao Yang, Fabio Ricciato, Songwu Lu, Lixia Zhang"
@@ -2048,7 +2027,6 @@
   year: 2006
   note: Invited Paper
   pdf: yang2006securing.pdf
-  # TODO: Get PDF
 
 - title: "Exploiting BitTorrent For Fun (But Not Profit)"
   authors: "Nikitas Liogkas, Robert Nelson, Eddie Kohler, Lixia Zhang"
@@ -2056,8 +2034,7 @@
   conference: "International Workshop on Peer-to-Peer Systems (IPTPS)"
   month: February
   year: 2006
-  pdf: liogkas2006bittorrent.pdf
-  # TODO: Get PDF
+  pdf: Liogkas-BitTorrent06.pdf
 
 - title: "An Analysis of Convergence Delay in Path Vector Routing Protocols"
   authors: "Dan Pei, Beichuan Zhang, Dan Massey, Lixia Zhang"
@@ -2069,13 +2046,12 @@
   month: February
   year: 2006
   pdf: pei2006convergence.pdf
-  # TODO: Get PDF
 
 #- title: "Internet Routing: Separating Customers from Providers"
 #  authors: "Beichuan Zhang, Vamsi Kambhampati, Daniel Massey, Ricardo Oliveira, Dan Pei, Lan Wang, Lixia Zhang"
 #  type: ???
 #  year: 2006
-#  ### Eric: I can't find anything about where this paper was published, so I've excluded it for now.
+# ### Eric: I can't find anything about where this paper was published, so I've excluded it for now.
 
 # 2005
 
@@ -2086,7 +2062,6 @@
   month: November
   year: 2005
   pdf: oliveira2005active.pdf
-  # TODO: Get PDF
 
 - title: "The Impact of Multi-homing on Network Reliability and Stability: A Case Study"
   authors: "Hyo-Joeng Shin, Dan Pei, Mohit Lad, Yanghee Choi, Lixia Zhang"
@@ -2104,7 +2079,6 @@
   month: August
   year: 2005
   pdf: zhang2005transfers.pf
-  # TODO: Get PDF
 
 - title: "Making the world (of communications) a different place"
   authors: "David D. Clark, Craig Partridge, Robert T. Braden, Bruce Davie, Sally Floyd, Van Jacobson, Dina Katabi, Greg Minshall, K. K. Ramakrishnan, Timothy Roscoe, Ion Stoica, John Wroclawski, Lixia Zhang"
@@ -2126,7 +2100,6 @@
   year: 2005
   note: "<strong>Best Paper Award</strong>"
   pdf: zhang2005timer.pdf
-  # TODO: Get PDF
 
 - title: "BGP-RCN: Improving BGP Convergence Through Root Cause Notification"
   authors: "Dan Pei, Matt Azuma, Daniel Massey, Lixia Zhang"
@@ -2137,8 +2110,7 @@
   pages: "175-194"
   month: June
   year: 2005
-  pdf: pei2005rcn.pdf
-  # TODO: Get PDF
+  pdf: BGP-RCN.pdf
 
 - title: "Statistical En-Route Filtering of Injected False Data in Sensor Networks"
   authors: "Fan Ye, Haiyun Luo, Songwu Lu, Lixia Zhang"
@@ -2150,7 +2122,6 @@
   month: April
   year: 2005
   pdf: ye2005filtering.pdf
-  # TODO: Get PDF
 
 - title: "The Impact of Link Failure Location on Routing Dynamics: A Formal Analysis"
   authors: "Xiaoliang Zhao, Beichuan Zhang, Andreas Terzis, Daniel Massey, Lixia Zhang"
@@ -2159,7 +2130,6 @@
   month: April
   year: 2005
   pdf: zhao2005dynamics.pdf
-  # TODO: Get PDF
 
 - title: "The Impact of Multihop Wireless Channel on TCP Performance"
   authors: "Zhenghua Fu, Haiyun Luo, Petros Zerfos, Songwu Lu, Lixia Zhang, Mario Gerla"
@@ -2171,7 +2141,6 @@
   month: March
   year: 2005
   pdf: fu2005multihop.pdf
-  # TODO: Get PDF
 
 - title: "GRAdient Broadcast: A Robust Data Delivery Protocol for Large Scale Sensor Networks"
   authors: "Fan Ye, Gary Zhong, Songwu Lu, Lixia Zhang"
@@ -2182,7 +2151,6 @@
   month: March
   year: 2005
   pdf: ye2005grab.pdf
-  # TODO: Get PDF
 
 - title: "TTDD: Two-Tier Data Dissemination in Large-scale Wireless Sensor Networks"
   authors: "Haiyun Luo, Fan Ye, Jerry Cheng, Songwu Lu, Lixia Zhang"
@@ -2193,7 +2161,6 @@
   month: January
   year: 2005
   pdf: luo2005ttdd.pdf
-  # TODO: Get PDF
 
 - title: "Collecting the Internet AS-level Topology"
   authors: "Beichuan Zhang, Raymond Liu, Daniel Massey, Lixia Zhang"
@@ -2205,7 +2172,6 @@
   month: January
   year: 2005
   pdf: zhang2005topology.pdf
-  # TODO: Get PDF
 
 - title: "IPv4 Address Allocation and BGP Routing Table Evolution"
   authors: "Xiaoqiao Meng, Zhiguo Xu, Beichuan Zhang, Geoff Huston, Songwu Lu, Lixia Zhang"
@@ -2217,7 +2183,6 @@
   month: January
   year: 2005
   pdf: meng2005ipv4.pdf
-  # TODO: Get PDF
 
 - title: "Visualizing Internet Routing Dynamics using Link-Rank"
   authors: "Mohit Lad, Dan Massey, Lixia Zhang"
@@ -2227,7 +2192,6 @@
   month: unknown
   year: 2005
   pdf: ucla-cs-tr050010.pdf
-  # TODO: Get PDF
 
 # 2004
 
@@ -2241,7 +2205,6 @@
   month: December
   year: 2004
   pdf: luo2004ursa.pdf
-  # TODO: Get PDF
 
 - title: "Ad-hoc Network Security"
   authors: "Hao Yang, Haiyun Luo, Jiejun Kong, Fan Ye, Petros Zerfos, Songwu Lu, Lixia Zhang"
@@ -2260,7 +2223,6 @@
   month: November
   year: 2004
   pdf: zhang2004reachability.pdf
-  # TODO: Get PDF
 
 - title: "Finite State Machines for BGP"
   authors: "Dan Pei, Dan Massey, Lixia Zhang"
@@ -2270,7 +2232,6 @@
   month: November
   year: 2004
   pdf: ucla-cs-tr040047.pdf
-  # TODO: Get PDF
 
 - title: "A Formal Specification for RIP Protocol"
   authors: "Dan Pei, Dan Massey, Lixia Zhang"
@@ -2280,7 +2241,6 @@
   month: November
   year: 2004
   pdf: ucla-cs-tr040046.pdf
-  # TODO: Get PDF
 
 - title: "A Simplified Formal Specification for BGP"
   authors: "Dan Pei, Dan Massey, Lixia Zhang"
@@ -2290,7 +2250,6 @@
   month: November
   year: 2004
   pdf: ucla-cs-tr040044.pdf
-  # TODO: Get PDF
 
 - title: "Route Diagnosis in Path Vector Protcols"
   authors: "Dan Pei, Mohit Lad, Beichuan Zhang, Dan Massey, Lixia Zhang"
@@ -2300,7 +2259,6 @@
   month: October
   year: 2004
   pdf: ucla-cs-tr040039.pdf
-  # TODO: Get PDF
 
 - title: "Impact of Configuration Errors on DNS Robustness"
   authors: "Vasileios Pappas, Zhiguo Xu, Songwu Lu, Daniel Massey, Andreas Terzis, Lixia Zhang"
@@ -2358,7 +2316,6 @@
   month: June
   year: 2004
   pdf: wang2004frtr.pdf
-  # TODO: Get PDF
 
 - title: "On Detection of Anomalous Routing Dynamics in BGP"
   authors: "Ke Zhang, Amy Yen, Xiaoliang Zhao, Dan Massey, S. Felix Wu, Lixia Zhang"
@@ -2376,7 +2333,6 @@
   month: April
   year: 2004
   pdf: lad2004link-rank.pdf
-  # TODO: Get PDF
 
 - title: "Statistical En-route Filtering of Injected False Data in Sensor Networks"
   authors: "Fan Ye, Haiyun Luo, Songwu Lu, Lixia Zhang"
@@ -2397,7 +2353,6 @@
   month: March
   year: 2004
   pdf: pei2004resilient.pdf
-  # TODO: Get PDF
 
 - title: "Fault-Tolerant Data Delivery in Multicast Overlay Networks"
   authors: "Vasileios Pappas, Beichuan Zhang, Andreas Terzis, Lixia Zhang"
@@ -2406,7 +2361,6 @@
   month: March
   year: 2004
   pdf: pappas2004overlay.pdf
-  # TODO: Get PDF
 
 - title: "A Study of BGP Path Vector Route Looping Behavior"
   authors: "Dan Pei, Xiaoliang Zhao, Dan Massey, Lixia Zhang"
@@ -2415,7 +2369,6 @@
   month: March
   year: 2004
   pdf: pei2004looping.pdf
-  # TODO: Get PDF
 
 - title: "An Algorithmic Approach to Identifying Link Failures"
   authors: "Mohit Lad, Akash Nanavati, Dan Massey, Lixia Zhang"
@@ -2424,7 +2377,6 @@
   month: March
   year: 2004
   pdf: lad2004failures.pdf
-  # TODO: Get PDF
 
 - title: "Security in Mobile Ad-Hoc Wireless Networks: Challenges and Solutions"
   authors: "Hao Yang, Haiyun Luo, Fan Ye, Songwu Lu, Lixia Zhang"
@@ -2446,7 +2398,6 @@
   month: March
   year: 2004
   pdf: ucla-cs-tr040009.pdf
-  # TODO: Get PDF
 
 - title: "FRTR: A Scalable Mechanism to Restore Routing Table Consistency"
   authors: "Lan Wang, Daniel Massey, Keyur Patel, Lixia Zhang"
@@ -2456,7 +2407,6 @@
   month: January
   year: 2004
   pdf: ucla-cs-tr030054.pdf
-  # TODO: Get PDF
 
 - title: "On Resiliency to Compromised Nodes: A Case for Location Based Security in Sensor Networks"
   authors: "Hao Yang, Fan Ye, Jerry Cheng, Haiyun Luo, Songwu Lu, Lixia Zhang"
@@ -2466,7 +2416,6 @@
   month: unknown
   year: 2004
   pdf: ucla-cs-tr040025.pdf
-  # TODO: Get PDF
 
 # 2003
 
@@ -2486,7 +2435,6 @@
   month: December
   year: 2003
   pdf: lad2003slammer.pdf
-  # TODO: Get PDF
 
 - title: "Statistical En-route Filtering of Injected False Data In Sensor Networks"
   authors: "Fan Ye, Haiyun Luo, Songwu Lu, Lixia Zhang"
@@ -2496,7 +2444,6 @@
   year: 2003
   note: Poster
   pdf: ye2003filtering.pdf
-  # TODO: Get PDF
 
 - title: "A Framework for Resilient Internet Routing Protocols"
   authors: "Dan Pei, Daniel Massey, Lixia Zhang"
@@ -2506,7 +2453,6 @@
   month: November
   year: 2003
   pdf: ucla-cs-tr030052.pdf
-  # TODO: Get PDF
 
 - title: "A Study of Packet Delivery Performance during Routing Convergence"
   authors: "Dan Pei, Lan Wang, Daniel Massey, S. Felix Wu, Lixia Zhang"
@@ -2516,7 +2462,6 @@
   month: November
   year: 2003
   pdf: ucla-cs-tr030051.pdf
-  # TODO: Get PDF
 
 - title: "Visual-based Anomaly Detection for BGP Origin AS Change (OASC) Events"
   authors: "Soon-Tee Teoh, Kwan-Liu Ma, S. Felix Wu, Dan Massey, Xiao-Liang Zhao, Dan Pei, Lan Wang, Lixia Zhang, Randy Bush"
@@ -2525,7 +2470,6 @@
   month: October
   year: 2003
   pdf: teoh2003oasc.pdf
-  # TODO: Get PDF
 
 - title: "A Study on the Routing Convergence of Latin American Networks"
   authors: "Xiaoliang Zhao, Dan Massey, Dan Pei, Lixia Zhang"
@@ -2544,7 +2488,6 @@
   month: October
   year: 2003
   pdf: ucla-cs-tr030047.pdf
-  # TODO: Get PDF
 
 - title: "Protecting BGP Routes to Top-Level DNS Servers"
   authors: "Lan Wang, Xiaoliang Zhao, Dan Pei, Randy Bush, Dan Massey, Lixia Zhang"
@@ -2556,7 +2499,6 @@
   month: September
   year: 2003
   pdf: wang2003protecting-tpds.pdf
-  # TODO: Get PDF
 
 - title: "A Study of Packet Delivery Performance during Routing Convergence"
   authors: "Dan Pei, Lan Wang, Daniel Massey, S. Felix Wu, Lixia Zhang"
@@ -2565,7 +2507,6 @@
   month: June
   year: 2003
   pdf: pei2003convergence.pdf
-  # TODO: Get PDF
 
 - title: "DIP: Distance Information Protocol for IDMaps"
   authors: "Yixin Jin, Beichuan Zhang, Vasileios Pappas, Sugih Jamin, Lixia Zhang"
@@ -2574,7 +2515,6 @@
   month: June
   year: 2003
   pdf: jin2003dip.pdf
-  # TODO: Get PDF
 
 - title: "PEAS: A Robust Energy Conserving Protocol for Long-lived Sensor Networks"
   authors: "Fan Ye, Gary Zhong, Songwu Lu, Lixia Zhang"
@@ -2583,7 +2523,6 @@
   month: May
   year: 2003
   pdf: ye2003peas.pdf
-  # TODO: Get PDF
 
 - title: "Protecting BGP Routes to Top Level DNS Servers"
   authors: "Lan Wang, Xiaoliang Zhao, Dan Pei, Randy Bush, Daniel Massey, Allison Mankin, Shyhtsun Felix Wu, Lixia Zhang"
@@ -2592,7 +2531,6 @@
   month: May
   year: 2003
   pdf: wang2003protecting-icdcs.pdf
-  # TODO: Get PDF
 
 - title: "A Robust Data Delivery Protocol for Large Scale Sensor Networks"
   authors: "Fan Ye, Gary Zhong, Songwu Lu, Lixia Zhang"
@@ -2601,16 +2539,14 @@
   month: April
   year: 2003
   pdf: ye2003robust.pdf
-  # TODO: Get PDF
 
 - title: "Impact of IPv4 Address Allocation Practice on BGP Routing Table Growth"
-  authors: "Zhiguo Xu, Xiaoqiao Meng, Songwu Lu, Lixia Zhang"
+  authors: "Zhiguo Xu, Xiaoqiao Meng, Songwu Lu, Lixia Zhang, Cathy J. Wittbrodt"
   type: conference
   conference: "IEEE Computer Communication Workshop"
   month: March
   year: 2003
   pdf: xu2003ipv4.pdf
-  # TODO: Get PDF
 
 - title: "The Impact of Multihop Wireless Channel on TCP Throughput and Loss"
   authors: "Zhenghua Fu, Petros Zerfos, Haiyun Luo, Songwu Lu, Lixia Zhang, Mario Gerla"
@@ -2627,8 +2563,6 @@
 #  conference: "ACM MONET"
 #  month: March
 #  year: 2003
-#  pdf: luo2003twotier.pdf
-#  # TODO: Get PDF
 # ### I couldn't find any evidence of this paper's existence. Maybe a mixed up entry? -Eric
 
 - title: "Understanding BGP behavior through a study of DoD prefixes"
@@ -2638,17 +2572,15 @@
   month: February
   year: 2003
   pdf: zhao2003dod.pdf
-  # TODO: Get PDF
 
 - title: "An Analysis of BGP Routing Table Evolution"
   authors: "Xiaoqiao Meng, Zhiguo Xu, Lixia Zhang, Songwu Lu"
   type: techreport
   institution: "UCLA CS Department"
-  number: "030047"
+  number: "030046"
   month: unknown
   year: 2003
-  pdf: ucla-cs-tr030047.pdf
-  # TODO: Get PDF
+  pdf: ucla-cs-tr030046.pdf
 
 - title: "IPv4 Address Allocation and the Evolution of the BGP routing table"
   authors: "Zhiguo Xu, Xiaoqiao Meng, Songwu Lu, Lixia Zhang"
@@ -2658,7 +2590,6 @@
   month: unknown
   year: 2003
   pdf: ucla-cs-tr030009.pdf
-  # TODO: Get PDF
 
 # 2002
 
@@ -2669,7 +2600,6 @@
   month: November
   year: 2002
   pdf: wang2002stress.pdf
-  # TODO: Get PDF
 
 - title: "PEAS: A Robust Energy Conserving Protocol for Long-lived Sensor Networks"
   authors: "Fan Ye, Gary Zhong, Songwu Lu, Lixia Zhang"
@@ -2687,17 +2617,15 @@
   conference: "International Workshop on Networked Group Communication (NGC)"
   month: October
   year: 2002
-  pdf: wang2002overlay.pdf
-  # TODO: Get PDF
+  pdf: tmesh_ngc02.pdf
 
 - title: "Universal IP Multicast Delivery"
   authors: "Beichuan Zhang, Sugih Jamin, Lixia Zhang"
   type: conference
-  conference: "International Workshop on Networked Group Communication (NGC)"
+  conference: "ACM International Workshop on Networked Group Communication (NGC)"
   month: October
   year: 2002
   pdf: zhang2002multicast.pdf
-  # TODO: Get PDF
 
 #- title: "ELISHA: A Visual-based Anomaly Detection System for the BGP Routing Protocol"
 #  authors: "S.T. Teoh, Kwan-Liu Ma, S. Felix Wu, Dan Pei, Lan Wang, Lixia Zhang, Allison Mankin, Dan Massey, X. Zhao, Randy Bush"
@@ -2705,18 +2633,15 @@
 #  conference: "International Symposium on Recent Advances in Intrusion Detection (RAID)"
 #  month: October
 #  year: 2002
-#  pdf: teoh2002elisha.pdf
-#  # TODO: Get PDF
 # ### I couldn't find any evidence of this paper's existence, so I've excluded it for now. -Eric
 
 - title: "A Two-Tier Data Dissemination Model for Large-scale Wireless Sensor Networks"
   authors: "Fan Ye, Haiyun Luo, Jerry Cheng, Songwu Lu, Lixia Zhang"
   type: conference
-  conference: "ACM MobiCom"
+  conference: "ACM MOBICOM"
   month: September
   year: 2002
   pdf: ye2002twotier.pdf
-  # TODO: Get PDF
 
 - title: "Self-securing Ad Hoc Wireless Networks"
   authors: "Haiyun Luo, Jiejun Kong, Petros Zerfos, Songwu Lu, Lixia Zhang"
@@ -2725,7 +2650,6 @@
   month: July
   year: 2002
   pdf: luo2002self.pdf
-  # TODO: Get PDF
 
 - title: "Host Multicast: A Framework for Delivering Multicast to End Users"
   authors: "Beichuan Zhang, Sugih Jamin, Lixia Zhang"
@@ -2734,7 +2658,6 @@
   month: June
   year: 2002
   pdf: zhang2002host.pdf
-  # TODO: Get PDF
 
 - title: "Improving BGP Convergence Through Consistency Assertions"
   authors: "Dan Pei, Xiaoliang Zhao, Lan Wang, Daniel Massey, Allison Mankin, S. Felix Wu, Lixia Zhang"
@@ -2743,7 +2666,6 @@
   month: June
   year: 2002
   pdf: pei2002assertions.pdf
-  # TODO: Get PDF
 
 - title: "SAVE: Source Address Validity Enforcement Protocol"
   authors: "Jun Li, Jelena Mirkovic, Mengqiu Wang, Peter Reiher, Lixia Zhang"
@@ -2752,7 +2674,6 @@
   month: June
   year: 2002
   pdf: li2002save.pdf
-  # TODO: Get PDF
 
 - title: "Detection of Invalid Routing Announcement in the Internet"
   authors: "Xiaoliang Zhao, Dan Pei, Lan Wang, Dan Massey, Allison Mankin, S. Felix Wu, Lixia Zhang"
@@ -2769,8 +2690,6 @@
 #  conference: "IEEE International Conference on Communications (IEEE ICC)"
 #  month: June
 #  year: 2002
-#  pdf: mirkovic2002self.pdf
-#  # TODO: Get PDF
 # ### I can't find any evidence of this paper's existence on the conference website, so I've excluded it for now. -Eric
 
 # 2001
@@ -2782,7 +2701,6 @@
   month: November
   year: 2001
   pdf: zhao2001moas.pdf
-  # TODO: Get PDF
 
 - title: "Providing Robust and Ubiquitous Security Support for MANET"
   authors: "Jiejun Kong, Petros Zerfos, Haiyun Luo, Songwu Lu, Lixia Zhang"
@@ -2800,16 +2718,14 @@
   month: November
   year: 2001
   pdf: albowicz2001position.pdf
-  # TODO: Get PDf
 
 - title: "On Design and Evaluation of 'Intention-Driven' ICMP Traceback"
-  authors: "Allison Mankin, Dan Massey, Chie Lung Wu, S. Felix Wu, Lixia Zhang"
+  authors: "Allison Mankin, Dan Massey, Chien-Lung Wu, S. Felix Wu, Lixia Zhang"
   type: conference
   conference: "IEEE International Conference on Computer Communications and Networks (ICCCN)"
   month: October
   year: 2001
   pdf: mankin2001intention.pdf
-  # TODO: Get PDF
 
 - title: "A Scalable Solution to Minimum Cost Forwarding in Large Scale Sensor Networks"
   authors: "Fan Ye, Alvin Chen, Songwu Lu, Lixia Zhang"
@@ -2818,7 +2734,6 @@
   month: October
   year: 2001
   pdf: ye2001minimum.pdf
-  # TODO: Get PDF
 
 - title: "IDMAPS: A Global Internet Host Distance Estimation Service"
   authors: "Paul Francis, Sugih Jamin, Cheng Jin, Yixin Jin, Danny Raz, Yuval Shavitt, Lixia Zhang"
@@ -2830,7 +2745,6 @@
   month: October
   year: 2001
   pdf: francis2001idmaps.pdf
-  # TODO: Get PDF
 
 - title: "A Self-Organizing Approach to Data Forwarding in Wireless Sensor Networks"
   authors: "Jelena Mirkovic, Songwu Lu, Lixia Zhang"
@@ -2839,7 +2753,6 @@
   month: June
   year: 2001
   pdf: mirkovic2001organizing.pdf
-  # TODO: Get PDF
 
 - title: "RSVP Cryptographic Authentication -- Updated Message Type Value"
   authors: "Bob Braden, Lixia Zhang"
@@ -2857,7 +2770,6 @@
   month: unknown
   year: 2001
   pdf: ucla-cs-tr010004.pdf
-  # TODO: Get PDF
 
 # 2000
 
@@ -2884,7 +2796,6 @@
   month: April
   year: 2000
   pdf: ucla-cs-tr200015.pdf
-  # TODO: Get PDF
 
 - title: "On Receiver-Driven Layered Multicast Transmission"
   authors: "Jun Wei, Lixia Zhang"
@@ -2894,7 +2805,6 @@
   month: April
   year: 2000
   pdf: ucla-cs-tr200014.pdf
-  # TODO: Get PDF
 
 - title: "On the Placement of Internet Instrumentation"
   authors: "Sugih Jamin, Cheng Jin, Yixin Jin, Danny Raz, Yuval Shavitt, Lixia Zhang"
@@ -2903,7 +2813,6 @@
   month: March
   year: 2000
   pdf: jamin2000instrumentation.pdf
-  # TODO: Get PDF
 
 - title: "URL Forwarding and Compression in Adaptive Web Caching"
   authors: "B. Scott Michel, Konstantinos Nikoloudakis, Peter Reiher, Lixia Zhang"
@@ -2912,7 +2821,6 @@
   month: March
   year: 2000
   pdf: michel2000caching.pdf
-  # TODO: Get PDF
 
 - title: "IRLSim: A General Purpose Packet Level Network Simulator"
   authors: "Andreas Terzis, Konstantinos Nikoloudakis, Lan Wang, Lixia Zhang"
@@ -2921,7 +2829,6 @@
   month: April
   year: 2000
   pdf: terzis2000irlsim.pdf
-  # TODO: Get PDF
 
 - title: "RSVP Operation Over IP Tunnels"
   authors: "Andreas Terzis, John Krawczyk, John Wroclawski, Lixia Zhang"
@@ -2947,18 +2854,16 @@
   month: unknown
   year: 2000
   pdf: ucla-cs-tr200021.pdf
-  # TODO: Get PDF
 
 # 1999
 
 - title: "A Two-Tier Resource Management Model for the Internet"
   authors: "Andreas Terzis, Lan Wang, Jun Ogawa, Lixia Zhang"
   type: conference
-  conference: "IEEE Global Telecommunications Conference (GLOBECOM)"
+  conference: "IEEE Global Telecommunications Conference (GLOBECOM) Global Internet Symposium (GI)"
   month: December
   year: 1999
   pdf: terzis1999two-tier.pdf
-  # TODO: Get PDF
 
 - title: "Recovery Timer Adaptation in SRM"
   authors: "Ching-Gung Liu, Deborah Estrin, Scott Shenker, Lixia Zhang"
@@ -2976,7 +2881,6 @@
   month: October
   year: 1999
   pdf: wang1999refreshes.pdf
-  # TODO: Get PDF
 
 - title: "Tree Multicast Strategies in Mobile, Multihop Wireless Networks"
   authors: "Mario Gerla, Ching-Chuan Chiang, Lixia Zhang"
@@ -3004,7 +2908,6 @@
   month: July
   year: 1999
   pdf: sturtevant1999directory.pdf
-  # TODO: Get PDF
 
 - title: "Semantic Multicast: Intelligently Sharing Collaborative Sessions"
   authors: "Son Dao, Eddie Shek, Asha Vellaikal, Richard R. Muntz, Lixia Zhang, Miodrag Potkonjak, Ouri Wolfson"
@@ -3022,7 +2925,6 @@
   month: June
   year: 1999
   pdf: gerla1999multihop.pdf
-  # TODO: Get PDF
 
 - title: "A Prototype Implementation of the Two-Tier Architecture for Differentiated Services"
   authors: "Andreas Terzis, Jun Ogawa, Sonia Tsui, Lan Wang, Lixia Zhang"
@@ -3030,8 +2932,7 @@
   conference: "IEE Real-Time Technology and Applications Symposium (RTAS)"
   month: June
   year: 1999
-  pdf: terzis1999two-tier.pdf
-  # TODO: Get PDF
+  pdf: terzis1999two-tier-prototype.pdf
 
 - title: "A Simple QoS Signaling Protocol for Mobile Hosts in the Integrated Services Internet"
   authors: "Andreas Terzis, Mani Srivastava, Lixia Zhang"
@@ -3040,7 +2941,6 @@
   month: March
   year: 1999
   pdf: terzis1999qos.pdf
-  # TODO: Get PDF
 
 - title: "An Architecture for a Global Internet Host Distance Estimation Service"
   authors: "Paul Francis, Sugih Jamin, Vern Paxson, Lixia Zhang, Daniel F. Gryniewicz, Yixin Jin"
@@ -3049,7 +2949,6 @@
   month: March
   year: 1999
   pdf: francis1999distance.pdf
-  # TODO: Get PDF
 
 # 1998
 
@@ -3063,7 +2962,6 @@
   month: December
   year: 1998
   pdf: liu1998srm.pdf
-  # TODO: Get PDF
 
 - title: "Adaptive web caching: towards a new global caching architecture"
   authors: "Scott Michel, Khoi Nguyen, Adam Rosenstein, Lixia Zhang, Sally Floyd, Van Jacobson"
@@ -3074,7 +2972,6 @@
   month: November
   year: 1998
   pdf: michel1998adaptive.pdf
-  # TODO: Get PDF
 
 - title: "Measurements on Delay and Hop-Count of the Internet"
   authors: "Aiguo Fei, Guangyu Pei, Roy Liu, Lixia Zhang"
@@ -3083,7 +2980,6 @@
   month: November
   year: 1998
   pdf: fei1998measurements.pdf
-  # TODO: Get PDF
 
 - title: "A Scalable Resource Management Framework for Differentiated Services Internet"
   authors: "Andreas Terzis, Lan Wang, Lixia Zhang"
@@ -3091,8 +2987,7 @@
   conference: "NASA/NREN Workshop on QoS for the Next Generation Internet"
   month: August
   year: 1998
-  pdf: terzis1998differentiated.pdf
-  # TODO: Get PDF
+  txt: terzis1998differentiated.txt
 
 - title: "Forwarding Group Multicast Protocol (FGMP) for Multihop, Mobile Wireless Networks"
   authors: "Ching-Chuan Chiang, Mario Gerla, Lixia Zhang"
@@ -3104,7 +2999,6 @@
   month: June
   year: 1998
   pdf: chiang1998fgmp.pdf
-  # TODO: Get PDF
 
 - title: "Reservations for Aggregate Flows: Experiences from an RSVP Tunnels Implementation"
   authors: "Andreas Terzis, Lixia Zhang, Ellen L. Hahne"
@@ -3113,7 +3007,6 @@
   month: May
   year: 1998
   pdf: terzis1998reservations.pdf
-  # TODO: Get PDF
 
 - title: "Experimentations with TCP Selective Acknowledgement"
   authors: "Renaud Bruyeron, Bruno Hemon, Lixia Zhang"
@@ -3125,7 +3018,6 @@
   month: April
   year: 1998
   pdf: bruyeron1998sack.pdf
-  # TODO: Get PDF
 
 - title: "Recommendations on Queue Management and Congestion Avoidance in the Internet"
   authors: "Bob Braden, David D. Clark, John Crowcroft, Bruce Davie, Steve Deering, Deborah Estrin, Sally Floyd, Van Jacobson, Greg Minshall, Craig Partridge, Larry Peterson, K.K. Ramakrishnan, Scott Shenker, John Wroclawski, Lixia Zhang"
@@ -3156,7 +3048,6 @@
   month: December
   year: 1997
   pdf: floyd1997reliable.pdf
-  # TODO: Get PDF
 
 - title: "Shared Tree Wireless Network Multicast"
   authors: "Ching-Chuan Chiang, Mario Gerla, Lixia Zhang"
@@ -3165,7 +3056,6 @@
   month: September
   year: 1997
   pdf: chiang1997shared-tree.pdf
-  # TODO: Get PDF
 
 - title: "Resource ReSerVation Protocol (RSVP) -- Version 1 Message Processing Rules"
   authors: "Bob Braden, Lixia Zhang"
@@ -3211,4 +3101,3 @@
   month: February
   year: 1997
   pdf: jamin1997admission.pdf
-  # TODO: Get PDF
