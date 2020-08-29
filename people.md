@@ -6,6 +6,9 @@ categories:
   - internal: prof
     category: Professors
     desc: Professor
+  - internal: postdoc
+    category: Postdocs
+    desc: Postdoc
   - internal: phd-candidate
     category: Ph.D. Candidates
     desc: Ph.D. Candidate

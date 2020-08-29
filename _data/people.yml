@@ -4,6 +4,11 @@
   image: lixia_zhang.png
   link_to: http://web.cs.ucla.edu/~lixia/
   klass: prof
+- name: Philipp Moll
+  image: philipp_moll.jpg
+  link_to: https://scholar.google.com/citations?user=C4eM_cwAAAAJ
+  klass: visitor
+  klass: postdoc
 - name: Zhiyi Zhang
   image: zhiyi_zhang.jpg
   link_to: https://zhiyi-zhang.com/
