@@ -273,6 +273,13 @@
   year: 2012
   status: LinkedIn
 
+# Alumni (Postdocs)
+- name: Yanbiao Li
+  image: yanbiao_li.jpg
+  klass: alPostdocs
+  desc: Postdoc
+  time: Left 2019
+
 # Alumni (Visitors)
 
 - name: Yu Guan
@@ -281,11 +288,6 @@
   klass: alVisitors
   desc: Visiting Graduate Researcher (Peking University)
   time: Left December 2019
-- name: Yanbiao Li
-  image: yanbiao_li.jpg
-  klass: alVisitors
-  desc: Postdoc
-  time: Left 2019
 - name: Zhongda Xia
   image: zhongda_xia.jpg
   klass: alVisitors

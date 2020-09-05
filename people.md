@@ -31,9 +31,12 @@ alumni_categories:
   - internal: alMasters
     category: Alumni (Master's Students)
     desc: Alumni (Master's)
+  - internal: alPostdocs
+    category: Alumni (Postdocs)
+    desc: Alumni (Postdocs)
   - internal: alVisitors
     category: Alumni (Visitors)
-    desc: Alumni (Visitor)
+    desc: Alumni (Visitors)
 ---
 
 
@@ -156,9 +159,15 @@ alumni_categories:
                         <br />
                         <strong>{{ person.status }}</strong>
                       </p>
+                    {% elsif category.internal == "alPostdocs" %}
+                      <p>
+                        {{ person.desc }}<br />
+                        <br />
+                        {{ person.time }}
+                      </p>
                     {% elsif category.internal == "alVisitors" %}
                       <p>
-                        {{ person.desc }}<Br />
+                        {{ person.desc }}<br />
                         <br />
                         {{ person.time }}
                       </p>
