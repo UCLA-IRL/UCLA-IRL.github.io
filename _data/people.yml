@@ -13,11 +13,11 @@
   image: zhiyi_zhang.jpg
   link_to: https://zhiyi-zhang.com/
   klass: phd-candidate
-- name: Tianxiang Li
-  image: tianxiang_li.jpg
-  klass: phd-student
 - name: Xinyu Ma
   image: xinyu_ma.jpg
+  klass: phd-candidate
+- name: Tianxiang Li
+  image: tianxiang_li.jpg
   klass: phd-student
 - name: John Dellaverson
   image: hunter_dellaverson.jpg
