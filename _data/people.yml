@@ -38,6 +38,12 @@
 - name: Siqi Liu
   image: siqi_liu.jpg
   klass: undergrad
+- name: Sichen Song
+  image: sichen_song.jpg
+  klass: undergrad
+- name: Guorui Xiao
+  image: guorui_xiao.jpg
+  klass: undergrad
 - name: Leobino Sampaio
   image: leobino_sampaio.jpg
   link_to: https://sites.google.com/view/leobino
