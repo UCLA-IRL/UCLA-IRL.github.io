@@ -83,7 +83,11 @@ alumni_categories:
             {% else %}
               <a href="javascript:void(0)">
             {% endif %}
+              {% if person.image %}
                 <img alt="" src="/images/groupPics/{{ person.image }}" />
+              {% else %}
+                <img alt="" src="/images/@stock/work-7.jpg" />
+              {% endif %}
                 <div class='overlay'>
                   <div class='thumb-info'>
                     <h3>{{ person.name }}</h3>
