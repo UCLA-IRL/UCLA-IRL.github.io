@@ -16,9 +16,6 @@
 - name: Xinyu Ma
   image: xinyu_ma.jpg
   klass: phd-candidate
-- name: Tianxiang Li
-  image: tianxiang_li.jpg
-  klass: phd-student
 - name: John Dellaverson
   image: hunter_dellaverson.jpg
   klass: phd-student
@@ -44,11 +41,9 @@
 - name: Guorui Xiao
   image: guorui_xiao.jpg
   klass: undergrad
-- name: Leobino Sampaio
-  image: leobino_sampaio.jpg
-  link_to: https://sites.google.com/view/leobino
-  klass: visitor
-  desc: Visiting Professor (UFBA, Brazil)
+- name: Thien Nguyen
+  image: guorui_xiao.jpg
+  klass: undergrad
 
 # Alumni (PhD)
 
@@ -288,6 +283,12 @@
 
 # Alumni (Visitors)
 
+- name: Leobino Sampaio
+  image: leobino_sampaio.jpg
+  link_to: https://sites.google.com/view/leobino
+  klass: alVisitors
+  desc: Visiting Professor (UFBA, Brazil)
+  time: February 2020 - September 2020
 - name: Yu Guan
   image: yu_guan.jpg
   link_to: https://www.researchgate.net/profile/Yu_Guan20
