@@ -15,6 +15,7 @@
   klass: phd-candidate
 - name: Xinyu Ma
   image: xinyu_ma.jpg
+  link_to: https://web.cs.ucla.edu/~xinyu.ma/
   klass: phd-candidate
 - name: John Dellaverson
   image: hunter_dellaverson.jpg
@@ -25,6 +26,7 @@
   klass: phd-student
 - name: Tianyuan Yu
   image: tianyuan_yu.jpg
+  link_to: https://www.tianyuan-yu.com/
   klass: phd-student
 - name: Su Yong Won
   image: su_yong_won.jpg
