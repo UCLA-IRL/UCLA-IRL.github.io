@@ -31,6 +31,10 @@
 - name: Su Yong Won
   image: su_yong_won.jpg
   klass: masters
+- name: Varun Patil
+  image: varun_patil.jpg
+  link_to: https://varunpatil.me/
+  klass: masters
 - name: Yufeng Zhang
   image: yufeng_zhang.jpg
   klass: undergrad

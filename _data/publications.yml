@@ -76,6 +76,26 @@
 #   month: December
 #   year: 2004
 
+# 2021
+
+- title: "NDN Forwarder Manager: Improve the Usability of NDN Forwarders"
+  authors: "Xinyu Ma, Eric Newberry, Lixia Zhang"
+  type: techreport
+  institution: "NDN"
+  number: "NDN-0070"
+  month: January
+  year: 2021
+  pdf: https://named-data.net/wp-content/uploads/2021/01/ndn-tr-0070-1-ndnfm.pdf
+
+- title: "A Pub/Sub API for NDN-Lite with Built-in Security"
+  authors: "Tianyuan Yu, Zhiyi Zhang, Xinyu Ma, Philipp Moll, Lixia Zhang"
+  type: techreport
+  institution: "NDN"
+  number: "NDN-0071"
+  month: January
+  year: 2021
+  pdf: https://named-data.net/wp-content/uploads/2021/01/NDN-TR-0071-ndn-lite-pubsub.pdf
+
 # 2020
 
 - title: "DAPES: Named Data for Off-the-Grid File Sharing with Peer-to-Peer Interactions"
