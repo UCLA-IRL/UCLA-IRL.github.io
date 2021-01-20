@@ -46,7 +46,7 @@
 #   number: "NDN-0065"
 #   month: August
 #   year: 2018
-#   pdf: https://named-data.net/wp-content/uploads/2018/08/ndn-0065-1-pap.pdf
+#   pdf: ndn-0065-1.pdf
 #
 # Internet-Draft:
 # - title: "ICN Packet Format Design Requirements"
@@ -85,7 +85,7 @@
   number: "NDN-0070"
   month: January
   year: 2021
-  pdf: https://named-data.net/wp-content/uploads/2021/01/ndn-tr-0070-1-ndnfm.pdf
+  pdf: ndn0070-1.pdf
 
 - title: "A Pub/Sub API for NDN-Lite with Built-in Security"
   authors: "Tianyuan Yu, Zhiyi Zhang, Xinyu Ma, Philipp Moll, Lixia Zhang"
@@ -94,7 +94,7 @@
   number: "NDN-0071"
   month: January
   year: 2021
-  pdf: https://named-data.net/wp-content/uploads/2021/01/NDN-TR-0071-ndn-lite-pubsub.pdf
+  pdf: ndn0071-1.pdf
 
 # 2020
 
