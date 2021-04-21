@@ -56,6 +56,10 @@ All dissertations from IRL Ph.D. graduates are listed herein, with dissertation 
               <a href="data/files/theses/{{ pub.pdf }}" target="_blank"><img src="images/extensions/pdf.png" alt="PDF" /></a>
             {% elsif pub.pdfext %}
               <a href="{{ pub.pdfext }}" target="_blank"><img src="images/extensions/pdf.png" alt="PDF" /></a>
+            {% elsif pub.ps %}
+              <a href="data/files/theses/{{ pub.ps }}" target="_blank"><img src="images/extensions/ps.png" alt="PS" /></a>
+            {% elsif pub.psext %}
+              <a href="{{ pub.psext }}" target="_blank"><img src="images/extensions/ps.png" alt="PS" /></a>
             {% endif %}
             {% if pub.pres_pdf %}
               Slides: <a href="data/files/theses/{{ pub.pres_pdf }}" target="_blank"><img src="images/extensions/pdf.png" alt="Presentation (PDF)" /></a>

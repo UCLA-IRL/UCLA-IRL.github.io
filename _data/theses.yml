@@ -4,9 +4,12 @@
 #   author: "Joe Q. Public"
 #   month: June                # If unknown, put "unknown"
 #   year: 2024
-#   pdf:                       # (if any) ocation of thesis relative to /data/files/theses
-#   pres_pdf:                  # (if any) location of presentation relative to /data/files/theses
-#   pres_ppt:                  # (if any) location of presentation relative to /data/files/theses
+#   pdf:                       # (if any) location of thesis relative to /data/files/theses in PDF format
+#   pdfext:                    # (if any) external location of thesis in PDF format
+#   ps:                        # (if any) location of thesis relative to /data/files/theses in PS format
+#   psext:                     # (if any) external location of thesis in PS format
+#   pres_pdf:                  # (if any) location of presentation relative to /data/files/theses in PDF format
+#   pres_ppt:                  # (if any) location of presentation relative to /data/files/theses in PPT format
 
 # 2019
 
@@ -22,7 +25,7 @@
   author: "Haitao Zhang"
   month: June
   year: 2018
-  # TODO: Get PDF
+  pdfext: https://search.proquest.com/docview/2069005291
 
 # 2017
 
@@ -30,8 +33,7 @@
   author: "Wentao Shang"
   month: June
   year: 2017
-  pdf: wentao-shang-thesis.pdf
-  # TODO: Get PDF
+  pdfext: https://search.proquest.com/docview/1950402359
 
 # 2016
 
@@ -95,8 +97,7 @@
   author: "Eric Osterweil"
   month: August
   year: 2010
-  pdf: eric-osterweil-thesis.pdf
-  # TODO: Get PDF
+  pdfext: https://search.proquest.com/docview/818725578
 
 # 2009
 
@@ -104,8 +105,7 @@
   author: "Ricardo Oliveira"
   month: December
   year: 2009
-  pdf: ricardo-oliveira-thesis.pdf
-  # TODO: Get PDF
+  pdfext: https://search.proquest.com/docview/304850671
 
 # 2007
 
@@ -113,8 +113,7 @@
   author: "Mohit Lad"
   month: January
   year: 2007
-  pdf: mohit-lad-thesis.pdf
-  # TODO: Get PDF
+  pdfext: https://search.proquest.com/docview/304878611
 
 # 2006
 
@@ -123,7 +122,7 @@
   month: unknown
   year: 2006
   pdf: vasileios-pappas-thesis.pdf
-  # TODO: Get PDF
+  pdfext: https://search.proquest.com/docview/305345188
 
 # 2005
 
@@ -131,8 +130,7 @@
   author: "Dan Pei"
   month: unknown
   year: 2005
-  pdf: dan-pei-thesis.pdf
-  # TODO: Get PDF
+  pdfext: https://search.proquest.com/docview/305002608
 
 # 2004
 
@@ -140,14 +138,13 @@
   author: "Lan Wang"
   month: January
   year: 2004
-  pdf: lan-wang-thesis.pdf
-  # TODO: Get PDF
+  pdfext: https://search.proquest.com/docview/305203423
 
 - title: "Building Resilient Sensor Networks by Exploiting Scale and Redundancy"
   author: "Fan Ye"
   month: unknown
   year: 2004
-  # TODO: Get PDF
+  pdfext: https://search.proquest.com/docview/305208418
 
 # 2003
 
@@ -155,13 +152,13 @@
   author: "Nelson Tang"
   month: unknown
   year: 2003
-  # TODO: Get PDF
+  pdfext: https://search.proquest.com/docview/305351416
 
 - title: "Universal IP Multicast Delivery"
   author: "Beichuan Zhang"
   month: unknown
   year: 2003
-  # TODO: Get PDF
+  psext: https://www2.cs.arizona.edu/~bzhang/paper/all.ps.gz
 
 # 2001
 
@@ -169,24 +166,24 @@
   author: "Yixin Jin"
   month: unknown
   year: 2001
-  # TODO: Get PDF
-
-# 2000
+  pdfext: https://search.proquest.com/docview/304692119
 
 - title: "Fault Detection and Security in Routing Protocols"
   author: "Dan Massey"
   month: unknown
-  year: 2000
-  # TODO: Get PDF
+  year: 2001
+  pdfext: https://search.proquest.com/docview/275674129
+
+# 2000
 
 - title: "A Two-Tier Resource Allocation Framework for the Internet"
   author: "Andreas Terzis"
   month: unknown
   year: 2000
-  # TODO: Get PDF
+  pdfext: https://search.proquest.com/docview/304586576
 
 - title: "Diffusion Model for Multicast Delivery"
   author: "Jun Wei"
   month: unknown
   year: 2000
-  # TODO: Get PDF
+  pdfext: https://search.proquest.com/docview/304585253
