@@ -28,27 +28,15 @@
   image: tianyuan_yu.jpg
   link_to: https://www.tianyuan-yu.com/
   klass: phd-student
-- name: Su Yong Won
-  image: su_yong_won.jpg
-  klass: masters
 - name: Varun Patil
   image: varun_patil.jpg
   link_to: https://varunpatil.me/
   klass: masters
-- name: Yufeng Zhang
-  image: yufeng_zhang.jpg
-  klass: undergrad
 - name: Siqi Liu
   image: siqi_liu.jpg
   klass: undergrad
 - name: Sichen Song
   image: sichen_song.jpg
-  klass: undergrad
-- name: Guorui Xiao
-  image: guorui_xiao.jpg
-  klass: undergrad
-- name: Thien Nguyen
-  image: thien_nguyen.jpg
   klass: undergrad
 
 # Alumni (PhD)
