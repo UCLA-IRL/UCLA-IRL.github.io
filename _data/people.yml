@@ -9,10 +9,6 @@
   link_to: https://scholar.google.com/citations?user=C4eM_cwAAAAJ
   klass: visitor
   klass: postdoc
-- name: Zhiyi Zhang
-  image: zhiyi_zhang.jpg
-  link_to: https://zhiyi-zhang.com/
-  klass: phd-candidate
 - name: Xinyu Ma
   image: xinyu_ma.jpg
   link_to: https://web.cs.ucla.edu/~xinyu.ma/
@@ -41,6 +37,13 @@
 
 # Alumni (PhD)
 
+- name: Zhiyi Zhang
+  image: zhiyi_zhang.jpg
+  link_to: https://zhiyi-zhang.com/
+  klass: alPHD
+  year: 2021
+  thesis: "Named, Secured Data: A Fundamental Building Block to Secure Networking"
+  employment: Facebook
 - name: Spyridon Mastorakis
   image: spyridon_mastorakis.jpg
   link_to: https://sites.google.com/site/spyridonmastorakis
