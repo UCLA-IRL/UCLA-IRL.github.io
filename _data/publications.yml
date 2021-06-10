@@ -78,6 +78,14 @@
 
 # 2021
 
+- title: "EL PASSO: Efficient and Lightweight Privacy-preserving Single Sign On"
+  authors: "Zhiyi Zhang, Michał Król, Alberto Sonnino, Lixia Zhang, and Etienne Rivière"
+  type: conference
+  institution: "Privacy Enhancing Technologies Symposium (PETS)"
+  month: July
+  year: 2021
+  pdf: https://petsymposium.org/2021/files/papers/issue2/popets-2021-0018.pdf
+
 - title: "NDN Forwarder Manager: Improve the Usability of NDN Forwarders"
   authors: "Xinyu Ma, Eric Newberry, Lixia Zhang"
   type: techreport

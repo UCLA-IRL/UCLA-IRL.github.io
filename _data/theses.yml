@@ -11,6 +11,14 @@
 #   pres_pdf:                  # (if any) location of presentation relative to /data/files/theses in PDF format
 #   pres_ppt:                  # (if any) location of presentation relative to /data/files/theses in PPT format
 
+# 2021
+
+- title: "Named, Secured Data: A Fundamental Building Block for Secure Networking"
+  author: "Zhiyi Zhang"
+  month: June
+  year: 2021
+  pdf: http://zhiyi-zhang.com/content/dissertation.pdf
+
 # 2019
 
 - title: "Peer-to-Peer Data Sharing in Named-Data Networking"
