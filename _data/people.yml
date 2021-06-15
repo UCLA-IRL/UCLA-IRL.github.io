@@ -202,6 +202,10 @@
 
 # Alumni (Master's)
 
+- name: Su Yong Won
+  image: su_yong_won.jpg
+  klass: alMasters
+  year: 2021
 - name: Zhaoning Kong
   image: zhaoning_kong.png
   link_to: https://jonnykong.com
