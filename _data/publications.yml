@@ -81,7 +81,7 @@
 - title: "EL PASSO: Efficient and Lightweight Privacy-preserving Single Sign On"
   authors: "Zhiyi Zhang, Michał Król, Alberto Sonnino, Lixia Zhang, and Etienne Rivière"
   type: conference
-  institution: "Privacy Enhancing Technologies Symposium (PETS)"
+  conference: "Privacy Enhancing Technologies Symposium (PETS)"
   month: July
   year: 2021
   pdfext: https://petsymposium.org/2021/files/papers/issue2/popets-2021-0018.pdf
