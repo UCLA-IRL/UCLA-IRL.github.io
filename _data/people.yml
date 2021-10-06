@@ -20,12 +20,12 @@
   image: varun_patil.jpg
   link_to: https://varunpatil.me/
   klass: masters
-- name: Siqi Liu
-  image: siqi_liu.jpg
-  klass: undergrad
 - name: Sichen Song
   image: sichen_song.jpg
   klass: masters
+- name: Siqi Liu
+  image: siqi_liu.jpg
+  klass: undergrad
 
 # Alumni (PhD)
 
@@ -195,6 +195,7 @@
 # Alumni (Master's)
 - name: John Dellaverson
   image: hunter_dellaverson.jpg
+  year: 2021
   klass: alMasters
 - name: Su Yong Won
   image: su_yong_won.jpg
@@ -274,8 +275,9 @@
 - name: Philipp Moll
   image: philipp_moll.jpg
   link_to: https://scholar.google.com/citations?user=C4eM_cwAAAAJ
-  klass: visitor
-  klass: postdoc
+  klass: alPostdocs
+  desc: Postdoc
+  time: Left 2021
 - name: Yanbiao Li
   image: yanbiao_li.jpg
   klass: alPostdocs
