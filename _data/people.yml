@@ -4,25 +4,17 @@
   image: lixia_zhang.png
   link_to: http://web.cs.ucla.edu/~lixia/
   klass: prof
-- name: Philipp Moll
-  image: philipp_moll.jpg
-  link_to: https://scholar.google.com/citations?user=C4eM_cwAAAAJ
-  klass: visitor
-  klass: postdoc
 - name: Xinyu Ma
   image: xinyu_ma.jpg
   link_to: https://web.cs.ucla.edu/~xinyu.ma/
   klass: phd-candidate
-- name: John Dellaverson
-  image: hunter_dellaverson.jpg
-  klass: phd-student
-- name: Eric Newberry
-  image: eric_newberry.jpg
-  link_to: https://ericnewberry.com/
-  klass: phd-student
 - name: Tianyuan Yu
   image: tianyuan_yu.jpg
   link_to: https://www.tianyuan-yu.com/
+  klass: phd-candidate
+- name: Eric Newberry
+  image: eric_newberry.jpg
+  link_to: https://ericnewberry.com/
   klass: phd-student
 - name: Varun Patil
   image: varun_patil.jpg
@@ -33,7 +25,7 @@
   klass: undergrad
 - name: Sichen Song
   image: sichen_song.jpg
-  klass: undergrad
+  klass: masters
 
 # Alumni (PhD)
 
@@ -44,6 +36,9 @@
   year: 2021
   thesis: "Named, Secured Data: A Fundamental Building Block for Secure Networking"
   employment: Facebook
+- name: John Dellaverson
+  image: hunter_dellaverson.jpg
+  klass: alPHD
 - name: Spyridon Mastorakis
   image: spyridon_mastorakis.jpg
   link_to: https://sites.google.com/site/spyridonmastorakis
@@ -277,6 +272,11 @@
   status: LinkedIn
 
 # Alumni (Postdocs)
+- name: Philipp Moll
+  image: philipp_moll.jpg
+  link_to: https://scholar.google.com/citations?user=C4eM_cwAAAAJ
+  klass: visitor
+  klass: postdoc
 - name: Yanbiao Li
   image: yanbiao_li.jpg
   klass: alPostdocs
