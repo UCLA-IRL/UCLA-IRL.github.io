@@ -36,9 +36,6 @@
   year: 2021
   thesis: "Named, Secured Data: A Fundamental Building Block for Secure Networking"
   employment: Facebook
-- name: John Dellaverson
-  image: hunter_dellaverson.jpg
-  klass: alPHD
 - name: Spyridon Mastorakis
   image: spyridon_mastorakis.jpg
   link_to: https://sites.google.com/site/spyridonmastorakis
@@ -196,7 +193,9 @@
   employment: Equinix
 
 # Alumni (Master's)
-
+- name: John Dellaverson
+  image: hunter_dellaverson.jpg
+  klass: alMasters
 - name: Su Yong Won
   image: su_yong_won.jpg
   klass: alMasters
