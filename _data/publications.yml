@@ -78,6 +78,86 @@
 
 # 2021
 
+- title: "Designing Hydra with Centralized versus Decentralized Control: A Comparative Study"
+  authors: "Siqi Liu, Varun Patil, Tianyuan Yu, Alexander Afanasyev, Frank Alex Feltus, Lixia Zhang"
+  type: conference
+  conference: "CoNext Workshop on Proceedings of the Interdisciplinary Workshop on (de) Centralization in the Internet (IWCI)"
+  month: November
+  year: 2021
+  pdfext: hydra-comparison.pdf
+
+- title: "Resilient Brokerless Publish-Subscribe over NDN"
+  authors: "Philipp Moll, Varun Patil, Davide Pesavento, Lixia Zhang"
+  type: conference
+  conference: "IEEE Military Communications Conference (MILCOM)"
+  month: November
+  year: 2021
+  pdfext: Resilient_Brokerless_Publish-Subscribe_over_NDN.pdf
+
+- title: "Investigating the Design Space for Name Confidentiality in Named Data Networking"
+  authors: "Zhiyi Zhang, Su Yong Won, Lixia Zhang"
+  type: conference
+  conference: "IEEE Military Communications Conference (MILCOM)"
+  month: November
+  year: 2021
+  pdfext: Investigating_the_Design_Space_for_Name_Confidentiality_in_Named_Data_Networking.pdf
+
+- title: "Enabling Plug-n-Play in Named Data Networking"
+  authors: "Tianyuan Yu, Philipp Moll, Zhiyi Zhang, Alexander Afanasyev, Lixia Zhang"
+  type: conference
+  conference: "IEEE Military Communications Conference (MILCOM)"
+  month: November
+  year: 2021
+  pdfext: Enabling_Plug-n-Play_in_Named_Data_Networking.pdf
+
+- title: "NDN-MPS: Supporting Multiparty Authentication over Named Data Networking"
+  authors: "Zhiyi Zhang, Siqi Liu, Randy King, Lixia Zhang"
+  type: conference
+  conference: "ACM Information Centric Networking (ICN)"
+  month: September
+  year: 2021
+  pdfext: https://dl.acm.org/doi/10.1145/3460417.3482971
+
+- title: "YaNFD: Yet another Named Data Networking Forwarding Daemon"
+  authors: "Eric Newberry, Xinyu Ma, Lixia Zhang"
+  type: conference
+  conference: "ACM Information Centric Networking (ICN)"
+  month: September
+  year: 2021
+  pdfext: https://dl.acm.org/doi/abs/10.1145/3460417.3482969
+
+- title: "GitSync: Distributed Git Platform on NDN"
+  authors: "Xinyu Ma, Lixia Zhang"
+  type: conference
+  conference: "Poster, ACM Information Centric Networking (ICN)"
+  month: September
+  year: 2021
+  pdfext: https://dl.acm.org/doi/abs/10.1145/3460417.3483372
+
+- title: "Mnemosyne: An Immutable Distributed Logging Framework over Named Data Networking"
+  authors: "Siqi Liu, Philipp Moll, Lixia Zhang"
+  type: conference
+  conference: "Poster, ACM Information Centric Networking (ICN)"
+  month: September
+  year: 2021
+  pdfext: https://dl.acm.org/doi/10.1145/3460417.3483375?sid=SCITRUS
+
+- title: "Supporting Pub/Sub over NDN Sync"
+  authors: "Varun Patil, Philipp Moll, and Lixia Zhang"
+  type: conference
+  conference: "Poster, ACM Information Centric Networking (ICN)"
+  month: September
+  year: 2021
+  pdfext: https://dl.acm.org/doi/abs/10.1145/3460417.3483376
+
+- title: "Exploring Rate-based Congestion Control in NDN"
+  authors: "Sichen Song, Lixia Zhang"
+  type: conference
+  conference: "Poster, ACM Information Centric Networking (ICN)"
+  month: September
+  year: 2021
+  pdfext: https://dl.acm.org/doi/abs/10.1145/3460417.3483379
+
 - title: "EL PASSO: Efficient and Lightweight Privacy-preserving Single Sign On"
   authors: "Zhiyi Zhang, Michał Król, Alberto Sonnino, Lixia Zhang, and Etienne Rivière"
   type: conference
