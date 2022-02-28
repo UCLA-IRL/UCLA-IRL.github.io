@@ -20,6 +20,9 @@
   image: varun_patil.jpg
   link_to: https://varunpatil.me/
   klass: masters
+- name: Hongcheng Xie
+  image: hongcheng_xie.jpg
+  klass: visitor
 - name: Sichen Song
   image: sichen_song.jpg
   klass: masters
