@@ -84,7 +84,7 @@
   conference: "CoNext Workshop on Proceedings of the Interdisciplinary Workshop on (de) Centralization in the Internet (IWCI)"
   month: November
   year: 2021
-  pdfext: hydra-comparison.pdf
+  pdf: hydra-comparison.pdf
 
 - title: "Resilient Brokerless Publish-Subscribe over NDN"
   authors: "Philipp Moll, Varun Patil, Davide Pesavento, Lixia Zhang"
@@ -92,7 +92,7 @@
   conference: "IEEE Military Communications Conference (MILCOM)"
   month: November
   year: 2021
-  pdfext: Resilient_Brokerless_Publish-Subscribe_over_NDN.pdf
+  pdf: Resilient_Brokerless_Publish-Subscribe_over_NDN.pdf
 
 - title: "Investigating the Design Space for Name Confidentiality in Named Data Networking"
   authors: "Zhiyi Zhang, Su Yong Won, Lixia Zhang"
@@ -100,7 +100,7 @@
   conference: "IEEE Military Communications Conference (MILCOM)"
   month: November
   year: 2021
-  pdfext: Investigating_the_Design_Space_for_Name_Confidentiality_in_Named_Data_Networking.pdf
+  pdf: Investigating_the_Design_Space_for_Name_Confidentiality_in_Named_Data_Networking.pdf
 
 - title: "Enabling Plug-n-Play in Named Data Networking"
   authors: "Tianyuan Yu, Philipp Moll, Zhiyi Zhang, Alexander Afanasyev, Lixia Zhang"
@@ -108,7 +108,7 @@
   conference: "IEEE Military Communications Conference (MILCOM)"
   month: November
   year: 2021
-  pdfext: Enabling_Plug-n-Play_in_Named_Data_Networking.pdf
+  pdf: Enabling_Plug-n-Play_in_Named_Data_Networking.pdf
 
 - title: "NDN-MPS: Supporting Multiparty Authentication over Named Data Networking"
   authors: "Zhiyi Zhang, Siqi Liu, Randy King, Lixia Zhang"
