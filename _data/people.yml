@@ -29,7 +29,9 @@
 - name: Siqi Liu
   image: siqi_liu.jpg
   klass: undergrad
-
+- name: Henry Chang
+  image: henry_chang.jpg
+  klass: undergrad
 # Alumni (PhD)
 
 - name: Zhiyi Zhang
