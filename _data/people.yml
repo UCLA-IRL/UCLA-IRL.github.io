@@ -283,12 +283,14 @@
   link_to: https://scholar.google.com/citations?user=C4eM_cwAAAAJ
   klass: alPostdocs
   desc: Postdoc
-  time: Left 2021
+  time: 2021
+  status: Klagenfurt University
 - name: Yanbiao Li
   image: yanbiao_li.jpg
   klass: alPostdocs
   desc: Postdoc
-  time: Left 2019
+  time: 2019
+  status: Computer Network Information Center (CNIC), Chinese Academy of Sciences (CAS)
 
 # Alumni (Visitors)
 
