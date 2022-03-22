@@ -165,8 +165,8 @@ alumni_categories:
                       </p>
                     {% elsif category.internal == "alPostdocs" %}
                       <p>
-                        {{ person.desc }}<br />
-                        Left: "{{ person.time }}"<br />
+                        <!-- {{ person.desc }}<br /> -->
+                        Left {{ person.time }}<br />
                         <br />
                         <strong>{{ person.status }}</strong>
                       </p>
