@@ -37,6 +37,9 @@ alumni_categories:
   - internal: alVisitors
     category: Alumni (Visitors)
     desc: Alumni (Visitors)
+  - internal: al
+    category: Alumni
+    desc: Alumni
 ---
 
 
@@ -175,6 +178,13 @@ alumni_categories:
                         {{ person.desc }}<br />
                         <br />
                         {{ person.time }}
+                      </p>
+                    {% elsif category.internal == "al" %}
+                      <p>
+                        <!-- {{ person.desc }}<br /> -->
+                        Left {{ person.time }}<br />
+                        <br />
+                        <strong>{{ person.status }}</strong>
                       </p>
                     {% else %}
                       {% if person.desc %}

@@ -12,20 +12,21 @@
   image: tianyuan_yu.jpg
   link_to: https://www.tianyuan-yu.com/
   klass: phd-candidate
-- name: Eric Newberry
-  image: eric_newberry.jpg
-  link_to: https://ericnewberry.com/
-  klass: phd-student
 - name: Varun Patil
   image: varun_patil.jpg
   link_to: https://varunpatil.me/
   klass: phd-student
+- name: Sirapop (Mark) Theeranantachai
+  image: sirapop.jpg
+  link_to: https://www.linkedin.com/mwlite/in/stheera
+  klass: phd-student
+- name: Turan Vural
+  image: turan_vural.jpg
+  link_to: https://www.linkedin.com/in/turanzv/
+  klass: phd-student
 - name: Hongcheng Xie
   image: hongcheng_xie.jpg
   klass: visitor
-- name: Sichen Song
-  image: sichen_song.jpg
-  klass: masters
 - name: Siqi Liu
   image: siqi_liu.jpg
   klass: undergrad
@@ -199,6 +200,11 @@
   employment: Equinix
 
 # Alumni (Master's)
+- name: Sichen Song
+  image: sichen_song.jpg
+  klass: alMasters
+  year: 2022
+  status: VMware
 - name: John Dellaverson
   image: hunter_dellaverson.jpg
   year: 2021
@@ -277,7 +283,13 @@
   year: 2012
   status: LinkedIn
 
-# Alumni (Postdocs)
+# Alumni (Other)
+- name: Eric Newberry
+  image: eric_newberry.jpg
+  link_to: https://ericnewberry.com/
+  klass: al
+  time: 2022
+  status: Intel
 - name: Philipp Moll
   image: philipp_moll.jpg
   link_to: https://scholar.google.com/citations?user=C4eM_cwAAAAJ
