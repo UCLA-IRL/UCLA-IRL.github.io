@@ -161,6 +161,47 @@ works:
 -->
 
 
+<div class='full' style='background: #f5f5f5'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% include section-header.html title="Our recent projects" %}
+      <div class='spacing'></div>
+      <p>
+      </p>
+      <div class='two spacing'></div>
+    </div>
+  </div>
+</div>
+
+<div class='row'>
+  {% for project in site.data.projects %}
+    {% if forloop.index > 3 %}
+      {% break %}
+    {% endif %}
+
+      <div class='large-4 medium-4 columns'>
+        <div class='mod modBlogPost'>
+          <div class='content'>
+            <p class='date'>{{project.year}}</p>
+            <h4><a href="{{project.url}}">{{project.name}}</a></h4>
+            <p>{{project.abs}}</p>
+            <!--
+              <div class="tags">
+                {% for cat in post.categories %}
+                  <a href="#">{{cat | capitalize}}</a>
+                  {% unless forloop.last %}
+                    ,
+                  {% endunless %}
+                {% endfor %}
+              </div>
+            -->
+          </div>
+        </div>
+      </div>
+
+    {% endfor %}
+
+  </div>
 
 <div class='full' style='background: #f5f5f5'>
   <div class='row'>
