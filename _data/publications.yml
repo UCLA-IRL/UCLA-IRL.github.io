@@ -78,6 +78,100 @@
 
 # 2021
 
+- title: "CertRevoke: A Certificate Revocation Framework for NamedData Networking"
+  authors: "Tianyuan Yu, Hongcheng Xie, Siqi Liu, Xinyu Ma, Xiaohua Jia, Lixia Zhang"
+  type: conference
+  conference: "ACM Information Centric Networking (ICN)"
+  month: September
+  year: 2022
+  pdf: 3517212.3558079.pdf
+
+- title: "Effective NDN Congestion Control Based on Queue Size Feedback"
+  authors: "Sichen Song, Lixia Zhang"
+  type: conference
+  conference: "ACM Information Centric Networking (ICN)"
+  month: September
+  year: 2022
+  pdf: 3517212.3558088.pdf
+
+- title: "Building a Secure mHealth Data Sharing Infrastructure over NDN"
+  authors: "Saurab Dulal, Nasir Ali, Adam Robert Thieme, Tianyuan Yu, Siqi Liu, Suravi Regmi, Lixia Zhang, Lan Wang"
+  type: conference
+  conference: "ACM Information Centric Networking (ICN)"
+  month: September
+  year: 2022
+  pdf: 3517212.3558091.pdf
+
+- title: "A Type-Theoretic Model on NDN-TLV Encoding"
+  authors: "Xinyu Ma, Alexander Afanasyev, Lixia Zhang"
+  type: conference
+  conference: "ACM Information Centric Networking (ICN)"
+  month: September
+  year: 2022
+  pdf: 3517212.3558093.pdf
+
+- title: "N-DISE: NDN-Based Data Distribution for Large-Scale Data-Intensive Science"
+  authors: "Yuanhao Wu, Faruk Volkan Mutlu, Yuezhou Liu, Edmund Yeh, Ran Liu, Catalin Iordache, Justas Balcas, Harvey Newman, Raimondas Sirvinskas, Michael Lo, Sichen Song, Jason Cong, Lixia Zhang, Sankalpa Timilsina, Susmit Shannigrahi, Chengyu Fan, Davide Pesavento, Junxiao Shi, Lotfi Benmohamed"
+  type: conference
+  conference: "ACM Information Centric Networking (ICN)"
+  month: September
+  year: 2022
+  pdf: 3517212.3558087.pdf
+
+- title: "SoK: The Evolution of Distributed Dataset SynchronizationSolutions in NDN"
+  authors: "Philipp Moll, Varun Patil, Lan Wang, Lixia Zhang"
+  type: conference
+  conference: "ACM Information Centric Networking (ICN)"
+  month: September
+  year: 2022
+  pdf: 3517212.3558092.pdf
+
+- title: "Kua: A Distributed Object Store over Named Data Networking"
+  authors: "Varun Patil, Hemil Desai, Lixia Zhang"
+  type: conference
+  conference: "ACM Information Centric Networking (ICN)"
+  month: September
+  year: 2022
+  pdf: 3517212.3558083.pdf
+
+- title: "Intertrust: Establishing Inter-Zone Trust Relationships"
+  authors: "Tianyuan Yu, Xinyu Ma, Hongcheng Xie, Yekta Kocaoğullar, and Lixia Zhang"
+  type: conference
+  conference: "ACM Information Centric Networking (ICN)"
+  month: September
+  year: 2022
+  pdf: 3517212.3559489.pdf
+
+- title: "Scaling State Vector Sync"
+  authors: "Varun Patil, Sichen Song, Guorui Xiao, and Lixia Zhang"
+  type: conference
+  conference: "ACM Information Centric Networking (ICN)"
+  month: September
+  year: 2022
+  pdf: 3517212.3559485.pdf
+
+- title: "Names to Rule Them All: Unifying Vehicular Networking via Named Secured Data"
+  authors: "Tianyuan Yu, Zhiyi Zhang, Eric Newberry, Alexander Afanasyev, Giovanni Pau, Lan Wang, Lixia Zhang"
+  type: techreport
+  institution: "NDN"
+  number: "NDN-0072"
+  month: September
+  year: 2022
+  pdf: ndn-tr-0072-2-mobile.pdf
+
+- title: "Sovereign: Self-contained Smart Home with Data-centric Network and Security"
+  authors: "Zhiyi Zhang, Tianyuan Yu, Xinyu Ma, Yu Guan, Philipp Moll, Lixia Zhang"
+  type: journal
+  journal: "IEEE Internet of Things Journal"
+  volume: 9
+  issue: 15
+  pages: "13808-13822"
+  month: August
+  year: 2022
+  pdf: Sovereign_Self-Contained_Smart_Home_With_Data-Centric_Network_and_Security.pdf
+
+# 2021
+
 - title: "Designing Hydra with Centralized versus Decentralized Control: A Comparative Study"
   authors: "Siqi Liu, Varun Patil, Tianyuan Yu, Alexander Afanasyev, Frank Alex Feltus, Lixia Zhang"
   type: conference
