@@ -24,15 +24,6 @@
   image: turan_vural.jpg
   link_to: https://www.linkedin.com/in/turanzv/
   klass: phd-student
-- name: Hongcheng Xie
-  image: hongcheng_xie.jpg
-  klass: visitor
-- name: Siqi Liu
-  image: siqi_liu.jpg
-  klass: undergrad
-- name: Henry Chang
-  image: henry_chang.jpg
-  klass: undergrad
 # Alumni (PhD)
 
 - name: Zhiyi Zhang
@@ -306,6 +297,11 @@
 
 # Alumni (Visitors)
 
+- name: Hongcheng Xie
+  image: hongcheng_xie.jpg
+  klass: alVisitors
+  desc: Visiting Graduate Researcher (CityU, Hong Kong)
+  time: February 2022 - February 2023
 - name: Leobino Sampaio
   image: leobino_sampaio.jpg
   link_to: https://sites.google.com/view/leobino
