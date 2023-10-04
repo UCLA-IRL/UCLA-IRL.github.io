@@ -24,6 +24,14 @@
   image: turan_vural.jpg
   link_to: https://www.linkedin.com/in/turanzv/
   klass: phd-student
+- name: Yekta Kocaoğullar
+  image: yekta_kocaogullar.jpg
+  link_to: https://www.linkedin.com/in/yekta-kocaogullar
+  klass: masters
+- name: Howard Zhu
+  image: howard_zhu.jpg
+  link_to: https://www.linkedin.com/in/howard-zhu21
+  klass: undergrad
 # Alumni (PhD)
 
 - name: Zhiyi Zhang
