@@ -4,10 +4,6 @@
   image: lixia_zhang.png
   link_to: http://web.cs.ucla.edu/~lixia/
   klass: prof
-- name: Xinyu Ma
-  image: xinyu_ma.jpg
-  link_to: https://web.cs.ucla.edu/~xinyu.ma/
-  klass: phd-candidate
 - name: Tianyuan Yu
   image: tianyuan_yu.jpg
   link_to: https://www.tianyuan-yu.com/
@@ -19,11 +15,7 @@
 - name: Sirapop (Mark) Theeranantachai
   image: sirapop.jpg
   link_to: https://www.linkedin.com/mwlite/in/stheera
-  klass: phd-student
-- name: Turan Vural
-  image: turan_vural.jpg
-  link_to: https://www.linkedin.com/in/turanzv/
-  klass: phd-student
+  klass: phd-candidate
 - name: Yekta Kocaoğullar
   image: yekta_kocaogullar.jpg
   link_to: https://www.linkedin.com/in/yekta-kocaogullar
@@ -32,8 +24,22 @@
   image: howard_zhu.jpg
   link_to: https://www.linkedin.com/in/howard-zhu21
   klass: undergrad
+- name: Jacob Zhi
+  image: jacob_zhi.png
+  link_to: https://jacobzhi.me/about/
+  klass: undergrad
+- name: Adam Thieme
+  image: adam_thieme.jpg
+  link_to: http://web.cs.ucla.edu/
+  klass: undergrad
 # Alumni (PhD)
-
+- name: Xinyu Ma
+  image: xinyu_ma.jpg
+  link_to: https://web.cs.ucla.edu/~xinyu.ma/
+  klass: alPHD
+  year: 2024
+  thesis: "Placeholder"
+  employment: Meta
 - name: Zhiyi Zhang
   image: zhiyi_zhang.jpg
   link_to: https://zhiyi-zhang.com/
