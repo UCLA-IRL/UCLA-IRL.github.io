@@ -29,16 +29,16 @@
   link_to: https://jacobzhi.me/about/
   klass: undergrad
 - name: Adam Thieme
-  image: adam_thieme.jpg
-  link_to: http://web.cs.ucla.edu/
-  klass: undergrad
+  image: adam_thieme_2.jpg
+  link_to: https://web.cs.ucla.edu/~adam
+  klass: phd-student
 # Alumni (PhD)
 - name: Xinyu Ma
   image: xinyu_ma.jpg
   link_to: https://web.cs.ucla.edu/~xinyu.ma/
   klass: alPHD
   year: 2024
-  thesis: "Placeholder"
+  thesis: "Towards Decentralized Applications"
   employment: Meta
 - name: Zhiyi Zhang
   image: zhiyi_zhang.jpg
