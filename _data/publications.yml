@@ -76,7 +76,90 @@
 #   month: December
 #   year: 2004
 
+# 2024
+- title: "NDN Stateful Forwarding and LEO Satellite Network's Link Handovers"
+  authors: "Sirapop Theeranantachai, Beichuan Zhang, Lixia Zhang"
+  type: conference
+  conference: "The 32nd IEEE International Conference on Network Protocols"
+  month: October
+  year: 2024
+  pdfext: https://icnp24.cs.ucr.edu/acceptedpapers.html
+
+- title: "Secure Web Objects: Building Blocks for Metaverse Interoperability and Decentralization"
+  authors: "Tianyuan Yu, Xinyu Ma, Varun Patil, Yekta Kocaogullar, Yulong Zhang, Jeff Burke, Dirk Kutscher, Lixia Zhang"
+  type: conference
+  conference: "IEEE International Conference on Metaverse Computing, Networking, and Applications (IEEE MetaCom)"
+  month: August
+  year: 2024
+  pdfext: https://arxiv.org/abs/2407.15221
+
+- title: "Exploring the Design of Collaborative Applications via the Lens of NDN Workspace"
+  authors: "Tianyuan Yu, Xinyu Ma, Varun Patil, Yekta Kocaogullar, Lixia Zhang"
+  type: conference
+  conference: "IEEE International Conference on Metaverse Computing, Networking, and Applications (IEEE MetaCom)"
+  month: August
+  year: 2024
+  pdfext: https://arxiv.org/pdf/2407.15234v1
+
+- title: "Repo: Application Agnostic and Oblivious In-Network Data Store"
+  authors: "Tianyuan Yu, Jacob Zhi, Xinyu Ma, Yekta Kocaogullar, Varun Patil, Ryuji Wakikawa, Lixia Zhang"
+  type: conference
+  conference: "IEEE International Conference on Metaverse Computing, Networking, and Applications (IEEE MetaCom)"
+  month: August
+  year: 2024
+  pdfext: https://ieee-metacom.org/program.html
+
+- title: "Revealing the Architectural Design Patterns in the Volumetric DDoS Defense Design Space"
+  authors: "Zhiyi Zhang, Guorui Xiao, Sichen Song, R. Can Aygun, Angelos Stavrou, Lixia Zhang, Eric Osterweil"
+  type: conference
+  conference: "IEEE Communications Surveys & Tutorials"
+  month: April
+  year: 2024
+  pdfext: https://ieeexplore.ieee.org/document/10506756
+
+- title: "A Named Data Networking Based Fast Open Storage System Plugin for XRootD"
+  authors: "Cǎtǎlin Iordache, Susmit Shannigrahi, Yuanhao Wu, Sichen Song, Faruk Volkan
+Multu, Justas Balcas, Raimondas Širvinskas, Sankalpa Timilsina, Davide Pesavento,
+Harvey Newman, Lixia Zhang, Edmund Yeh"
+  type: conference
+  conference: "26th International Conference on Computing in High Energy and Nuclear Physics (CHEP 2024)"
+  month: May
+  year: 2024
+  pdfext: https://www.epj-conferences.org/articles/epjconf/pdf/2024/05/epjconf_chep2024_01004.pdf
+
+- title: "PythonRepo: Persistent In-Network Storage for Named Data Networking"
+  authors: "Tianyuan Yu, Zhaoning Kong, Xinyu Ma, Lan Wang, Lixia Zhang"
+  type: conference
+  conference: "International Conference on Computing, Networking and Communications (ICNC)"
+  month: February
+  year: 2024
+  pdfext: http://www.conf-icnc.org/2024/papers/p927-yu.pdf
+
+- title: "Hydra: A Scalable Decentralized P2P Storage Federation for Large Scientific Datasets"
+  authors: "Justin Presley, Xi Wang, Xusheng Ai, Tianyuan Yu, Tym Brandel, Proyash Podder,
+Varun Patil, Alex Afanasyev, F. Alex Feltus, Lixia Zhang, Susmit Shannigrahi"
+  type: conference
+  conference: "International Conference on Computing, Networking and Communications (ICNC)"
+  month: February
+  year: 2024
+  pdfext: http://www.conf-icnc.org/2024/papers/p810-presley.pdf
+
 # 2023
+- title: "Cornerstone: Automating Remote NDN Entity Bootstrapping"
+  authors: "Tianyuan Yu, Xinyu Ma, Hongcheng Xie, Dirk Kutscher, Lixia Zhang"
+  type: conference
+  conference: "AINTEC '23: Proceedings of the 18th Asian Internet Engineering Conference"
+  month: December
+  year: 2023
+  pdfext: https://dl.acm.org/doi/10.1145/3630590.3630598
+
+- title: "A Comparative Evaluation of TCP Congestion Control Schemes over Low-Earth-Orbit (LEO) Satellite Networks"
+  authors: "George C.G. Barbosa, Sirapop Theeranantachai, Beichuan Zhang, Lixia Zhang"
+  type: conference
+  conference: "AINTEC '23: Proceedings of the 18th Asian Internet Engineering Conference"
+  month: December
+  year: 2023
+  pdfext: https://dl.acm.org/doi/pdf/10.1145/3630590.3630603
 
 - title: "On the Security Bootstrapping in Named Data Networking"
   authors: "Tianyuan Yu, Xinyu Ma, Hongcheng Xie, Xiaohua Jia, Lixia Zhang"
@@ -111,6 +194,22 @@
   year: 2023
   pdf: 3623565.3623755.pdf
 
+- title: "Timers in State Vector Sync"
+  authors: "Varun Patil, Seiji Otsu, Lixia Zhang"
+  type: conference
+  conference: "ACM Conference on Information-Centric Networking"
+  month: October
+  year: 2023
+  pdf: 3623565.3623754.pdf
+
+- title: "Blockchain’s Role in Metaverse Trust and Transactions"
+  authors: "R. Can Aygun, Turan Vural, Lixia Zhang"
+  type: conference
+  conference: "IEEE International Conference on Metaverse Computing, Networking and Applications"
+  month: June
+  year: 2023
+  pdf: 2306DORM-Blockchain.pdf
+
 - title: "CLedger: A Secure Distributed Certificate Ledger via Named Data"
   authors: "Tianyuan Yu, Hongcheng Xie, Siqi Liu, Xinyu Ma, Varun Patil, Xiaohua Jia, Lixia Zhang"
   type: conference
@@ -119,13 +218,13 @@
   year: 2023
   pdf: 2023cledger.pdf
 
-- title: "Timers in State Vector Sync"
-  authors: "Varun Patil, Seiji Otsu, Lixia Zhang"
+- title: "Secure NDN Packet Encapsulation"
+  authors: "Daniel Townley, Young Kim, Fred Douglis, Jesse Elwell, Constantin Serban, Lan Wang, Alex Afanasyev, Lixia Zhang"
   type: conference
-  conference: "ACM Conference on Information-Centric Networking"
-  month: October
+  conference: "IEEE International Conference on Communications (ICC)"
+  month: May
   year: 2023
-  pdf: 3623565.3623754.pdf
+  pdf: 2305ICCNDN-pkt-encryption.pdf
 
 # 2022
 
