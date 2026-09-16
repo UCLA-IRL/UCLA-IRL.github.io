@@ -175,11 +175,7 @@ works:
 
 <div class='row'>
   {% for project in site.data.projects %}
-    {% if forloop.index > 3 %}
-      {% break %}
-    {% endif %}
-
-      <div class='large-4 medium-4 columns'>
+      <div class='large-4 medium-4 columns{% if forloop.last %} end{% endif %}'>
         <div class='mod modBlogPost'>
           <div class='content'>
             <p class='date'>{{project.year}}</p>
@@ -198,6 +194,15 @@ works:
           </div>
         </div>
       </div>
+
+    {% assign project_row_position = forloop.index | modulo: 3 %}
+    {% if project_row_position == 0 %}
+      {% unless forloop.last %}
+  </div>
+
+  <div class='row'>
+      {% endunless %}
+    {% endif %}
 
     {% endfor %}
 
@@ -263,5 +268,3 @@ works:
   <div class='two spacing'></div>
 
 </div>
-
-
