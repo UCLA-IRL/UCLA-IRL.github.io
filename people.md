@@ -146,7 +146,7 @@ alumni_categories:
               <a href="javascript:void(0)">
             {% endif %}
               {% if person.image %}
-                <img alt="" src="/images/alumniPics/{{ person.image }}" />
+                <img alt="" src="/images/{{ person.image_dir | default: 'alumniPics' }}/{{ person.image }}" />
               {% else %}
                 <img alt="" src="/images/@stock/work-7.jpg" />
               {% endif %}
@@ -162,9 +162,12 @@ alumni_categories:
                       </p>
                     {% elsif category.internal == "alMasters" %}
                       <p>
-                        Graduated {{ person.year }}<br />
-                        <br />
-                        <strong>{{ person.status }}</strong>
+                        Graduated{% if person.year %} {{ person.year }}{% endif %}
+                        {% if person.status %}
+                          <br />
+                          <br />
+                          <strong>{{ person.status }}</strong>
+                        {% endif %}
                       </p>
                     {% elsif category.internal == "alPostdocs" %}
                       <p>
@@ -181,10 +184,20 @@ alumni_categories:
                       </p>
                     {% elsif category.internal == "al" %}
                       <p>
-                        <!-- {{ person.desc }}<br /> -->
-                        Left {{ person.time }}<br />
-                        <br />
-                        <strong>{{ person.status }}</strong>
+                        {% if person.graduated %}
+                          Graduated{% if person.year %} {{ person.year }}{% endif %}
+                        {% else %}
+                          Left{% if person.time %} {{ person.time }}{% endif %}
+                        {% endif %}
+                        {% if person.desc %}
+                          <br />
+                          {{ person.desc }}
+                        {% endif %}
+                        {% if person.status %}
+                          <br />
+                          <br />
+                          <strong>{{ person.status }}</strong>
+                        {% endif %}
                       </p>
                     {% else %}
                       {% if person.desc %}

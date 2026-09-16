@@ -1,5 +1,30 @@
 [
     {
+      "name":"Ownly",
+      "url":"https://ownly.work/",
+      "abs":"A secure decentralized workspace built over Named Data Networking."
+    },
+    {
+      "name":"NDN-CloudSync",
+      "url":"https://ndncomm2026.named-data.net/assets/talks/organized_talks/03_NDN_CloudSync_Ronak_Badhe/slides.pdf",
+      "abs":"A secure NDN-based storage service running on multiple clouds."
+    },
+    {
+      "name":"NDN Open Source",
+      "url":"https://github.com/named-data",
+      "abs":"Open-source implementations of NDN core software, libraries, tools, and applications."
+    },
+    {
+      "name":"TrustNG",
+      "url":"https://ndncomm2026.named-data.net/assets/talks/organized_talks/11_TrustNG_Amirreza_Ghafoori/slides.pdf",
+      "abs":"A zero-trust overlay for cloud-native 5G core networks built with Named Data Networking."
+    },
+    {
+      "name":"Securing Agentic AI",
+      "url":"https://datatracker.ietf.org/doc/slides-125-irtfopen-on-ai-agent-communication/",
+      "abs":"Research on naming, identity, trust, and verifiable delegation for secure AI-agent communication."
+    },
+    {
       "name":"Hydra",
       "url":"https://hydra-repo.io/"
     },
