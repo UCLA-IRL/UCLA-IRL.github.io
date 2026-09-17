@@ -201,6 +201,7 @@
 
 # Alumni (Master's)
 - name: Mike Han
+  image: mike_han.jpg
   klass: alMasters
   status: Meta
 - name: Yekta Kocaoğullar
