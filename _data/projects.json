@@ -26,14 +26,17 @@
     },
     {
       "name":"Hydra",
-      "url":"https://hydra-repo.io/"
+      "url":"https://hydra-repo.io/",
+      "abs":"A secure, decentralized storage federation for scalable, resilient publication and access of large scientific datasets."
     },
     {
       "name":"mGuard",
-      "url":"https://mguard.md2k.org/"
+      "url":"https://mguard.md2k.org/",
+      "abs":"Automated cryptographic access control and real-time synchronization for secure mobile-health data sharing."
     },
     {
       "name":"NDISE",
-      "url":"https://ndise.net/"
+      "url":"https://ndise.net/",
+      "abs":"An NDN-based, petascale data distribution, caching, and access system for data-intensive scientific research."
     }
   ]
