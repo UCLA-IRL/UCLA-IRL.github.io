@@ -20,6 +20,14 @@
   klass: undergrad
 
 # Alumni (PhD)
+- name: Varun Patil
+  image: varun_patil.jpg
+  image_dir: groupPics
+  link_to: https://varunpatil.me/
+  klass: alPHD
+  year: 2025
+  thesis: "Enabling Decentralized Applications: A Transport Perspective"
+  employment: Meta
 - name: Xinyu Ma
   image: xinyu_ma.jpg
   link_to: https://web.cs.ucla.edu/~xinyu.ma/
@@ -195,6 +203,12 @@
 - name: Mike Han
   klass: alMasters
   status: Meta
+- name: Yekta Kocaoğullar
+  image: yekta_kocaogullar.jpg
+  image_dir: groupPics
+  link_to: https://www.linkedin.com/in/yekta-kocaogullar
+  klass: alMasters
+  year: 2024
 - name: Sichen Song
   image: sichen_song.jpg
   klass: alMasters
@@ -279,19 +293,6 @@
   status: LinkedIn
 
 # Alumni (Other)
-- name: Varun Patil
-  image: varun_patil.jpg
-  image_dir: groupPics
-  link_to: https://varunpatil.me/
-  klass: al
-  desc: Former Ph.D. Candidate
-  status: Meta
-- name: Yekta Kocaoğullar
-  image: yekta_kocaogullar.jpg
-  image_dir: groupPics
-  link_to: https://www.linkedin.com/in/yekta-kocaogullar
-  klass: al
-  desc: Former Master's Student
 - name: Howard Zhu
   image: howard_zhu.jpg
   image_dir: groupPics
@@ -299,6 +300,7 @@
   klass: al
   desc: Former Undergraduate Student
   graduated: true
+  year: 2025
 - name: Jacob Zhi
   image: jacob_zhi.png
   image_dir: groupPics
@@ -306,6 +308,7 @@
   klass: al
   desc: Former Undergraduate Student
   graduated: true
+  year: 2025
 - name: Eric Newberry
   image: eric_newberry.jpg
   link_to: https://ericnewberry.com/
