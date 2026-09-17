@@ -76,14 +76,142 @@
 #   month: December
 #   year: 2004
 
+# 2026
+- title: "SRAN: Scaling NDN Routing via Map-and-Attach"
+  authors: "Tianyuan Yu, Sirapop Theeranantachai, Lixia Zhang"
+  type: conference
+  conference: "The 34th IEEE International Conference on Network Protocols (ICNP 2026)"
+  month: October
+  year: 2026
+  note: "To appear"
+  pdfext: https://arxiv.org/pdf/2607.20363
+  html: https://icnp26.cs.ucr.edu/program.html
+
+- title: "How Area Geometry Shapes Link-State Routing Scalability in LEO Networks"
+  authors: "Sirapop Theeranantachai, Manda Tran, Liz Izhikevich, Lixia Zhang, Beichuan Zhang"
+  type: conference
+  conference: "The 34th IEEE International Conference on Network Protocols (ICNP 2026)"
+  month: October
+  year: 2026
+  note: "To appear"
+  pdfext: https://lizizhikevich.github.io/assets/papers/icnp26-leo.pdf
+  html: https://icnp26.cs.ucr.edu/program.html
+
+- title: "Enhancing NAC-ABE to Support Access Control for mHealth Applications and Beyond"
+  authors: "Saurab Dulal, Suravi Regmi, Tianyuan Yu, Adam Thieme, Lixia Zhang, Lan Wang"
+  type: conference
+  conference: "IEEE/ACM CHASE Workshop on mHealth Security: Protecting Mobile and Connected Health Ecosystems"
+  month: August
+  year: 2026
+  pdfext: https://named-data.net/wp-content/uploads/2026/08/dulal2026enhancing-nac-abe.pdf
+  html: https://doi.org/10.1109/CHASE69719.2026.00095
+
+- title: "The Internet Runs on Names"
+  authors: "Geoff Huston, Lixia Zhang"
+  type: preprint
+  archive: "arXiv"
+  number: "arXiv:2605.15646"
+  month: May
+  year: 2026
+  pdfext: https://arxiv.org/pdf/2605.15646
+
+- title: "From Map-and-Encap to BIER: Observations on Network Routing Scalability"
+  authors: "Tianyuan Yu, Lan Wang, Beichuan Zhang, Lixia Zhang"
+  type: preprint
+  archive: "arXiv"
+  number: "arXiv:2605.07071"
+  month: May
+  year: 2026
+  pdfext: https://arxiv.org/pdf/2605.07071
+
+# 2025
+- title: "SRM at 30: Lessons from Early Data-Centric Networking and Their Impact on Named Data Networking"
+  authors: "Tianyuan Yu, Adam Thieme, Junxiao Shi, Lan Wang, Lixia Zhang"
+  type: techreport
+  institution: "NDN"
+  number: "NDN-0078"
+  month: December
+  year: 2025
+  pdfext: https://named-data.net/wp-content/uploads/2025/12/ndn-tr-0078-SRM30.pdf
+
+- title: "Towards Global Outage Detection for LEO Networks"
+  authors: "Manda Tran, Khiet Huynh, Dravya Jain, Dylan Truong, Sirapop Theeranantachai, Beichuan Zhang, Lixia Zhang, Liz Izhikevich"
+  type: conference
+  conference: "Proceedings of the 2025 3rd Workshop on LEO Networking and Communication"
+  month: September
+  year: 2025
+  pdfext: https://doi.org/10.1145/3748749.3749088
+
+- title: "Envisioning the Next-Generation Cellular Architecture With Named Data Networking"
+  authors: "Tolga O. Atalay, Angelos Stavrou, Lixia Zhang"
+  type: journal
+  journal: "IEEE Computer"
+  volume: 58
+  issue: 8
+  pages: "20-29"
+  month: August
+  year: 2025
+  pdfext: https://doi.org/10.1109/MC.2025.3570331
+
+- title: "Identifying Roadblocks in Building Decentralized Apps"
+  authors: "Tianyuan Yu, Adam Thieme, Lixia Zhang"
+  type: conference
+  conference: "ACM/IRTF Applied Networking Research Workshop 2025 (ANRW '25)"
+  month: July
+  year: 2025
+  pdfext: https://doi.org/10.1145/3744200.3744778
+
+- title: "Towards Establishing a Systematic Security Framework for Next Generation Cellular Networks"
+  authors: "Tolga O. Atalay, Tianyuan Yu, Lixia Zhang, Angelos Stavrou"
+  type: conference
+  conference: "Workshop on Security and Privacy of Next-Generation Networks (FutureG 2025), NDSS Symposium"
+  month: February
+  year: 2025
+  pdfext: https://www.ndss-symposium.org/wp-content/uploads/futureg25-84.pdf
+
+- title: "Revealing Protocol Architecture’s Design Patterns in the Volumetric DDoS Defense Design Space"
+  authors: "Zhiyi Zhang, Guorui Xiao, Sichen Song, R. Can Aygun, Angelos Stavrou, Lixia Zhang, Eric Osterweil"
+  type: journal
+  journal: "IEEE Communications Surveys & Tutorials"
+  volume: 27
+  issue: 1
+  pages: "353-371"
+  month: February
+  year: 2025
+  pdfext: https://doi.org/10.1109/COMST.2024.3392253
+
 # 2024
-- title: "NDN Stateful Forwarding and LEO Satellite Network's Link Handovers"
+- title: "On Empowering End Users in Future Networking"
+  authors: "Tianyuan Yu, Xinyu Ma, Lixia Zhang"
+  type: conference
+  conference: "ACM CoNEXT 2024 Workshop on the Decentralization of the Internet (DIN '24)"
+  month: December
+  year: 2024
+  pdfext: https://doi.org/10.1145/3694809.3700745
+
+- title: "Towards a Decentralized Internet Namespace"
+  authors: "Yekta Kocaogullar, Eric Osterweil, Lixia Zhang"
+  type: conference
+  conference: "ACM CoNEXT 2024 Workshop on the Decentralization of the Internet (DIN '24)"
+  month: December
+  year: 2024
+  pdfext: https://doi.org/10.1145/3694809.3700746
+
+- title: "Poster: Distance Vector Routing for Named Data Networking"
+  authors: "Varun Patil, Sirapop Theeranantachai, Beichuan Zhang, Lixia Zhang"
+  type: conference
+  conference: "20th International Conference on Emerging Networking EXperiments and Technologies (CoNEXT '24)"
+  month: December
+  year: 2024
+  pdfext: https://doi.org/10.1145/3680121.3699885
+
+- title: "NDN's Stateful Forwarding Plane in the Presence of Ground-Satellite Handovers"
   authors: "Sirapop Theeranantachai, Beichuan Zhang, Lixia Zhang"
   type: conference
-  conference: "The 32nd IEEE International Conference on Network Protocols"
+  conference: "2024 IEEE 32nd International Conference on Network Protocols (ICNP)"
   month: October
   year: 2024
-  pdfext: https://icnp24.cs.ucr.edu/acceptedpapers.html
+  pdfext: https://doi.org/10.1109/ICNP61940.2024.10858574
 
 - title: "Secure Web Objects: Building Blocks for Metaverse Interoperability and Decentralization"
   authors: "Tianyuan Yu, Xinyu Ma, Varun Patil, Yekta Kocaogullar, Yulong Zhang, Jeff Burke, Dirk Kutscher, Lixia Zhang"
@@ -108,14 +236,6 @@
   month: August
   year: 2024
   pdfext: https://ieee-metacom.org/program.html
-
-- title: "Revealing the Architectural Design Patterns in the Volumetric DDoS Defense Design Space"
-  authors: "Zhiyi Zhang, Guorui Xiao, Sichen Song, R. Can Aygun, Angelos Stavrou, Lixia Zhang, Eric Osterweil"
-  type: conference
-  conference: "IEEE Communications Surveys & Tutorials"
-  month: April
-  year: 2024
-  pdfext: https://ieeexplore.ieee.org/document/10506756
 
 - title: "A Named Data Networking Based Fast Open Storage System Plugin for XRootD"
   authors: "Cǎtǎlin Iordache, Susmit Shannigrahi, Yuanhao Wu, Sichen Song, Faruk Volkan
