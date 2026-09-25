@@ -3,16 +3,16 @@
     <ul class='title-area'>
       <li class='name'>
         <h1>
-          <a href='{{site.url}}/index.html'>
-            <img alt="" src="{{site.url}}/images/logo-bordered.png" />
+          <a href='{{ "/index.html" | relative_url }}'>
+            <img alt="" src="{{ "/images/logo-bordered.png" | relative_url }}" />
           </a>
         </h1>
       </li>
       <li class='toggle-topbar menu-icon'>
-        <a href='#'>Menu</a>
+        <a href='#' aria-label='Toggle navigation' aria-controls='primary-navigation' aria-expanded='false'><span aria-hidden='true'></span></a>
       </li>
     </ul>
-    <section class='top-bar-section'>
+    <section class='top-bar-section' id='primary-navigation'>
       <ul class="right">
         {% for item in site.data.nav %}
           {% if item.section_id == page.section_id %}
@@ -23,18 +23,18 @@
 
           {% if item.children %}
             <li class="has-dropdown {{active_class}}">
-              <a href="{{site.url}}/{{ item.path }}">{{ item.name }}</a>
+              <a href="{{ item.path | relative_url }}">{{ item.name }}</a>
               <ul class='dropdown'>
                 {% for child in item.children %}
                   <li>
-                    <a href="{{site.url}}/{{ child.path }}">{{ child.name }}</a>
+                    <a href="{{ child.path | relative_url }}">{{ child.name }}</a>
                   </li>
                 {% endfor %}
               </ul>
             </li>
           {% else %}
             <li class="{{active_class}}">
-              <a href="{{site.url}}/{{ item.path }}">{{ item.name }}</a>
+              <a href="{{ item.path | relative_url }}"{% if item.section_id == page.section_id %} aria-current="page"{% endif %}>{{ item.name }}</a>
             </li>
           {% endif %}
         {% endfor %}
